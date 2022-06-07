@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Testbed hardware | ExCALIBUR H&amp;ES RISC-V testbed</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Testbed hardware" />
+<meta name="author" content="EPCC RISC-V testbed team" />
+<meta property="og:locale" content="en_GB" />
+<meta name="description" content="The testbed will contain both physical and soft-core RISC-V CPUs running on the latest and next generation FPGAs. This page provides a brief overview of the different technolgies hosted within the testbed." />
+<meta property="og:description" content="The testbed will contain both physical and soft-core RISC-V CPUs running on the latest and next generation FPGAs. This page provides a brief overview of the different technolgies hosted within the testbed." />
+<link rel="canonical" href="http://localhost:4000/documentation/hardware/" />
+<meta property="og:url" content="http://localhost:4000/documentation/hardware/" />
+<meta property="og:site_name" content="ExCALIBUR H&amp;ES RISC-V testbed" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-06-07T16:44:17+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Testbed hardware" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@EPCC RISC-V testbed team" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"EPCC RISC-V testbed team"},"dateModified":"2022-06-07T16:44:17+01:00","datePublished":"2022-06-07T16:44:17+01:00","description":"The testbed will contain both physical and soft-core RISC-V CPUs running on the latest and next generation FPGAs. This page provides a brief overview of the different technolgies hosted within the testbed.","headline":"Testbed hardware","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/documentation/hardware/"},"url":"http://localhost:4000/documentation/hardware/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play:400,400i,700,700i">
+  <link rel="alternate" type="application/atom+xml" title="ExCALIBUR H&amp;ES RISC-V testbed" href="/atom.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--post  testbed-hardware">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+  <div class="navigation-wrapper">
+    <a href="#menu-toggle" id="menu-toggle">Menu</a>
+    <nav id="primary-nav" class="site-nav animated drop">
+      <ul><li><a href="/">Home</a></li><li><a href="/documentation/">Documentation</a></li><li><a href="/community/">Community</a></li></ul>
+    </nav>
+  </div><!-- /.navigation-wrapper -->
+
+
+    <header class="masthead">
+  <div class="wrap">
+    
+    
+    
+      
+        <div class="site-title animated fadeIn"><a href="/">ExCALIBUR H&ES RISC-V testbed</a></div>
+      
+      <p class="site-description animated fadeIn" itemprop="description">A RISC-V test environment for scientific and data-science codes</p>
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">Testbed hardware
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author"><img src="/images/epcc-logo.png" class="author-avatar u-photo" alt="EPCC RISC-V testbed team"><div class="author-info"><div class="author-name">
+        <span class="p-name">EPCC RISC-V testbed team</span>
+      </div><ul class="author-links"><li class="author-link">
+            <a class="u-url" rel="me" href=""><i class="fas fa-link fa-lg" title=""></i></a>
+          </li></ul>
+    
+  </div>
+</div>
+
+        
+
+        
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <p>The testbed will contain both physical and soft-core RISC-V CPUs
+running on the latest and next generation FPGAs. This page provides a brief overview of the different
+technolgies hosted within the testbed.</p>
+
+<h2 id="hifive-unmatched">HiFive Unmatched</h2>
+<p><img src="/images/HiFive_unmatched.jpg" width="200" height="200" align="left" />
+The HiFive Unmatched is a Mini-ITX board powered by the SiFive Freedom U740
+four-core, 64-bit dual-issue, superscalar RISC-V processor.
+The board includes 16GB of DDR4 RAM, 128GB of M.2 PCIe Gen 3 x4 SSD module storage and Gigabit
+ethernet, running Ubuntu 21.04 (hirsute) Linux.</p>
+
+<p>The system is configured
+with Open MPI 4.1, PETSc, LAPACK, BLAS, FFTW 3.3, HDF5, NetCDF, Python 3.9, Clang
+/ LLVM 12.0, GCC and 
+GNU Fortran 10.3.</p>
+
+<h2 id="xilinx-alveo">Xilinx Alveo</h2>
+<p><img src="/images/alveo-u280.jpg" width="400" height="300" align="right" /></p>
+
+<p>We provide both Xilinx Alveo <a href="https://www.xilinx.com/products/boards-and-kits/alveo/u280.html">U280</a> and <a href="https://www.xilinx.com/products/boards-and-kits/alveo/u250.html">U250</a> FPGAs. In the past couple of years these current generation FPGA cards have demonstrated their ability to handle HPC and data centre workloads. The main difference between the two models is in external memory, where the U280 provides 8GB of HBM2 (high bandwidth memory) and 32GB of DDR4-DRAM, whereas the U250 contains no DRAM but provides 64GB of DDR4-DRAM. Whilst the FPGAs provided by both models are largely comparable, the U250 contains slightly more FPGA resource than the U280. The differences provided by these cards makes them interesting to explore, where the on-card 64GB DDR4-DRAM of the U250 can handle large problem sizes, and the HBM2 of the U280 can make a significant difference to the performance of some workloads.</p>
+
+<h2 id="xilinx-versal">Xilinx Versal</h2>
+<p><img src="/images/versal.png" width="340" height="300" align="left" style="padding:5px;" /></p>
+
+<p>The Xilinx Versal is a next-generation FPGA board that will be released later in 2021 and we will be installing in the Autumn of this year. Known as an Adaptive Compute Acceleration Platform (ACAP), in addition to the configurable FPGA fabric the chip also provides four CPUs (two high performance A72 and two embedded style R5), along with a much improved on-chip high performance network, and AI engines. The last of these features, the AI engines, are the most exciting which act as simple high vectorised CPUs optimised for fixed-point and (single precision) floating-point arithmetic. Up to 400 AI engines are provided by the Versal chip, with the idea being that a workload can then be split across the FPGA fabric, A72 CPU, and AI engines, matching the parts of the workload which suit best to the specific hardware. The Versal has the potential to revolutionise how we write high performane codes for FPGAs, and will be very interesting to explore how the different components complement each other.</p>
+
+<h2 id="intel-stratix-10">Intel Stratix-10</h2>
+<p><img src="/images/stratix-10.jpg" width="400" height="300" align="right" /></p>
+
+<p>The Stratix-10 is Intel’s flagship FPGA and it is our plan to purchase the MX model which contains HBM2 and Optane NVRAM on the board. This will enable exploration of multiple memory spaces, especially interesting here will be the NVRAM which is slower than DDR4-DRAM but considerably larger. Therefore a key question for HPC codes will be whether the HBM2 and NVRAM can be used in conjunction to most effectively exploit the respective benefits of each. Whilst the Intel component of the testbed will be small, we only plan to have one Stratix-10 card, this is still interesting to compare and constrast against the Xilinx cards to help application developers explore a wide variety of properties to understand which most effectively suits their applications.</p>
+
+<h2 id="networking">Networking</h2>
+<p>We provide two networking solutions for inter-FPGA communications. Firstly each FPGA is interconnected via 100Gbps QSFP28 networking ports, allowing direct FPGA to FPGA communications. The installed Xilinx toolchain supports this out of the box and this represents a high performance way of enabling communication, either as part of parallelising a problem across the FPGAs or injecting input data. The second approach is to enable inter-FPGA communication via the host, which may or may not involve network communication depending upon whether FPGAs are located on different nodes. All nodes are connected via Omnipath which is a high performance networking protocol, but this will likely be significantly slower compared to the direct FPGA to FPGA communication especially as the PCIe link must be traversed.</p>
+
+        </div>
+
+        
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/documentation/getting_started/">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> Getting started
+
+      </span>
+    </a>
+  
+
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="social-icons"><a class="social-icon" href="/atom.xml"><i class="fas fa-rss-square fa-2x" title="Feed"></i></a></div><div class="copyright">
+    
+      <p>Copyright © 2022 EPCC, University of Edinburgh. <br />This testbed is funded by the ExCALIBUR H&amp;ES programme<br /> <br />Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.<br />Icons made by <a href="https://www.flaticon.com/authors/alkhalifi-design" title="alkhalifi design">alkhalifi design</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+  </body>
+
+</html>
