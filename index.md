@@ -13,7 +13,7 @@ experiment with exploiting this hardware for testing their codes.
 RISC-V based accelerators are now gaining traction in HPC, however access to
 RISC-V systems for development and testing is limited. As yet, there are few
 physical RISC-V boards available and the configuration of RISC-V softcores
-on FPGAs can be challenging. The RISC-V testbed profides a *tunrkey*
+on FPGAs can be challenging. The RISC-V testbed profides a *turnkey*
 environment for researchers to develop and test their HPC and data science
 codes.
 

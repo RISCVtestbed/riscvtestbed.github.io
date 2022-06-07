@@ -8,7 +8,7 @@
     {% assign page_image = page.image.path | default: page.image %}
     {% unless page_image %}
       {% if page.url == '/' %}
-        <h1 class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <div class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
       {% else %}
         <div class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
       {% endif %}

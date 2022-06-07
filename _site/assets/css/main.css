@@ -991,7 +991,7 @@ th {
 
 .site-description {
   margin-bottom: 1em;
-  font-family: "Lora", serif;
+  font-family: "Play", sans-serif;
   /* @include fluid-type($min-vw, $max-vw, $h5-min, $h5-max); */
   font-weight: 400;
   font-style: italic; }
