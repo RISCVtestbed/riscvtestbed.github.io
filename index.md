@@ -6,6 +6,8 @@ layout: page
 class="btn btn--success">Apply for access</a></div>
 <div>&nbsp;<br></div>
 
+<img src=/images/Standard_2.png>
+
 ## Overview
 This testbed provides HPC code developers and data-scientists with access to the latest
 physical and soft-core RISC-V cores running on data centre Field Programmable Gate Arrays (FPGAs) to 
