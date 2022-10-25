@@ -30,3 +30,19 @@ Once the client is installed, create a new profile with settings matching those 
 
 >**NOTE:**  
 > Whilst it is possible to run the individual graphical tools directly via X2GO, we suggest doing this via the XFCE desktop environment as find that this provides a much better user experience.
+
+### RISC-V compilers and libraries
+
+RISC-V compilers and libraries are available on the front-end via the module environment. There are a default set of modules made available on login (which can be viewed via `module available`) and a set automatically into the user environment (which can be viewed via `module list`). More general details about the module environment can be found [here](https://linux.die.net/man/1/module). 
+
+The RISC-V specific modules are not available by default and must be loaded, this can be done via the command below
+
+```console
+[username@nextgenio-login2 ~]$ source /home/nx09/shared/riscv/riscv_modules.sh
+[username@nextgenio-login2 ~]$ module available
+----------------- /home/nx09/shared/riscv/modulefiles -----------------
+   gnu_riscv/12.2
+```
+
+>**ADVICE:**  
+> You can add this command into your _.bashrc_ file which will then make these modules available automatically.
