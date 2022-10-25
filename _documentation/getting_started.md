@@ -22,7 +22,7 @@ username@localhost:~$ ssh username@hydra-vpn.epcc.ed.ac.uk
 
 ### Desktop access
 
-<img src="/docs/images/x2go_settings.png" width="400" height="400" align="right"/>
+<img src="/images/x2go_settings.png" width="400" height="400" align="right"/>
 
 The lightweight XFCE desktop is installed on the front-end of the testbed system, which is especially useful for programming FPGAs as much of the tooling has a graphical component to it. The front-end is also running X2GO which tends to provide much better performance than vanilla X forwarding. Therefore we strongly suggest accessing the desktop via X2GO, with users just needing to install the client program which is available [here](https://wiki.x2go.org/doku.php/download:start). 
 
