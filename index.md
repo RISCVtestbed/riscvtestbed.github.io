@@ -6,7 +6,7 @@ layout: page
 class="btn btn--success">Apply for access</a></div>
 <div>&nbsp;<br></div>
 
-<img src=/images/Standard_2.png>
+<img src="/images/Standard_2.png">
 
 ## Overview
 This testbed provides HPC code developers and data-scientists with access to the latest
