@@ -4,16 +4,29 @@ icon: /images/sign-post.png
 icon_alt: Sign post
 ---
 
-Access to the RISC-V testbed is free for scientific and engieering workloads. There are two steps required for 
-accessing the system, firstly we need to approve your access and secondly you will need to sign up to the system.
+This section describes how to access both the command line and GUI of the testbed system. The testbed is part of a larger machine, NEXTGenIO, with testbed users building their codes on a specific front-end node, and then running on the individual RISC-V backend nodes. The front-end node contains two 48-core Cascade Lake Xeon Platinum CPUs, 512GB RAM, and files are stored on the Lustre high performance parallel filesystem which is also visible to the back-end nodes.
 
-# Step one, access approval
+### Command line access
 
-You should first send an email to riscv-testbed@mlist.is.ed.ac.uk giving a brief description of who you are, your institution affiliation and what you are planning to use the
-RISC-V testbed for (e.g. what codes you are interested in accelerating). There are two purposes to this step, firstly ensuring that users are utilising the system appropriately but also we are able to offer software support.
+The testbed system is only accessible via the _hydra-vpn_ proxy host, and in the previous _applying for access_ step you will have signed up for accounts on both _hydra-vpn_ and _NEXTGenIO_. To access the testbed you need to therefore first ssh to _hydra-vpn_ via `ssh username@hydra-vpn.epcc.ed.ac.uk` , the first time that you access this you will need to use the password automatically allocated via the SAFE system (it can be retrieved via SAFE) and will be prompted to change this.
 
-# Step two, apply for access via SAFE
+Once you have logged into hydra-vpn then you can access the testbed login node via `ssh username@nextgenio-login2` . This is the node  flow is illustrated below.
 
-You should only do this step after receiving a reply from the previous step. The machine is managed by SAFE, and to request an account you should visit https://webapps.epcc.ed.ac.uk/safadmin/ and sign up. This is a two stage process, you first sign up for a web account, and once that is created go into SAFE and click Login accounts and Request login account. Enter the project code nx08 and request an account on hydra-vpn. You should then repeat this process requesting an account on NextgenIO , the usernames you select for both these machines can be the same.
+```console
+username@localhost:~$ ssh username@hydra-vpn.epcc.ed.ac.uk
+[username@hydra-vpn ~]$ ssh username@nextgenio-login2
+[username@nextgenio-login2 ~]$
+```
+>**ADVICE:**  
+> It is possible to automate the proxy step by setting this up in your ssh .config file as a proxyjump
 
-Once you have applied for an account it typically takes a few hours for it to be created and you will be emailed with further details.
+### Desktop access
+
+<img src="/docs/images/x2go_settings.png" width="400" height="400" align="right"/>
+
+The lightweight XFCE desktop is installed on the front-end of the testbed system, which is especially useful for programming FPGAs as much of the tooling has a graphical component to it. The front-end is also running X2GO which tends to provide much better performance than vanilla X forwarding. Therefore we strongly suggest accessing the desktop via X2GO, with users just needing to install the client program which is available [here](https://wiki.x2go.org/doku.php/download:start). 
+
+Once the client is installed, create a new profile with settings matching those as illustrated below (assuming that you use the same username and password for both _hydra-vpn_ and the _NEXTGenIO_ node.
+
+>**NOTE:**  
+> Whilst it is possible to run the individual graphical tools directly via X2GO, we suggest doing this via the XFCE desktop environment as find that this provides a much better user experience.
