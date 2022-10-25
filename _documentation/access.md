@@ -14,6 +14,6 @@ RISC-V testbed for (e.g. what codes you are interested in accelerating). There a
 
 # Step two, apply for access via SAFE
 
-You should only do this step after receiving a reply from the previous step. The machine is managed by SAFE, and to request an account you should visit https://webapps.epcc.ed.ac.uk/safadmin/ and sign up. This is a two stage process, you first sign up for a web account, and once that is created go into SAFE and click Login accounts and Request login account. Enter the project code nx08 and request an account on hydra-vpn. You should then repeat this process requesting an account on NextgenIO , the usernames you select for both these machines can be the same.
+You should only do this step after receiving a reply from the previous step. The machine is managed by SAFE, and to request an account you should visit [https://safe.epcc.ed.ac.uk/](https://safe.epcc.ed.ac.uk/) and sign up. This is a two stage process, you first sign up for a web account, and once that is created go into SAFE and click Login accounts and Request login account. Enter the project code nx09 and request an account on hydra-vpn. You should then repeat this process requesting an account on NextgenIO , the usernames you select for both these machines can be the same.
 
 Once you have applied for an account it typically takes a few hours for it to be created and you will be emailed with further details.
