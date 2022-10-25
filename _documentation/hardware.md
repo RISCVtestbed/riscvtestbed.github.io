@@ -28,10 +28,10 @@ This is classed as a Linux development kit board, containing the Allwinner D1 ru
 <img src="/images/MangoPi.webp" width="150" height="150" align="right"/>
 An Allwinner D1 RISC-V based SBC, this contains the  XuanTie C906 core (RV64IMAFDCV), 1GB of DDR3 RAM, and ethernet via an extension board.
 
-The testbed cotnains two of these boards.
+The testbed contains two of these boards.
 
 ## StarFive VisionFive V1
-<img src="/images/VisionFiveV1.webp" width="150" height="150" align="left"/>
+<img src="/images/VisionFive-V1.webp" width="150" height="150" align="left"/>
 This board contains StarFive’s JH7100 SoC which is equipped with a U74 64-bit high-performance RISC-V dual-core processor with 2MB L2 cache, running at 1.5GHz. The JH7100 SoC also contains a deep learning processing engine and image/video processing sub-system which are available for use by codes. The board contains 8GB of DDR4 RAM, and gigabit ethernet.
 
 The testbed contains two of these boards.
