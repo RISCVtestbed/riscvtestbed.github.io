@@ -6,7 +6,11 @@ icon_alt: Sign post
 
 We have a variety of RISC-V compute nodes that you can execute your code upon, with more added as time progresses. This page details how to gain access to run your codes on the nodes and which are currently available.
 
-## List of nodes
+## Accessing the nodes
+
+You must first ssh to the NextGenIO login node where you will compile your code, from this once you are ready to run on the RISC-V node you will then SSH to that node. Note that Slurm is currently being set up and-so this process will change in the near future.
+
+### List of publicly available nodes
 
 | Description  | Hostname | 
 | ------------- | ------------- | 
