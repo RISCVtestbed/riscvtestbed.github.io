@@ -1,6 +1,6 @@
 ---
 title: "Running on RISC-V"
-icon: /images/sign-post.png
+icon: /images/cpu.png
 icon_alt: Sign post
 ---
 
