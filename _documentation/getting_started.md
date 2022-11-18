@@ -34,11 +34,33 @@ Once the client is installed, create a new profile with settings matching those 
 
 ## RISC-V compilers and libraries
 
-RISC-V compilers and libraries are available on the front-end either via the [Spack](spack.readthedocs.io/) or the module environment.
+RISC-V compilers are available on the module environment:
+
+```
+bash-4.2$ module avail
+
+----------- /home/nx09/shared/riscv/modulefiles -----------
+...
+gnu-riscv32-linux/12.2    gnu-riscv32-newlib/12.2    gnu-riscv64-linux/9.2-rvv0.7.1    gnu-riscv64-linux/12.2 (D)    gnu-riscv64-newlib/12.2 
+```
+
+The modules correspond to the GCC compilers with the following configurations:
+
+| Module | Library | Bit | ISA | ABI | GCC |
+| --- | --- | --- | --- | --- | --- |
+| `gnu-riscv32-linux/12.2` | glibc (Linux) | 32 | RV32GC | ilp32d | 12.2.0 |
+| `gnu-riscv64-linux/12.2` | glibc (Linux) | 64 | RV64GC | lp64d | 12.2.0 |
+| `gnu-riscv32-newlib/12.2` | Newlib | 32 | RV32GC | ilp32d | 12.2.0 |
+| `gnu-riscv64-newlib/12.2` | Newlib | 64 | RV64GC | lp64d | 12.2.0 |
+| `gnu-riscv64-linux/9.2-rvv0.7.1` | glibc (Linux) | 64 | RV64GC + V (0.7.1) | lp64d | 9.2.0 |
+
+Once a compiler module (e.g.`gnu-riscv64-linux/12.2` ) is loaded, the compilers and associated tools can be called with the prefix (e.g. `riscv64-unknown-linux-gnu-`).
+
 
 ### Spack
+RISC-V compilers and libraries are available on the front-end either via the [Spack](spack.readthedocs.io/) or the module environment.
 
-The easiest way to access the Spack environment is to load the following environment script:
+The easiest way to access the RISC-V libraries via a Spack environment, which can be loaded using the following environment script:
 
 ```console
 [username@nextgenio-login2 ~]$ source /home/nx09/shared/riscv/riscv64_env.sh
