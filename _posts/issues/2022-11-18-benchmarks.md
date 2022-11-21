@@ -4,7 +4,7 @@ layout: post
 categories:
   - Issues
 tags:
-last_modified_at: 2022-11-18
+last_modified_at: 2022-11-21
 ---
 
 
@@ -285,11 +285,16 @@ GCC 12.1.0, with OpenMP
 
 GCC 12.2.0
 ./hpgmg-fv 7 7
-
+```
+===== Performance Summary ======================================================
+  h=7.812500000000000e-03  DOF=2.097152000000000e+06  time=58.475712  DOF/s=3.586e+04  MPI=1  OMP=1
+  h=1.562500000000000e-02  DOF=2.621440000000000e+05  time=7.191099  DOF/s=3.645e+04  MPI=1  OMP=1
+  h=3.125000000000000e-02  DOF=3.276800000000000e+04  time=0.882824  DOF/s=3.712e+04  MPI=1  OMP=1
+```
 
 
 #### Other issues
 
-Grid: takes too long to build
-SWIFTSIM: Ticks not defined for RISC-V
-CP2K: liblsan not supported for RISC-V
+- Grid: takes too long to build
+- SWIFTSIM: Ticks not defined for RISC-V
+- CP2K: liblsan not supported for RISC-V
