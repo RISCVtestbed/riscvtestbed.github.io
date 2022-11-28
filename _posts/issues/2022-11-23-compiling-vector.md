@@ -12,16 +12,37 @@ Some of the [hardware]({% link _documentation/hardware.md %}) (Allwinner D1) wit
 A major caveat is that the first ratified RVV is version 1.0 ([spec](https://github.com/riscv/riscv-v-spec/blob/3570f998903f00352552b670f1f7b7334f0a144a/v-spec.adoc)), whereas the C906 core in the Allwinner D1 SoC was designed to support RVV 0.7.1 ([spec](https://github.com/riscv/riscv-v-spec/blob/0a24d0f61b5cd3f1f9265e8c40ab211daa865ede/v-spec.adoc)). The two specs are similar but not compatible. For more information, see [1](https://www.reddit.com/r/RISCV/comments/v1dvww/allwinner_d1_extensions/) [2](https://github.com/riscv/riscv-v-spec/issues/667).
 
 
-On NextgenIO, The module `gnu-riscv64-linux/9.2-rvv0.7.1` (see [Getting Started]({% link _documentation/getting_started.md %})) can be loaded for gnu compilers supporting RVV 0.7.1.
+On NextgenIO, The modules `gnu-riscv64-linux/9.2-rvv0.7.1` and `gnu-riscv64-linux/8.4-rvv0.7.1` (see [Getting Started]({% link _documentation/getting_started.md %})) can be loaded for gnu compilers supporting RVV 0.7.1. (The latter is provided by T-Head and supports intrinsics)
 
 ### RVV 0.7.1
 The simplest way to work with RVV 0.7.1 is in assembly language. The spec provides some [examples](https://github.com/riscv/riscv-v-spec/blob/0a24d0f61b5cd3f1f9265e8c40ab211daa865ede/vector-examples.adoc) of how to do so. Tests of memcpy and strcpy speeds on Allwinner D1 hardware using RVV 0.7.1 have been recorded [here](https://www.eevblog.com/forum/embedded-computing/risc-v-vector-extension-on-the-allwinner-d1/). 
 
 
 Notes:
+- Include `-march=...v` (e.g. `-march=rv64gcv` to include vector extension) 
 - QEMU supports RVV 0.7.1
-- C906 toolchain and RVV 0.7.1 intrinsic manual: <https://lists.riscv.org/g/tech-vector-ext/message/677>
+- C906 toolchain and RVV 0.7.1 intrinsic manual: <https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource/1836682/1624260655742/riscv64-linux-x86_64-20210618.tar.gz> <https://lists.riscv.org/g/tech-vector-ext/message/677>
 - OpenBLAS optimized for RVV 0.7.1: <https://github.com/xianyi/OpenBLAS/tree/risc-v>
+
+Example:
+
+```
+#include <riscv-vector.h>
+void vv_add_int64(int64_t number, int64_t *a, int64_t *b, int64_t *c) {
+vint64m2_t va;
+vint64m2_t vb;
+vint64m2_t vc;
+uint64_t vl = 0;
+    for (int i = 0; i < number;) {
+        vl = vsetvl_e64m2(number - i);
+        va = vle_v_i64m2(&a[i], vl);
+        vb = vle_v_i64m2(&b[i], vl);
+        vc = vadd_vv_i64m2(va, vb, vl);
+        vse_v_i64m2(&c[i], vc, vl);
+        i += vl;
+    }
+}
+```
 
 ### RVV 1.0
 
