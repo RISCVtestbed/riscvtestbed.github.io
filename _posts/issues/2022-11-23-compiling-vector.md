@@ -12,7 +12,7 @@ Some of the [hardware]({% link _documentation/hardware.md %}) (Allwinner D1) wit
 A major caveat is that the first ratified RVV is version 1.0 ([spec](https://github.com/riscv/riscv-v-spec/blob/3570f998903f00352552b670f1f7b7334f0a144a/v-spec.adoc)), whereas the C906 core in the Allwinner D1 SoC was designed to support RVV 0.7.1 ([spec](https://github.com/riscv/riscv-v-spec/blob/0a24d0f61b5cd3f1f9265e8c40ab211daa865ede/v-spec.adoc)). The two specs are similar but not compatible. For more information, see [1](https://www.reddit.com/r/RISCV/comments/v1dvww/allwinner_d1_extensions/) [2](https://github.com/riscv/riscv-v-spec/issues/667).
 
 
-On NextgenIO, The modules `gnu-riscv64-linux/9.2-rvv0.7.1` and `gnu-riscv64-linux/8.4-rvv0.7.1` (see [Getting Started]({% link _documentation/getting_started.md %})) can be loaded for gnu compilers supporting RVV 0.7.1. (The latter is provided by T-Head and supports intrinsics)
+On NextgenIO, The modules `gnu-riscv64-linux/9.2-rvv0.7.1` and `gnu-riscv64-linux/8.4-rvv0.7.1` (see [Getting Started]({% link _documentation/getting_started.md %})) can be loaded for gnu compilers supporting RVV 0.7.1.
 
 ### RVV 0.7.1
 The simplest way to work with RVV 0.7.1 is in assembly language. The spec provides some [examples](https://github.com/riscv/riscv-v-spec/blob/0a24d0f61b5cd3f1f9265e8c40ab211daa865ede/vector-examples.adoc) of how to do so. Tests of memcpy and strcpy speeds on Allwinner D1 hardware using RVV 0.7.1 have been recorded [here](https://www.eevblog.com/forum/embedded-computing/risc-v-vector-extension-on-the-allwinner-d1/). 
@@ -21,10 +21,11 @@ The simplest way to work with RVV 0.7.1 is in assembly language. The spec provid
 Notes:
 - Include `-march=...v` (e.g. `-march=rv64gcv` to include vector extension) 
 - QEMU supports RVV 0.7.1
-- C906 toolchain and RVV 0.7.1 intrinsic manual: <https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource/1836682/1624260655742/riscv64-linux-x86_64-20210618.tar.gz> <https://lists.riscv.org/g/tech-vector-ext/message/677>
+- C906 toolchain (can be loaded via `gnu-riscv64-linux/8.4-rvv0.7.1`) and RVV 0.7.1 intrinsic manual: <https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource/1836682/1624260655742/riscv64-linux-x86_64-20210618.tar.gz> <https://lists.riscv.org/g/tech-vector-ext/message/677>
+- The toolchain `gnu-riscv64-linux/8.4-rvv0.7.1` supports intrinsics (see example) and auto-vectorization (add `-march=rv64gcv -O3`)
 - OpenBLAS optimized for RVV 0.7.1: <https://github.com/xianyi/OpenBLAS/tree/risc-v>
 
-Example:
+Intrinsics example:
 
 ```
 #include <riscv-vector.h>
@@ -52,7 +53,7 @@ Notes:
 
 - To use the Gnu `rvv-next` branch toolchain, also pull the `riscv-gcc-rvv-next` branch in `riscv-gcc`
 - Instructions to build LLVM toolchain: <https://github.com/sifive/riscv-llvm>
-- To enable auto-vectorization in gnu toolchain (`rvv-next`), configure with `--with-arch=rv64gcv` and compile with `-free-vectorize` or `-O3` (see [1](https://github.com/riscv-collab/riscv-gcc/issues/353) [2](https://github.com/riscv-collab/riscv-gnu-toolchain/issues/1055#issuecomment-1145980351))
+- To enable auto-vectorization in gnu toolchain (`rvv-next`), configure with `--with-arch=rv64gcv` and compile with `-ftree-vectorize` or `-O3` (see [1](https://github.com/riscv-collab/riscv-gcc/issues/353) [2](https://github.com/riscv-collab/riscv-gnu-toolchain/issues/1055#issuecomment-1145980351))
 - To enable auto-vectorization in clang, add the following flags `-march=rv64gv -target riscv64 -O2 -mllvm --riscv-v-vector-bits-min=xxx` (`xxx = 256/...` )
 - Intrinsics and Auto-Vectorization (with Clang) can be tested on Compiler Explorer
 
