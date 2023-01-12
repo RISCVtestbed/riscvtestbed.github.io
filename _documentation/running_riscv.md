@@ -12,7 +12,17 @@ You must first ssh to the NextGenIO login node where you will compile your code,
 
 ### List of publicly available nodes
 
-| Description  | Hostname | 
-| ------------- | ------------- | 
-| HiFive Unmatched  | vipera.epcc.ed.ac.uk | 
-| Lichee RV Dock  | kavalan.epcc.ed.ac.uk  | 
+| Description  | Hostname | Status |
+| ------------- | ------------- | ------------- | 
+| HiFive Unmatched  | vipera.epcc.ed.ac.uk | up |
+| Lichee RV Dock  | kavalan.epcc.ed.ac.uk  | down |
+| DongshanNezhaSTU #1 | rvc01 | up |
+| DongshanNezhaSTU #2 | rvc02 | up |
+| DongshanNezhaSTU #3 | rvc03 | up |
+| DongshanNezhaSTU #4 | rvc04 | up |
+| MangoPi MQ-Pro #1 | rvc05 | down |
+| MangoPi MQ-Pro #2 | rvc06 | down |
+| StarFive VisionFive V1 #1 | rvc07 | up |
+| StarFive VisionFive V1 #2 | rvc08 | up |
+
+> **Note:** boards rvc01 - rvc08 are accessed via hibiki.epcc.ed.ac.uk
