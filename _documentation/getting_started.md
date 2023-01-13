@@ -103,7 +103,7 @@ Alternatively, the compilers and packages installed in Spack can also be loaded 
    berkeley-db-18.1.40-gcc-8.3.0-saop5y7                    ...
 
 ---------------------------- /home/nx09/shared/riscv/modulefiles -----------------------------
-   gnu-riscv/12.2
+   gnu-riscv64-linux/12.2
 ```
 
 To inspect the list of modules set in the user environment, run `module list`. More general details about the module environment can be found [here](https://linux.die.net/man/1/module).
