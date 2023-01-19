@@ -5,9 +5,9 @@ icon_alt: Award icon
 ---
 
 ## Important dates
-<img align="right" src="https://www.hdfgroup.org/wp-content/uploads/2019/02/ISC_hp_logo_small_72dpi_rgb.png">
+<img align="right"src="https://www.hdfgroup.org/wp-content/uploads/2019/02/ISC_hp_logo_small_72dpi_rgb.png">
 
-* **Submission Deadline:** 24th March 2023 (AoE)
+* **Submission Deadline:** 24th March 2023
 * **Author Notification:** 10th April 2023
 * **Camera ready papers:** 1st May 2023
 * **Workshop:** 25th May 2023
@@ -22,7 +22,7 @@ However, there are numerous potential advantages that RISC-V can provide to HPC 
 
 The open and standardised nature of RISC-V means that the large, and growing community, can be involved in shaping the standard and tooling. This is important from two perspectives, firstly it is our opportunity in the HPC community to help shape the future of RISC-V to ensure that it is suitable for the next generation of supercomputers. Secondly, whilst there are a wide variety of RISC-V CPUs currently available, the standard nature of the tooling means that very often the same software ecosystem comprising the compiler, operating system, and libraries will run across these whilst requiring few changes.
 
-This workshop aims to bring together those already looking to popularise RISC-V in the field of HPC with the supercomputing community at-large. By sharing benefits of the architecture, success stories, and techniques we hope to further popularise the technology and increase involvement by the community. As one of the few events that attracts a global audience of members from a wide variety of disciplines including scientific software developers, vendors, and supercomputer operators, ISC offers a unique venue to connect with these groups and discuss the advantages, current disadvantages, and opportunities of RISC-V. The informal nature of a workshop is the ideal format to foster the cross-disciplinary exchange and to continue joint activities. 
+This workshop aims to bring together those already looking to popularise RISC-V in the field of HPC with the supercomputing community at-large. By sharing benefits of the architecture, success stories, and techniques we hope to further popularise the technology and increase involvement by the community. 
 
 ## Call for papers - workshop topics
 
