@@ -1,22 +1,54 @@
 # First International workshop on RISC-V for HPC
 
 ## Important dates
-**Submission Deadline:** 24th March 2023 (AoE)
-**Author Notification:** 10th April 2023
-**Camera ready papers:** 1st May 2023
-**Workshop:** 25th May 2023
+<img align="right" src="https://www.hdfgroup.org/wp-content/uploads/2019/02/ISC_hp_logo_small_72dpi_rgb.png">
+
+* **Submission Deadline:** 24th March 2023 (AoE)
+* **Author Notification:** 10th April 2023
+* **Camera ready papers:** 1st May 2023
+* **Workshop:** 25th May 2023
 
 ## Workshop details
 Co-located with ISC 2023, this is a half day workshop (morning or afternoon TBC) on  Thursday 25th May 2023 in Hamburg, Germany
 
 ## Workshop scope
 The goal of this workshop is to continue building the community of RISC-V in HPC, sharing the benefits of this technology with domain scientists, tool developers, and supercomputer operators. RISC-V is an open standard Instruction Set Architecture (ISA) which enables the royalty free development of CPUs and a common software ecosystem to be shared across them. Following this community driven ISA standard, a very diverse set of CPUs have been, and continue to be, developed which are suited to a range of workloads. Whilst RISC-V has become very popular already in some fields, and in 2022 the ten billiontn RISC-V core was shipped, to date it has yet to gain traction in HPC.
+
 However, there are numerous potential advantages that RISC-V can provide to HPC and, assuming the significant rate of growth of this technology to date continues, as we progress further into the decade it is highly likely that RISC-V will become more relevant and widespread for HPC workloads. Furthermore, recent advances in RISC-V make it a more realistic proposition for HPC workloads than ever before. An example of this is vectorisation extension which provides important performance advantages for HPC workloads but was only standardised in early 2022, and-so we are only now seeing mature CPUs that fully implement this.
+
 The open and standardised nature of RISC-V means that the large, and growing community, can be involved in shaping the standard and tooling. This is important from two perspectives, firstly it is our opportunity in the HPC community to help shape the future of RISC-V to ensure that it is suitable for the next generation of supercomputers. Secondly, whilst there are a wide variety of RISC-V CPUs currently available, the standard nature of the tooling means that very often the same software ecosystem comprising the compiler, operating system, and libraries will run across these whilst requiring few changes.
-RISC-V is overseen by RISC-V International which, comprising almost 4000 members ranging from large scale organisations to academic institutions and individuals, comprises a wide range of knowledge and experience to drive forward the standard. An important group in this community is the HPC Special Interest Group (SIG) who are proposing this workshop and have also run BoFs at ISC 2021 and, at the time of writing, have a BoF planned at SC 2022. The BoF at ISC 2021 was especially popular, with the room packed and the hour long session full of audience discussions and comments.
-This workshop aims to bring together those already looking to popularise RISC-V in the field of HPC with the supercomputing community at-large. By sharing benefits of the architecture, success stories, and techniques we hope to further popularise the technology and increase involvement by the community. As one of the few events that attracts a global audience of members from a wide variety of disciplines including scientific software developers, vendors, and supercomputer operators, ISC offers a unique venue to connect with these groups and discuss the advantages, current disadvantages, and opportunities of RISC-V. The informal nature of a workshop is the ideal format to foster the cross-disciplinary exchange and to continue joint activities.  
-Importantly, because RISC-V International is free to join for individuals and academic institutions, this aids significantly with our attempts to build a stronger and wider community around RISC-V for HPC. The RISC-V HPC SIG, which is a growing group of individuals who are interested in popularising the technology in HPC. We believe that this is a major advantage of this workshop proposal because, unlike some workshops where after the event there is little further follow up, by contrast interested audience members can join our SIG community, which meets at-least once a month, to learn more and contribute. Consequently, we have an existing community that we are looking to strengthen and grow with this workshop and existing activities that interested individuals can easily participate in.
-The planned keynote talk, paper presentations, and following panel discussion should help members of the HPC community, whatever their background and domain expertise, to better understand the RISC-V landscape and enable us collaboratively to identify the challenges to be addressed and opportunities to be exploited. Tool developers should get a broader perspective of the needs of domain scientists and challenges faced by center operators, whereas HPC center operators should get an understanding of the current maturity of RISC-V and feeling for how this might impact their future procurements.
-In addition to the published proceedings, we will summarize the discussion, insights gained, and next steps into a whitepaper report for the RISC-V and HPC community.  We will aim to publish this on the RISC-V International website if possible.
-At the time of writing not only is RISC-V seeing very significant growth, but furthermore several RISC-V HPC testbeds are becoming available for access by the community. Consequently, the timing of such a workshop is ideal.
+
+This workshop aims to bring together those already looking to popularise RISC-V in the field of HPC with the supercomputing community at-large. By sharing benefits of the architecture, success stories, and techniques we hope to further popularise the technology and increase involvement by the community. As one of the few events that attracts a global audience of members from a wide variety of disciplines including scientific software developers, vendors, and supercomputer operators, ISC offers a unique venue to connect with these groups and discuss the advantages, current disadvantages, and opportunities of RISC-V. The informal nature of a workshop is the ideal format to foster the cross-disciplinary exchange and to continue joint activities. 
+
+## Call for papers - workshop topics
+
+We invite submissions of high-quality, original research results and works-in-progress on RISC-V with a general connection to HPC. Topics of interest for this workshop include (but are not limited to):
+
+* Example use-cases and case-studies that use RISC-V
+* Lessons learnt from leveraging RISC-V in HPC
+* Novel hardware and accelerators built upon RISC-V
+* Tools and techniques to aid in the use of RISC-V for HPC
+* Developments in HPC libraries to port them to RISC-V
+* Enhancements to RISC-V to make the architecture more suited for HPC
+* Compiler and runtime support for RISC-V
+* Future gazing how RISC-V might evolve the HPC community
+
+### Paper submission
+
+Authors are invited to submit unpublished, original work. Accepted papers will appear in the ISC post-conference workshop proceedings in the Springer Lecture Notes in Computer Science (LNCS) series and submitted versions available online for the workshop. Submissions are of original work between 6 and 12 pages are welcomed on work-in-progress, position papers, or mature work. All papers should be submitted via EasyChair
+
+All papers should be formatted Springer single column LNCS style, with formatting information and templates [here](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines)
+
+## Organisation 
+
+### Organising committee
+
+* Nick Brown (EPCC at the University of Edinburgh)
+* John Davis (Barcelona Supercomputing Centre)
+* John Leidel (Tactical Computing Labs)
+* Andy Gothard (Siemens)
+
+### Program committee
+
+TBC
 
