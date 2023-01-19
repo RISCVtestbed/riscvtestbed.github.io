@@ -1,4 +1,11 @@
-# First International workshop on RISC-V for HPC
+---
+title: "First International workshop on RISC-V for HPC"
+icon: /images/podium.png
+icon_alt: Award icon
+layout: category
+permalink: /community/isc23-workshop/
+taxonomy: Success
+---
 
 ## Important dates
 <img align="right" src="https://www.hdfgroup.org/wp-content/uploads/2019/02/ISC_hp_logo_small_72dpi_rgb.png">
