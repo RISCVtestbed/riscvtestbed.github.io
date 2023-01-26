@@ -16,7 +16,7 @@ icon_alt: Award icon
 Co-located with ISC 2023, this is a half day workshop (morning or afternoon TBC) on  Thursday 25th May 2023 in Hamburg, Germany
 
 ## Workshop scope
-The goal of this workshop is to continue building the community of RISC-V in HPC, sharing the benefits of this technology with domain scientists, tool developers, and supercomputer operators. RISC-V is an open standard Instruction Set Architecture (ISA) which enables the royalty free development of CPUs and a common software ecosystem to be shared across them. Following this community driven ISA standard, a very diverse set of CPUs have been, and continue to be, developed which are suited to a range of workloads. Whilst RISC-V has become very popular already in some fields, and in 2022 the ten billiontn RISC-V core was shipped, to date it has yet to gain traction in HPC.
+The goal of this workshop is to continue building the community of RISC-V in HPC, sharing the benefits of this technology with domain scientists, tool developers, and supercomputer operators. RISC-V is an open standard Instruction Set Architecture (ISA) which enables the royalty free development of CPUs and a common software ecosystem to be shared across them. Following this community driven ISA standard, a very diverse set of CPUs have been, and continue to be, developed which are suited to a range of workloads. Whilst RISC-V has become very popular already in some fields, and in 2022 the ten billionth RISC-V core was shipped, to date it has yet to gain traction in HPC.
 
 However, there are numerous potential advantages that RISC-V can provide to HPC and, assuming the significant rate of growth of this technology to date continues, as we progress further into the decade it is highly likely that RISC-V will become more relevant and widespread for HPC workloads. Furthermore, recent advances in RISC-V make it a more realistic proposition for HPC workloads than ever before. An example of this is vectorisation extension which provides important performance advantages for HPC workloads but was only standardised in early 2022, and-so we are only now seeing mature CPUs that fully implement this.
 
@@ -30,12 +30,16 @@ We invite submissions of high-quality, original research results and works-in-pr
 
 * Example use-cases and case-studies that use RISC-V
 * Lessons learnt from leveraging RISC-V in HPC
+* Industry papers exploring the use of RISC-V
+* The porting of codes to RISC-V
 * Novel hardware and accelerators built upon RISC-V
 * Tools and techniques to aid in the use of RISC-V for HPC
 * Developments in HPC libraries to port them to RISC-V
 * Enhancements to RISC-V to make the architecture more suited for HPC
 * Compiler and runtime support for RISC-V
+* The RISC-V ecosystem
 * Future gazing how RISC-V might evolve the HPC community
+* And anything else related to RISC-V and HPC!
 
 ### Paper submission
 
@@ -51,6 +55,7 @@ All papers should be formatted Springer single column LNCS style, with formattin
 * John Davis (Barcelona Supercomputing Centre)
 * John Leidel (Tactical Computing Labs)
 * Andy Gothard (Siemens)
+* Michael Wong (Codeplay)
 
 ### Program committee
 
