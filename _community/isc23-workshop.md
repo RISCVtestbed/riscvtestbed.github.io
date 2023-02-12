@@ -59,5 +59,9 @@ All papers should be formatted Springer single column LNCS style, with formattin
 
 ### Program committee
 
-TBC
+* Oliver Perks (Rivos)
+* Maurice Jamieson (EPCC)
+* Ruyman Reyes (Codeplay)
+* Joseph Lee (EPCC)
+* Luc Berger-Vergait (Sandia National Laboratories)
 
