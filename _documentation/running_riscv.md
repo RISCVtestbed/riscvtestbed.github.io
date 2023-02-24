@@ -14,10 +14,10 @@ You must first `ssh` to the `riscv-login` server where you will compile your cod
 
 | Description  | Hostname | # of cores | DRAM | Status |
 | ------------- | ------------- |  ------------- | ------------- | ------------- | 
-| DongshanNezhaSTU #1 | rvc01 | 1 | 512MB | down \  (back online 28th Feb 2023) |
-| DongshanNezhaSTU #2 | rvc02 | 1 | 512MB | down \  (back online 28th Feb 2023) |
-| DongshanNezhaSTU #3 | rvc03 | 1 | 512MB | down \  (back online TBC) |
-| DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | down \  (back online TBC) |
+| DongshanNezhaSTU #1 | rvc01 | 1 | 512MB | down <br />(back online 28th Feb 2023) |
+| DongshanNezhaSTU #2 | rvc02 | 1 | 512MB | down <br />(back online 28th Feb 2023) |
+| DongshanNezhaSTU #3 | rvc03 | 1 | 512MB | down <br />(back online TBC) |
+| DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | down <br />(back online TBC) |
 | MangoPi MQ-Pro #1 | rvc05 | 1 | 1GB | up |
 | MangoPi MQ-Pro #2 | rvc06 | 1 | 1GB | up |
 | StarFive VisionFive V1 #1 | rvc07 | 2 | 8GB | up |
