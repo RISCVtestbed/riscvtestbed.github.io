@@ -13,12 +13,11 @@ In this post we cover the toolchains and debugging tools available to compile ap
 
 The first toolchain is the RISC-V GNU Compuler Toolchain, which is available at <https://github.com/riscv-collab/riscv-gnu-toolchain>. The README provides comprehensive instructions to compile the toolchain. 
 
-Different versions of this toolchain have already been installed on the login node and can be directly be loaded using `module load` or `spack load`, following the instructions [here]({% link _documentation/getting_started.md %}). Once loaded, the compilers and binutils can be called directly, e.g.
+Different versions of this toolchain have already been installed on the login node and can be directly be loaded using `module load`, following the instructions [here]({% link _documentation/getting_started.md %}). Once loaded, the compilers and binutils can be called directly, e.g.
 
 ```
-[username@nextgenio-login2 ~]$ source /home/nx09/shared/riscv/riscv64_env.sh
-[username@nextgenio-login2 ~]$ module load gnu-riscv64-linux/12.2
-[username@nextgenio-login2 ~]$ riscv64-unknown-linux-gnu-gcc --version
+[username@riscv-login ~]$ module load riscv64-linux/gnu-12.2
+[username@riscv-login ~]$ riscv64-unknown-linux-gnu-gcc --version
 riscv64-unknown-linux-gnu-gcc (g) 12.2.0
 Copyright (C) 2022 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
@@ -26,7 +25,6 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
 Notes:
-- On nextgenio, users can run `module load mpc mpfr gmp` to include the libraries needed to compile the toolchain, and run `module load gnu8; spack load cmake gmake` to use up-to-date versions of the gcc compiler and make/cmake. (The default gcc and make/cmake are too old to build the toolchain)
 - The toolchain can be compiled with two C standard libraries: GNU C Library (glibc) and Newlib. Newlib provides ISO C, is focused on size and is intended for embedded systems. On top of ISO C, glibc also provides other APIs including POSIX, BSD, XPG, making it more suitable for linux applications. Toolchains for both newlib and glibc in 32/64-bit are provided and can be loaded directly.
 - The binaries have the prefix `riscv(32/64)-unknown-(elf/linux-gnu)-` for (32/64)-bit and (newlib/glibc) respectively
 - When using the gnu compiler, the isa can be specified by `-march=ISA-string`, e.g. `-march=rv64gc`. For more options, see <https://gcc.gnu.org/onlinedocs/gcc/RISC-V-Options.html>
@@ -36,10 +34,12 @@ Notes:
 The toolchain also includes a simulator (e.g. QEMU), which allows us to run RISC-V binaries on the host. To build the simulator, after configuring and building the gnu toolchain, additionally run `$ make build-sim SIM=qemu`. To use the simulator, just run `$ qemu-riscv64 (application)`.
 
 Note:
-- To build on nextgenio where the default compilers are too old, modify `Makefile.in` under `build-qemu` and add the following flags to `configure`:
+
+- This has also been installed in the module `riscv64-linux/gnu-12.2` on _riscv-login_
+- If the default compilers are too old, modify `Makefile.in` under `build-qemu` and add the following flags to `configure`:
 ```
-  --cc=/opt/ohpc/pub/compiler/gcc/8.3.0/bin/gcc \
-  --cxx=/opt/ohpc/pub/compiler/gcc/8.3.0/bin/g++
+  --cc=[c compiler] \
+  --cxx=[c++ compiler]
 ```
 
 ### LLVM toolchain
@@ -64,16 +64,15 @@ $ make
 ```
 The LLVM binaries will be built in the same location in `$prefix`.
 
-If building on nextgenio, see note below.
 
 Notes:
 - The LLVM project can currently be built only with glibc
 - LLVM RISC-V reference: <https://llvm.org/docs//RISCVUsage.html>
-- When configuring LLVM build, by default the C compiler uses /usr/bin/cc and CXX compiler uses /usr/bin/c++ . To build on nextgenio where the default compilers are too old, modify `Makefile.in` under `build-llvm-linux` and add the following flags to `cmake`:
+- When configuring LLVM build, by default the C compiler uses /usr/bin/cc and CXX compiler uses /usr/bin/c++ . If the default compilers are too old, modify `Makefile.in` under `build-llvm-linux` and add the following flags to `cmake`:
 
 ```
--DCMAKE_C_COMPILER="/opt/ohpc/pub/compiler/gcc/8.3.0/bin/gcc" \
--DCMAKE_CXX_COMPILER="/opt/ohpc/pub/compiler/gcc/8.3.0/bin/g++" \
+-DCMAKE_C_COMPILER="[c compiler]" \
+-DCMAKE_CXX_COMPILER="[c++ compiler]" \
 ```
 
 ### Vector
@@ -82,7 +81,7 @@ The upstream LLVM Compiler (clang) by default supports the vector extension and 
 
 Notes:
 
-- To enable vectorization in clang, add the flags `-march=rv64gcv  -menable-experimental-extensions -O2 -mllvm --riscv-v-vector-bits-min=128 -g -static`
+- To enable vectorization in clang, add the flags `-march=rv64gcv  -menable-experimental-extensions -O2 -mllvm --riscv-v-vector-bits-min=128` or `-march=rv64gcv  -menable-experimental-extensions -O2 -mllvm -scalable-vectorization=on`
 - To enable vectorization in gcc, add the flags `--with-arch=rv64gcv --O3`
 - For more information, see the [Compiling Vector Code]({% link _posts/issues/2022-11-23-compiling-vector.md %}) page
 
