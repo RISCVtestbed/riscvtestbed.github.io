@@ -10,17 +10,14 @@ We have a variety of RISC-V compute nodes within a Slurm cluster that you can ex
 
 You must first `ssh` to the `riscv-login` server where you will compile your code. The compiled code is then run on the RISC-V nodes using Slurm.
 
-> **NOTE:** The whole cluster, including `riscv-login` is currently down for maintenance (back online Saturday 4th March 2023).
-> 
-
 ### List of available nodes
 
 | Description  | Hostname | # of cores | DRAM | Status |
 | ------------- | ------------- |  ------------- | ------------- | ------------- | 
-| DongshanNezhaSTU #1 | rvc01 | 1 | 512MB | down <br />(back online 28th Feb 2023) |
-| DongshanNezhaSTU #2 | rvc02 | 1 | 512MB | down <br />(back online 28th Feb 2023) |
-| DongshanNezhaSTU #3 | rvc03 | 1 | 512MB | down <br />(back online TBC) |
-| DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | down <br />(back online TBC) |
+| DongshanNezhaSTU #1 | rvc01 | 1 | 512MB | down <br />(back online 17th March 2023) |
+| DongshanNezhaSTU #2 | rvc02 | 1 | 512MB | down <br />(back online 17th March 2023) |
+| DongshanNezhaSTU #3 | rvc03 | 1 | 512MB | down <br />(back online 17th March 2023) |
+| DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | down <br />(back online 17th March 2023) |
 | MangoPi MQ-Pro #1 | rvc05 | 1 | 1GB | up |
 | MangoPi MQ-Pro #2 | rvc06 | 1 | 1GB | up |
 | StarFive VisionFive V1 #1 | rvc07 | 2 | 8GB | up |
