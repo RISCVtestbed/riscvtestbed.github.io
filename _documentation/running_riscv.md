@@ -53,6 +53,8 @@ MPI `batch-mpi.sh`
 #SBATCH --nodelist=rvc05,rvc06
 #SBATCH --time=00:15:00
 
+export PMIX_MCA_psec=native
+
 mpirun ./mpi-executable
 ```
 
