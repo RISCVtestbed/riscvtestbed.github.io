@@ -22,6 +22,7 @@ You must first `ssh` to the `riscv-login` server where you will compile your cod
 | MangoPi MQ-Pro #2 | rvc06 | 1 | 1GB | up |
 | StarFive VisionFive V1 #1 | rvc07 | 2 | 8GB | up |
 | StarFive VisionFive V1 #2 | rvc08 | 2 | 8GB | up |
+| StarFive VisionFive V1 #3 | rvc09 | 2 | 8GB | down <br />(bringing online 22nd March 2023) |
 | HiFive Unmatched  | rvc10 | 4 | 16GB | up |
 | StarFive VisionFive V2 #1 | rvc11 | 4 | 8GB | up |
 | StarFive VisionFive V2 #2 | rvc12 | 4 | 8GB | down <br />(bringing online 17th March 2023) |
