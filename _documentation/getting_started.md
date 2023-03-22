@@ -42,10 +42,10 @@ RISC-V compilers are available on the module environment:
 ```
 bash-4.2$ module avail
 ...
--------------------------- /usr/local/share/riscv-compiler/modulefiles --------------------------
+------------------- /usr/local/share/riscv-compiler/modulefiles --------------------
    riscv32-linux/gnu-12.2       riscv64-linux/gnu-9.2-rvv     riscv64-linux/llvm-15.0
-   riscv32-newlib/gnu-12.2      riscv64-linux/gnu-10.2-rvv    riscv64-newlib/gnu-12.2
-   riscv64-linux/gnu-8.4-rvv    riscv64-linux/gnu-12.2
+   riscv32-newlib/gnu-12.2      riscv64-linux/gnu-10.2-rvv    riscv64-linux/llvm-16.0 
+   riscv64-linux/gnu-8.4-rvv    riscv64-linux/gnu-12.2        riscv64-newlib/gnu-12.2
 ```
 
 The modules correspond to the following compiler configurations:
@@ -60,6 +60,7 @@ The modules correspond to the following compiler configurations:
 | `riscv64-linux/gnu-9.2-rvv` | GNU | 9.2 | glibc (Linux) | 64 | RV64GC + V (0.7.1) | lp64d | [RISC-V GNU Toolchain: rvv-0.7.1](https://github.com/brucehoult/riscv-gnu-toolchain/tree/rvv-0.7.1) |
 | `riscv64-linux/gnu-10.2-rvv` | GNU | 10.2 | glibc (Linux) | 64 | RV64GC + V (0.7.1/1.0) | lp64d | [XuanTie GNU Toolchain V2.6.1 20220906]({{ site.url }}/resources/Xuantie-900-gcc-linux-5.10.4-glibc-x86_64-V2.6.1-20220906.tar.gz) |
 | `riscv64-linux/llvm-15.0` | LLVM | 15.0 | glibc (Linux) | 64 | RV64GC + V (1.0) | lp64d | [LLVM](https://github.com/riscv-collab/riscv-gnu-toolchain/pull/1166) |
+| `riscv64-linux/llvm-16.0` | LLVM | 16.0 | glibc (Linux) | 64 | RV64GC + V (1.0) | lp64d | [LLVM](https://github.com/riscv-collab/riscv-gnu-toolchain/pull/1166) |
 
 
 
