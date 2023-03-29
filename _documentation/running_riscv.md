@@ -14,18 +14,18 @@ You must first `ssh` to the `riscv-login` server where you will compile your cod
 
 | Description  | Hostname | # of cores | DRAM | Status |
 | ------------- | ------------- |  ------------- | ------------- | ------------- | 
-| DongshanNezhaSTU #1 | rvc01 | 1 | 512MB | down <br />(back online 22nd March 2023) |
-| DongshanNezhaSTU #2 | rvc02 | 1 | 512MB | down <br />(back online 22nd March 2023) |
-| DongshanNezhaSTU #3 | rvc03 | 1 | 512MB | down <br />(back online 22nd March 2023) |
-| DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | down <br />(back online 22nd March 2023) |
+| DongshanNezhaSTU #1 | rvc01 | 1 | 512MB | down <br />(back online 3rd April 2023) |
+| DongshanNezhaSTU #2 | rvc02 | 1 | 512MB | down <br />(back online 3rd April 2023) |
+| DongshanNezhaSTU #3 | rvc03 | 1 | 512MB | down <br />(back online 3rd April 2023) |
+| DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | down <br />(back online 3rd April 2023) |
 | MangoPi MQ-Pro #1 | rvc05 | 1 | 1GB | up |
 | MangoPi MQ-Pro #2 | rvc06 | 1 | 1GB | up |
 | StarFive VisionFive V1 #1 | rvc07 | 2 | 8GB | up |
 | StarFive VisionFive V1 #2 | rvc08 | 2 | 8GB | up |
-| StarFive VisionFive V1 #3 | rvc09 | 2 | 8GB | down <br />(bringing online 22nd March 2023) |
-| HiFive Unmatched  | rvc11 | 4 | 16GB | up |
+| StarFive VisionFive V1 #3 | rvc09 | 2 | 8GB | down <br />(bringing online 3rd April 2023) |
+| HiFive Unmatched  | rvc11 | 4 | 16GB | down <br />(bringing online 3rd April 2023) |
 | StarFive VisionFive V2 #1 | rvc12 | 4 | 8GB | up |
-| StarFive VisionFive V2 #2 | rvc13 | 4 | 8GB | down <br />(bringing online 17th March 2023) |
+| StarFive VisionFive V2 #2 | rvc13 | 4 | 8GB | down <br />(bringing online 3rd April 2023) |
 
 ### Submitting jobs
 
