@@ -56,6 +56,16 @@ Examples:
 - Auto-Vectorization on Compiler Explorer: <https://godbolt.org/z/PzjbnM93E>
 - Example runs of Auto-Vectorized code: <https://www.luffca.com/2022/06/riscv-vector-vicuna-simulator/>
 
+### RVV rollback
+We have introduced a tool to translate RVV 1.0 assembly code to 0.7, which is available for download here <https://github.com/RISCVtestbed/rvv-rollback>. It is tested for the following workflow:
+
+This is tested for the following workflow:
+1. Clang 15.0 to compile .cpp source to RVV 1.0 `.s`
+2. RVV-rollback to translate RVV1.0 `.s` to RVV0.7 `.s`
+3. GCC 10.2 (Xuantie-900 linux-5.10.4 glibc gcc Toolchain V2.6.1 B-20220906) to assemble RVV0.7 `.s` to `.o`
+
+The tool does not support some features introduced in v1.0, such as fractional LMUL and 64-bit elements.
+
 ### References:
 
 - Linux patch for running vector code: <https://lore.kernel.org/linux-riscv/cover.1652257230.git.greentime.hu@sifive.com/>
