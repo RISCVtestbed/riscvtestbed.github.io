@@ -68,6 +68,7 @@ The LLVM binaries will be built in the same location in `$prefix`.
 Notes:
 - The LLVM project can currently be built only with glibc
 - LLVM RISC-V reference: <https://llvm.org/docs//RISCVUsage.html>
+- At the moment this PR will build LLVM 15.0. To build with an up to date LLVM, run `git submodule update --init --recursive` , then `cd LLVM` and `git fetch` to pull the latest LLVM.
 - When configuring LLVM build, by default the C compiler uses /usr/bin/cc and CXX compiler uses /usr/bin/c++ . If the default compilers are too old, modify `Makefile.in` under `build-llvm-linux` and add the following flags to `cmake`:
 
 ```
@@ -82,7 +83,7 @@ The upstream LLVM Compiler (clang) by default supports the vector extension and 
 Notes:
 
 - To enable vectorization in clang, add the flags `-march=rv64gcv  -menable-experimental-extensions -O2 -mllvm --riscv-v-vector-bits-min=128` or `-march=rv64gcv  -menable-experimental-extensions -O2 -mllvm -scalable-vectorization=on`
-- To enable vectorization in gcc, add the flags `--with-arch=rv64gcv --O3`
+- To enable vectorization in gcc, add the flags `--with-arch=rv64gcv -O3`
 - For more information, see the [Compiling Vector Code]({% link _posts/issues/2022-11-23-compiling-vector.md %}) page
 
 ### (Cross-)Debugging

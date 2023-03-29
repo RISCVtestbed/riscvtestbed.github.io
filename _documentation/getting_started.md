@@ -50,23 +50,23 @@ bash-4.2$ module avail
 
 The modules correspond to the following compiler configurations:
 
-| Module | Compiler | Version | Library | Bit | ISA | ABI | Source |
-| --- | --- | --- | --- | --- | --- |--- | --- |
-| `riscv64-linux/gnu-12.2` | GNU | 12.2.0 | glibc (Linux) | 32 | RV32GC | ilp32d | [RISC-V GNU Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) |
-| `riscv32-linux/gnu-12.2` | GNU | 12.2.0 | glibc (Linux) | 64 | RV64GC | lp64d | [RISC-V GNU Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain)|
-| `riscv32-newlib/gnu-12.2` | GNU | 12.2.0 | Newlib | 32 | RV32GC | ilp32d | [RISC-V GNU Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) |
-| `riscv64-newlib/gnu-12.2` | GNU | 12.2.0 | Newlib | 64 | RV64GC | lp64d | [RISC-V GNU Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) |
-| `riscv64-linux/gnu-8.4-rvv` | GNU | 8.4 | glibc (Linux) | 64 | RV64GC + V (0.7.1) | lp64d | [XuanTie GNU Toolchain 20210618]({{ site.url }}/resources/riscv64-linux-x86_64-20210618.tar.gz)  |
-| `riscv64-linux/gnu-9.2-rvv` | GNU | 9.2 | glibc (Linux) | 64 | RV64GC + V (0.7.1) | lp64d | [RISC-V GNU Toolchain: rvv-0.7.1](https://github.com/brucehoult/riscv-gnu-toolchain/tree/rvv-0.7.1) |
-| `riscv64-linux/gnu-10.2-rvv` | GNU | 10.2 | glibc (Linux) | 64 | RV64GC + V (0.7.1/1.0) | lp64d | [XuanTie GNU Toolchain V2.6.1 20220906]({{ site.url }}/resources/Xuantie-900-gcc-linux-5.10.4-glibc-x86_64-V2.6.1-20220906.tar.gz) |
-| `riscv64-linux/llvm-15.0` | LLVM | 15.0 | glibc (Linux) | 64 | RV64GC + V (1.0) | lp64d | [LLVM](https://github.com/riscv-collab/riscv-gnu-toolchain/pull/1166) |
-| `riscv64-linux/llvm-16.0` | LLVM | 16.0 | glibc (Linux) | 64 | RV64GC + V (1.0) | lp64d | [LLVM](https://github.com/riscv-collab/riscv-gnu-toolchain/pull/1166) |
+| Module | Compiler | Version | Library | Bit | ISA | ABI | Prefix |Source |
+| --- | --- | --- | --- | --- | --- |--- | --- | --- |
+| `riscv32-linux/gnu-12.2` | GNU | 12.2.0 | glibc (Linux) | 32 | RV32GC | ilp32d | `riscv32-unknown-linux-gnu-` | [RISC-V GNU Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) |
+| `riscv64-linux/gnu-12.2` | GNU | 12.2.0 | glibc (Linux) | 64 | RV64GC | lp64d| `riscv64-unknown-linux-gnu-` | [RISC-V GNU Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain)|
+| `riscv32-newlib/gnu-12.2` | GNU | 12.2.0 | Newlib | 32 | RV32GC | ilp32d| `riscv32-unknown-elf-gnu-` | [RISC-V GNU Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) |
+| `riscv64-newlib/gnu-12.2` | GNU | 12.2.0 | Newlib | 64 | RV64GC | lp64d| `riscv64-unknown-elf-gnu-` | [RISC-V GNU Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) |
+| `riscv64-linux/gnu-8.4-rvv` | GNU | 8.4 | glibc (Linux) | 64 | RV64GC + V (0.7.1) | lp64d| `riscv64-unknown-linux-gnu-` | [XuanTie GNU Toolchain 20210618](https://datashare.ed.ac.uk/handle/10283/4835)  |
+| `riscv64-linux/gnu-9.2-rvv` | GNU | 9.2 | glibc (Linux) | 64 | RV64GC + V (0.7.1) | lp64d| `riscv64-unknown-linux-gnu-` | [RISC-V GNU Toolchain: rvv-0.7.1](https://github.com/brucehoult/riscv-gnu-toolchain/tree/rvv-0.7.1) |
+| `riscv64-linux/gnu-10.2-rvv` | GNU | 10.2 | glibc (Linux) | 64 | RV64GC + V (0.7.1/1.0) | lp64d| `riscv64-unknown-linux-gnu-` | [XuanTie GNU Toolchain V2.6.1 20220906](https://datashare.ed.ac.uk/handle/10283/4835) |
+| `riscv64-linux/llvm-15.0` | LLVM | 15.0 | glibc (Linux) | 64 | RV64GC + V (1.0) | lp64d| N/A | [LLVM](https://github.com/riscv-collab/riscv-gnu-toolchain/pull/1166) |
+| `riscv64-linux/llvm-16.0` | LLVM | 16.0 | glibc (Linux) | 64 | RV64GC + V (1.0) | lp64d| N/A | [LLVM](https://github.com/riscv-collab/riscv-gnu-toolchain/pull/1166) |
 
 
 
-Once a compiler module (e.g.`riscv64-linux/gnu-12.2`/`riscv64-linux/llvm-15.0` ) is loaded (via `module load ...`), the compilers and associated tools can be called with the prefix (e.g. `riscv64-unknown-linux-gnu-` for GNU / `clang` for LLVM). 
+Once a compiler module is loaded (e.g. via `module load riscv64-linux/gnu-12.2` or `module load riscv64-linux/llvm-16.0`), the compilers and associated tools can be called with the prefix above for GNU (e.g. `riscv64-unknown-linux-gnu-gcc`) and without prefix (e.g `clang`) for LLVM.
 
-For details of what's included in the toolchains, see [Toolchains & Cross-debugging]({% link _posts/issues/2023-01-11-toolchains+debugging.md %}). For more instructions on compiling with the V vector extension, see [V vector extension]({% link _posts/issues/2022-11-23-compiling-vector.md %}).
+For details of what tools are included in the toolchains, see [Toolchains & Cross-debugging]({% link _posts/issues/2023-01-11-toolchains+debugging.md %}). For more instructions on compiling with the V vector extension, see [V vector extension]({% link _posts/issues/2022-11-23-compiling-vector.md %}).
 
 
 
@@ -91,7 +91,7 @@ bash-4.2$ module avail
 
 To inspect the list of modules set in the user environment, run `module list`. More general details about the module environment can be found [here](https://linux.die.net/man/1/module). 
 
-Note: all libraries are compiled using `riscv64-linux/gnu-12.2`, except for `openblas/0.3.21_C910V_gcc10.2` which has been compiled using [XuanTie GNU Toolchain V2.6.0 20220715]({{ site.url }}/resources/Xuantie-900-gcc-linux-5.10.4-glibc-x86_64-V2.6.0-20220715.tar.gz)
+Note: all libraries are compiled using `riscv64-linux/gnu-12.2`, except for `openblas/0.3.21_C910V_gcc10.2` which has been compiled using [XuanTie GNU Toolchain V2.6.0 20220715](https://datashare.ed.ac.uk/handle/10283/4835).
 
 ### Compiling with MPI
 
