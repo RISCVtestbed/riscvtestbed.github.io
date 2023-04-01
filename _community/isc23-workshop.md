@@ -8,7 +8,7 @@ icon_alt: Award icon
 <img align="right" src="https://www.hdfgroup.org/wp-content/uploads/2019/02/ISC_hp_logo_small_72dpi_rgb.png">
 
 * **Paper Deadline:** ~~24th March 2023 (AoE)~~ Extended to 31st March 2023 (AoE)
-* **Author Notification:** 10th April 2023
+* **Author Notification:** <strike>10th April 2023</strike> 18th April 2023
 * **Camera ready papers:** 1st May 2023
 * **Workshop:** 25th May 2023
 
