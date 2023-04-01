@@ -9,7 +9,7 @@ icon_alt: Award icon
 
 * **Paper Deadline:** ~~24th March 2023 (AoE)~~ Extended to 31st March 2023 (AoE)
 * **Author Notification:** <strike>10th April 2023</strike> 18th April 2023
-* **Camera ready papers:** 1st May 2023
+* **Camera ready papers:** 10th May 2023
 * **Workshop:** 25th May 2023
 
 ## Workshop details
