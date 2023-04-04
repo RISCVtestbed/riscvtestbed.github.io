@@ -25,7 +25,7 @@ You must first `ssh` to the `riscv-login` server where you will compile your cod
 | StarFive VisionFive V1 #3 | rvc09 | 2 | 8GB | down <br />(bringing online 7th April 2023) |
 | HiFive Unmatched  | rvc11 | 4 | 16GB | up |
 | StarFive VisionFive V2 #1 | rvc12 | 4 | 8GB | up |
-| StarFive VisionFive V2 #2 | rvc13 | 4 | 8GB | down <br />(bringing online 4th April 2023) |
+| StarFive VisionFive V2 #2 | rvc13 | 4 | 8GB | up |
 
 ### Submitting jobs
 
