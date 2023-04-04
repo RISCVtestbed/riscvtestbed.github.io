@@ -18,8 +18,8 @@ You must first `ssh` to the `riscv-login` server where you will compile your cod
 | DongshanNezhaSTU #2 | rvc02 | 1 | 512MB | down <br />(back online 7th April 2023) |
 | DongshanNezhaSTU #3 | rvc03 | 1 | 512MB | down <br />(back online 7th April 2023)|
 | DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | down <br />(back online 7th April 2023) |
-| MangoPi MQ-Pro #1 | rvc05 | 1 | 1GB | down <br />(bringing online 4th April 2023) |
-| MangoPi MQ-Pro #2 | rvc06 | 1 | 1GB | down <br />(bringing online 4th April 2023) |
+| MangoPi MQ-Pro #1 | rvc05 | 1 | 1GB | up |
+| MangoPi MQ-Pro #2 | rvc06 | 1 | 1GB | up |
 | StarFive VisionFive V1 #1 | rvc07 | 2 | 8GB | up |
 | StarFive VisionFive V1 #2 | rvc08 | 2 | 8GB | up |
 | StarFive VisionFive V1 #3 | rvc09 | 2 | 8GB | down <br />(bringing online 7th April 2023) |
