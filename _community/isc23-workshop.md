@@ -60,8 +60,12 @@ All papers should be formatted Springer single column LNCS style, with formattin
 ### Program committee
 
 * Oliver Perks (Rivos)
+* Unsal Osman (BSC)
 * Maurice Jamieson (EPCC)
 * Ruyman Reyes (Codeplay)
+* Luis Plana (BSC)
 * Joseph Lee (EPCC)
 * Luc Berger-Vergait (Sandia National Laboratories)
+* Teresa Cervero (BSC)
+* Chris Taylor (Tactical Computing Labs)
 
