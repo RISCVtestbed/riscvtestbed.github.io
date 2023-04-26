@@ -10,24 +10,33 @@ We have a variety of RISC-V compute nodes within a Slurm cluster that you can ex
 
 You must first `ssh` to the `riscv-login` server where you will compile your code. The compiled code is then run on the RISC-V nodes using Slurm.
 
-> The whole cluster, including `riscv-login` is down due to a power issue. Planned resolution date 26th April 2023
  
 ### List of available nodes
 
 | Description  | Hostname | # of cores | DRAM | Status |
 | ------------- | ------------- |  ------------- | ------------- | ------------- | 
-| DongshanNezhaSTU #1 | rvc01 | 1 | 512MB | down <br />(back online 28th April 2023) |
-| DongshanNezhaSTU #2 | rvc02 | 1 | 512MB | down <br />(back online 28th April 2023) |
-| DongshanNezhaSTU #3 | rvc03 | 1 | 512MB | down <br />(back online 28th April 2023)|
-| DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | down <br />(back online 28th April 2023) |
+| DongshanNezhaSTU #1 | rvc01 | 1 | 512MB | down <br />(TBA) |
+| DongshanNezhaSTU #2 | rvc02 | 1 | 512MB | down <br />(TBA) |
+| DongshanNezhaSTU #3 | rvc03 | 1 | 512MB | down <br />(TBA)|
+| DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | down <br />(TBA) |
 | MangoPi MQ-Pro #1 | rvc05 | 1 | 1GB | up |
 | MangoPi MQ-Pro #2 | rvc06 | 1 | 1GB | up |
 | StarFive VisionFive V1 #1 | rvc07 | 2 | 8GB | up |
 | StarFive VisionFive V1 #2 | rvc08 | 2 | 8GB | up |
-| StarFive VisionFive V1 #3 | rvc09 | 2 | 8GB | down <br />(bringing online 28th April 2023) |
+| StarFive VisionFive V1 #3 | rvc09 | 2 | 8GB | down <br />(TBA) |
 | HiFive Unmatched  | rvc11 | 4 | 16GB | up |
 | StarFive VisionFive V2 #1 | rvc12 | 4 | 8GB | up |
-| StarFive VisionFive V2 #2 | rvc13 | 4 | 8GB | down <br />(back online 19th April 2023) |
+| StarFive VisionFive V2 #2 | rvc13 | 4 | 8GB | up |
+| StarFive VisionFive V2 #3 | rvc14| 4 | 8GB | up |
+| StarFive VisionFive V2 #4 | rvc15 | 4 | 8GB | up |
+| StarFive VisionFive V2 #5 | rvc16 | 4 | 8GB | up |
+| StarFive VisionFive V2 #6 | rvc17 | 4 | 8GB | up |
+| StarFive VisionFive V2 #7 | rvc18 | 4 | 8GB | up |
+| StarFive VisionFive V2 #8 | rvc19 | 4 | 8GB | up |
+| StarFive VisionFive V2 #9 | rvc20 | 4 | 8GB | down <br />(TBA)  
+| StarFive VisionFive V2 #10 | rvc21 | 4 | 8GB | down <br />(TBA) |
+| StarFive VisionFive V2 #11 | rvc22 | 4 | 8GB | down <br />(TBA) |
+| StarFive VisionFive V2 #12 | rvc23 | 4 | 8GB | down <br />(TBA) |
 
 ### Submitting jobs
 
