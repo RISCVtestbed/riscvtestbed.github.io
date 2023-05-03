@@ -12,7 +12,7 @@ Co-located with ISC 2023, this is a half day afternoon workshop is on Thursday 2
 | Time        | Session           | Speaker  |
 | ------------- |:-------------:| -----:|
 | 14:00 - 14:05 | Welcome and aims | Nick Brown |
-| 14:05 - 14:40 | Keynote: Paving the Road for RISC-V Supercomputers with Open Hardware ([abstract](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/_community/isc23-workshop.md#keynote-paving-the-road-for-risc-v-supercomputers-with-open-hardware))| Luca Benini |
+| 14:05 - 14:40 | Keynote: Paving the Road for RISC-V Supercomputers with Open Hardware ([abstract](keynote-paving-the-road-for-risc-v-supercomputers-with-open-hardware))| Luca Benini |
 | 14:40 - 15:00 | Evaluation of HPC Workloads Running on Open-Source RISC-V Hardware ([abstract](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/_community/isc23-workshop.md#evaluation-of-hpc-workloads-running-on-open-source-risc-v-hardware))| Clay Hughes |
 | 15:00 - 15:20 | Test-driving RISC-V Vector hardware for HPC ([abstract](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/_community/isc23-workshop.md#test-driving-risc-v-vector-hardware-for-hpc))| Joseph Lee |
 | 15:20 - 15:40 | Software Development Vehicles to enable extended and early co-design: a RISC-V and HPC case of study ([abstract](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/_community/isc23-workshop.md#software-development-vehicles-to-enable-extended-and-early-co-design-a-risc-v-and-hpc-case-of-study))| Filippo Mantovani | 
