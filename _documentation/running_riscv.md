@@ -24,16 +24,16 @@ You must first `ssh` to the `riscv-login` server where you will compile your cod
 | StarFive VisionFive V1 #1 | rvc07 | 2 | 8GB | up |
 | StarFive VisionFive V1 #2 | rvc08 | 2 | 8GB | up |
 | StarFive VisionFive V1 #3 | rvc09 | 2 | 8GB | down <br />(TBA) |
-| HiFive Unmatched  | rvc10 | 4 | 16GB | down <br />(online 13th May 2023) |
+| HiFive Unmatched  | rvc10 | 4 | 16GB | down - CPU fan failed <br />(online TBC) |
 | StarFive VisionFive V2 #1 | rvc11 | 4 | 8GB | down <br />(TBA) |
-| StarFive VisionFive V2 #2 | rvc12 | 4 | 8GB | down <br />(online 13th May 2023) |
-| StarFive VisionFive V2 #3 | rvc13 | 4 | 8GB | down <br />(online 13th May 2023) |
-| StarFive VisionFive V2 #4 | rvc14| 4 | 8GB | down <br />(online 13th May 2023) |
-| StarFive VisionFive V2 #5 | rvc15 | 4 | 8GB | down <br />(online 13th May 2023) |
-| StarFive VisionFive V2 #6 | rvc16 | 4 | 8GB | down <br />(online 13th May 2023) |
-| StarFive VisionFive V2 #7 | rvc17 | 4 | 8GB | down <br />(online 13th May 2023) |
-| StarFive VisionFive V2 #8 | rvc18 | 4 | 8GB | down <br />(online 13th May 2023) |
-| StarFive VisionFive V2 #9 | rvc19 | 4 | 8GB | down <br />(online 13th May 2023) |
+| StarFive VisionFive V2 #2 | rvc12 | 4 | 8GB | up |
+| StarFive VisionFive V2 #3 | rvc13 | 4 | 8GB | up |
+| StarFive VisionFive V2 #4 | rvc14| 4 | 8GB | up |
+| StarFive VisionFive V2 #5 | rvc15 | 4 | 8GB | up |
+| StarFive VisionFive V2 #6 | rvc16 | 4 | 8GB | up |
+| StarFive VisionFive V2 #7 | rvc17 | 4 | 8GB | up |
+| StarFive VisionFive V2 #8 | rvc18 | 4 | 8GB | up |
+| StarFive VisionFive V2 #9 | rvc19 | 4 | 8GB | up |
 | StarFive VisionFive V2 #10 | rvc20 | 4 | 8GB | down <br />(TBA) | 
 | StarFive VisionFive V2 #11 | rvc21 | 4 | 8GB | down <br />(TBA) |
 | StarFive VisionFive V2 #12 | rvc22 | 4 | 8GB | down <br />(TBA) |
