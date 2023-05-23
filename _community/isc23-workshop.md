@@ -24,7 +24,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 16:50 - 17:10 | Backporting RISC-V vector assembly ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#backporting-risc-v-vector-assembly))| Joseph Lee |
 | 17:10 - 17:20 | Functional Testing with STLs: A Step Towards Reliable RISC-V-based HPC Commodity Clusters ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#functional-testing-with-stls-a-step-towards-reliable-risc-v-based-hpc-commodity-clusters))| Jacopo Sini |
 | 17:20 - 17:30 | Prototyping reconfigurable RRAM-based AI accelerators using the RISC-V ecosystem and Digital Twins ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#prototyping-reconfigurable-rram-based-ai-accelerators-using-the-risc-v-ecosystem-and-digital-twins))| Markus Fritscher |
-| 17:30 - 17:40 | Optimization of the FFT algorithm on RISC-V CPUs ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#realization-and-optimization-of-fft-algorithm-on-risc-v-cpus))| Xianyi Zhang |
+| 17:30 - 17:40 | Optimization of the FFT algorithm on RISC-V CPUs ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#optimization-of-the-fft-algorithm-on-risc-v-cpus))| Xianyi Zhang |
 | 17:40 - 17:50 | Performance Modelling-driven Optimization of RISC-V Hardware for Efficient SpMV ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#performance-modelling-driven-optimization-of-risc-v-hardware-for-efficient-spmv))| Alexandre Rodrigues |
 | 17:50 - 18:00 | Accelerating Neural Networks using Open Standard Software on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#accelerating-neural-networks-using-open-standard-software-on-risc-v))| Peter Žužek |
 
