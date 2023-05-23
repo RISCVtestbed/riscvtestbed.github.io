@@ -5,7 +5,7 @@ icon_alt: Award icon
 ---
 
 ## Important dates
-<img align="right" src="https://www.hdfgroup.org/wp-content/uploads/2019/02/ISC_hp_logo_small_72dpi_rgb.png">
+<img align="right" src="/images/sc23_hor_blackcolor@4x.png" width=350>
 
 * **Paper Deadline:** 11th August 2023 (AoE)
 * **Author Notification:** 8th September 2023
