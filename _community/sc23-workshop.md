@@ -43,7 +43,7 @@ We invite submissions of high-quality, original research results and works-in-pr
 
 ### Paper submission
 
-Authors are invited to submit unpublished, original work, and accepted papers will appear in the SC workshop proceedings published by the ACM. Papers should be between 6 and 10 pages long where the page counts includes references and figures. All papers should be submitted via Linklings [here](https://submissions.supercomputing.org/?args=Aprcnt3DxGzb0zU3TJUHtGyfHfbQIf0zU30Jprcnt3DbATzU30IXrfGzIXrf_9MTz0Cx0zfsGNpD_DTHQP0Aprcnt3DxfGzU3ACIIfb0HQP0Aprcnt3DxfTtUbprcnt3DsfGQUIYprcnt3DbTtUbb0XfQbGzt9hTzYprcnt3D40bprcnt3DQxGdbUfTzYprcnt3D40QHHGdbUfTzYprcnt3D40Iprcnt3Dxprcnt3DGdbUfTrAprcnt3DxGzU3ACI0IQ3TrJUHtGzU3ACI0IQ3TEGh_M_R)
+Authors are invited to submit unpublished, original work, and accepted papers will appear in the SC workshop proceedings published by the ACM. Papers should be between 6 and 10 pages long where the page count includes references and figures. All papers should be submitted via Linklings [here](https://submissions.supercomputing.org/?args=Aprcnt3DxGzb0zU3TJUHtGyfHfbQIf0zU30Jprcnt3DbATzU30IXrfGzIXrf_9MTz0Cx0zfsGNpD_DTHQP0Aprcnt3DxfGzU3ACIIfb0HQP0Aprcnt3DxfTtUbprcnt3DsfGQUIYprcnt3DbTtUbb0XfQbGzt9hTzYprcnt3D40bprcnt3DQxGdbUfTzYprcnt3D40QHHGdbUfTzYprcnt3D40Iprcnt3Dxprcnt3DGdbUfTrAprcnt3DxGzU3ACI0IQ3TrJUHtGzU3ACI0IQ3TEGh_M_R)
 
 All papers should be formatted using the new ACM proceedings templates and the CCS2012 guide, these are available [here](http://www.acm.org/publications/article-templates/proceedings-template.html/)
 
