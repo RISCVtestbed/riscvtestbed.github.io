@@ -26,7 +26,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 17:20 - 17:30 | Prototyping reconfigurable RRAM-based AI accelerators using the RISC-V ecosystem and Digital Twins ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#prototyping-reconfigurable-rram-based-ai-accelerators-using-the-risc-v-ecosystem-and-digital-twins))| Markus Fritscher |
 | 17:30 - 17:40 | Optimization of the FFT algorithm on RISC-V CPUs ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#optimization-of-the-fft-algorithm-on-risc-v-cpus)) ([slides](https://riscv.epcc.ed.ac.uk/assets/files/isc23/zhang_isc23.pdf))| Xianyi Zhang |
 | 17:40 - 17:50 | Performance Modelling-driven Optimization of RISC-V Hardware for Efficient SpMV ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#performance-modelling-driven-optimization-of-risc-v-hardware-for-efficient-spmv))| Alexandre Rodrigues |
-| 17:50 - 18:00 | Accelerating Neural Networks using Open Standard Software on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#accelerating-neural-networks-using-open-standard-software-on-risc-v))| Peter Žužek |
+| 17:50 - 18:00 | Accelerating Neural Networks using Open Standard Software on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/isc23-workshop/#accelerating-neural-networks-using-open-standard-software-on-risc-v)) ([slides](https://riscv.epcc.ed.ac.uk/assets/files/isc23/Narasimhan_ISC23.pdf))| Peter Žužek |
 
 
 ## Abstracts
