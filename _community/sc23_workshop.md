@@ -7,7 +7,7 @@ icon_alt: Award icon
 ## Important dates
 <img align="right" src="/images/sc23_hor_blackcolor@4x.png" width=350>
 
-* **Paper Deadline:** 11th August 2023 (AoE)
+* **Paper Deadline:** <strike>11th August 2023<strike> 18th August 2023 (AoE)
 * **Author Notification:** 8th September 2023
 * **Camera ready papers:** 29th September 2023
 * **Workshop:** 1:30pm to 5pm on Monday 13th November 2023
