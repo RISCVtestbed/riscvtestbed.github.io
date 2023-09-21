@@ -43,9 +43,7 @@ We invite submissions of high-quality, original research results and works-in-pr
 
 ### Paper submission
 
-Authors are invited to submit unpublished, original work, and accepted papers will appear in the ACM workshop proceedings. Papers should be between 6 and 10 pages long where the page count includes references and figures. 
-
-All papers should be formatted using the new ACM proceedings templates and the CCS2012 guide, these are available [here](http://www.acm.org/publications/article-templates/proceedings-template.html/)
+Authors are invited to submit unpublished, original work, and accepted papers will appear in the workshop proceedings. Following the main HPCAsia paper guidelines,  where manuscripts should be submitted for review in a single-column format and be at most 18 pages including figures and references, formatted according to the ACM Proceedings Style. The ACM templates for Word and LaTeX as well as further details can be found on the main [HPCAsia CfP page](https://sighpc.ipsj.or.jp/HPCAsia2024/cfp.html).
 
 ## Organisation 
 
