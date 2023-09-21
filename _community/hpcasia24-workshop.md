@@ -5,7 +5,7 @@ icon_alt: Award icon
 ---
 
 ## Important dates
-<img align="right" src="/images/HPCAsia2024logo.png" width=350>
+<img align="right" src="/images/HPCAsia2024logo.png" width=150>
 
 * **Paper Deadline:** 14th November 2023 (AoE)
 * **Author Notification:** 30th November 2023
