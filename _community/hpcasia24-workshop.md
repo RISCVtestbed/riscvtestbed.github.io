@@ -45,6 +45,8 @@ We invite submissions of high-quality, original research results and works-in-pr
 
 Authors are invited to submit unpublished, original work, and accepted papers will appear in the workshop proceedings. Following the main HPCAsia paper guidelines,  where manuscripts should be submitted for review in a single-column format and be at most 18 pages including figures and references, formatted according to the ACM Proceedings Style. The ACM templates for Word and LaTeX as well as further details can be found on the main [HPCAsia CfP page](https://sighpc.ipsj.or.jp/HPCAsia2024/cfp.html).
 
+Papers should be submitted via EasyChair [here](https://easychair.org/my/conference?conf=riscvhpcasia24)
+
 ## Organisation 
 
 ### Organising committee
