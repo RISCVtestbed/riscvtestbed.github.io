@@ -10,7 +10,6 @@ We have a variety of RISC-V compute nodes within a Slurm cluster that you can ex
 
 You must first `ssh` to the `riscv-login` server where you will compile your code. The compiled code is then run on the RISC-V nodes using Slurm.
 
-> **NOTE:** Whole cluster down 25th August due to hardware upgrade.
  
 ### List of available nodes
 
@@ -39,6 +38,7 @@ You must first `ssh` to the `riscv-login` server where you will compile your cod
 | StarFive VisionFive V2 #11 | rvc21 | 4 | 8GB | up |
 | StarFive VisionFive V2 #12 | rvc22 | 4 | 8GB | up |
 | StarFive VisionFive V2 #13 | rvc23 | 4 | 8GB | up |
+| Milk-V Pioneer #1 | rvc24 | 64 | 132GB | up |
 
 ### Submitting jobs
 
