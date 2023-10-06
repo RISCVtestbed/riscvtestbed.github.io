@@ -38,7 +38,8 @@ You must first `ssh` to the `riscv-login` server where you will compile your cod
 | StarFive VisionFive V2 #11 | rvc21 | 4 | 8GB | up |
 | StarFive VisionFive V2 #12 | rvc22 | 4 | 8GB | up |
 | StarFive VisionFive V2 #13 | rvc23 | 4 | 8GB | up |
-| Milk-V Pioneer #1 | rvc24 | 64 | 132GB | up |
+| Milk-V Pioneer #1 | rvc24 | 64 | 128GB | up |
+| Milk-V Pioneer #2 | rvc25 | 64 | 128GB | up |
 
 ### Submitting jobs
 
