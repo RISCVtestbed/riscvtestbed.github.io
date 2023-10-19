@@ -13,7 +13,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 ## Workshop schedule
 
 | Time        | Session           | Speaker  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------| :-----|
 | 14:00 - 14:05 | Welcome and aims | Nick Brown |
 | 14:05 - 14:40 | **Keynote:** RISC-V Everywhere ([abstract](https://sc23.supercomputing.org/presentation/?id=misc246&sess=sess455))| Mark Himelstein |
 | 14:40 - 14:45 | **Vendor Lightning Talk:** Esperanto Technologies ET-SoC for AI and ML Workloads ([abstract](https://sc23.supercomputing.org/presentation/?id=misc247&sess=sess455))| Nikola Rajovic |
