@@ -8,8 +8,8 @@ icon_alt: Award icon
 <img align="right" src="/images/HPCAsia2024logo.png" width=150>
 
 * **Paper Deadline:** ~~14th November 2023~~ Extended to 28th November 2023 (AoE)
-* **Author Notification:** 30th November 2023
-* **Camera ready papers:** TBC
+* **Author Notification:** 12th December 2023
+* **Camera ready papers:** 20th December 2023
 * **Workshop:** 8:30 a.m. to noon on January 25th 2024
 
 ## Workshop details
