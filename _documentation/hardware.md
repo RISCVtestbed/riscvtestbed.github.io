@@ -8,6 +8,13 @@ The testbed contains both physical and soft-core RISC-V CPUs, and this page prov
 
 # Physical boards
 
+## Milk-V Pioneer
+<img src="/images/milk-v-box-angle.png" width="150" height="150" align="left"/>
+The Milk-V Pioneer is a microATX board powered by the SOPHGO SG2042, 64-core C920 64-bit RISC-V processor, with 64MB L3 cache and RVV 0.71 support. The board includes 128GB of DDR4 RAM, 1TB of PCIe 3.0 SSD module storage and 2x 10 Gigabit ethernet, running Fedora Linux 38. 
+
+The testbed contains two of these boards. 
+
+The system is configured with Open MPI 4.1, PETSc, LAPACK, BLAS, FFTW 3.3, HDF5, NetCDF, Python 3.9, Clang / LLVM 12.0, GCC and  GNU Fortran 10.3. 
 ## HiFive Unmatched
 <img src="/images/HiFive_unmatched.jpg" width="150" height="150" align="left"/>
 The HiFive Unmatched is a Mini-ITX board powered by the SiFive Freedom U740 four-core, 64-bit dual-issue, superscalar RISC-V processor. The board includes 16GB of DDR4 RAM, 128GB of M.2 PCIe Gen 3 x4 SSD module storage and Gigabit ethernet, running Ubuntu 21.04 (hirsute) Linux. 
