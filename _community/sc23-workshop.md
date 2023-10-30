@@ -17,7 +17,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 14:00 - 14:05 | Welcome and aims | Nick Brown |
 | 14:05 - 14:40 | **Keynote:** RISC-V Everywhere ([abstract](https://sc23.supercomputing.org/presentation/?id=misc246&sess=sess455))| Mark Himelstein |
 | 14:40 - 14:45 | **Vendor Lightning Talk:** Esperanto Technologies ET-SoC for AI and ML Workloads ([abstract](https://sc23.supercomputing.org/presentation/?id=misc247&sess=sess455))| Nikola Rajovic |
-| 14:45 - 14:50 | **Vendor Lightning Talk:** Inspire Semiconductor ([abstract](https://sc23.supercomputing.org/presentation/?id=misc248&sess=sess455)) | Doug Norton |
+| 14:45 - 14:50 | **Vendor Lightning Talk:** The InspireSemi next gen Thunderbird compute accelerator for HPC, AI, and graph analyticsr ([abstract](https://sc23.supercomputing.org/presentation/?id=misc248&sess=sess455)) | Doug Norton |
 | 14:50 - 14:55 | **Vendor Lightning Talk:** SG2042 Empowering RISC-V in High-Performance Computing ([abstract](https://sc23.supercomputing.org/presentation/?id=misc250&sess=sess455))| Liuxi Yang | 
 | 14:55 - 15:00 | **Vendor Lightning Talk:** E4 Experience with RISC-V in HPC ([abstract](https://sc23.supercomputing.org/presentation/?id=misc252&sess=sess455)) | Daniele Gregori |
 | 15:00 - 15:30 | Coffee Break | |
