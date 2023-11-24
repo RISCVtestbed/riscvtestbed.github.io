@@ -7,9 +7,9 @@ tags:
 last_modified_at: 2022-11-23
 ---
 
-Some of the [hardware]({% link _documentation/hardware.md %}) (e.g. Allwinner D1) within the testbed supports RISC-V V vector extension (RVV). Here we document and provide references for compiling code with vector instructions. 
+Some of the [hardware]({% link _documentation/hardware.md %}) (e.g. Sophon SG2042 and Allwinner D1) within the testbed supports RISC-V V vector extension (RVV). Here we document and provide references for compiling code with vector instructions. 
 
-A major caveat is that the first ratified RVV is version 1.0 ([spec](https://github.com/riscv/riscv-v-spec/blob/3570f998903f00352552b670f1f7b7334f0a144a/v-spec.adoc)), whereas the C906 core in the Allwinner D1 SoC was designed to support RVV 0.7.1 ([spec](https://github.com/riscv/riscv-v-spec/blob/0a24d0f61b5cd3f1f9265e8c40ab211daa865ede/v-spec.adoc)). The two specs are similar but not compatible. For more information, see [1](https://www.reddit.com/r/RISCV/comments/v1dvww/allwinner_d1_extensions/) [2](https://github.com/riscv/riscv-v-spec/issues/667).
+A major caveat is that the first ratified RVV is version 1.0 ([spec](https://github.com/riscv/riscv-v-spec/blob/3570f998903f00352552b670f1f7b7334f0a144a/v-spec.adoc)), whereas the C920 and C906 cores in Sophon SG2042 and the Allwinner D1 SoCs were designed to support RVV 0.7.1 ([spec](https://github.com/riscv/riscv-v-spec/blob/0a24d0f61b5cd3f1f9265e8c40ab211daa865ede/v-spec.adoc)). The two specs are similar but not compatible. For more information, see [1](https://www.reddit.com/r/RISCV/comments/v1dvww/allwinner_d1_extensions/) [2](https://github.com/riscv/riscv-v-spec/issues/667).
 
 
 On riscv-login, the following compilers modules (see [Getting Started]({% link _documentation/getting_started.md %})) support RVV 0.7.1:
