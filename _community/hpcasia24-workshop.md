@@ -4,16 +4,12 @@ icon: /images/podium.png
 icon_alt: Award icon
 ---
 
-## Important dates
+## Logistics
 <img align="right" src="/images/HPCAsia2024logo.png" width=150>
 
-* **Paper Deadline:** ~~14th November 2023~~ Extended to 28th November 2023 (AoE)
-* **Author Notification:** 12th December 2023
-* **Camera ready papers:** 20th December 2023
-* **Workshop:** 8:30 a.m. to noon on January 25th 2024
+Co-located with <a href="https://sighpc.ipsj.or.jp/HPCAsia2024/">HPC Asia 2024</a>, this workshop will run between 08:30 and 12:30 on the morning of January 25th 2024 in Nagoya, Japan
 
 ## Workshop details
-Co-located with HPC Asia, this workshop will run between 8:30 a.m. and noon on January 25th 2024 in Nagoya, Japan
 
 The goal of this workshop is to continue building the community of RISC-V in HPC, sharing the benefits of this technology with domain scientists, tool developers, and supercomputer operators. RISC-V is an open standard Instruction Set Architecture (ISA) which enables the royalty free development of CPUs and a common software ecosystem to be shared across them. Following this community driven ISA standard, a very diverse set of CPUs have been, and continue to be, developed which are suited to a range of workloads. Whilst RISC-V has become very popular already in some fields, and in 2022 the ten billionth RISC-V core was shipped, to date it has yet to gain traction in HPC.
 
