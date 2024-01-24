@@ -23,6 +23,6 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 10:10 - 10:30 | Break |  |
 | 10:30 - 11:00 | E4 Experience with RISC-V in HPC | Daniele Gregori |
 | 11:00 - 11:20 | The phenomenal pace of change making RISC-V more attractive for HPC | Nick Brown |
-| 11:20 - 11:50 | Optimization of copy Automotive RV | Akira Tsukamoto  |
+| 11:20 - 11:50 | Lessons learned on Cell/B.E. for Hetero Programming Model, and alignments tweaks on RISC-V for Network speeds | Akira Tsukamoto  |
 | 11:50 - 12:25 | **Panel:** Will 2024 be the year for RISC-V in HPC? | |
 | 12:25 - 12:30 | Conclusions and next steps | Nick Brown |
