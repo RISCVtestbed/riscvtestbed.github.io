@@ -19,7 +19,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | ------------- |:-------------| :-----|
 | 09:00 - 09:10 | Welcome and aims | Michael Wong |
 | 09:10 - 09:50 | **Keynote:**  Rev: Scalable HPC Workload Simulation using RISC-V in SST ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/HPCAsiaRVWorkshop_Leidel.pdf)) | John Leidel |
-| 09:50 - 10:00 | SG2042 Empowering RISC-V in High-Performance Computing | Wang Zihan |
+| 09:50 - 10:00 | SG2042 Empowering RISC-V in High-Performance Computing ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/hpc_asia_wang.pdf)) | Wang Zihan |
 | 10:00 - 10:30 | Break |  |
 | 10:30 - 11:00 | E4 Experience with RISC-V in HPC | Daniele Gregori |
 | 11:00 - 11:20 | The phenomenal pace of change making RISC-V more attractive for HPC ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/risc-v-hpc-asia_Brown.pdf)) | Nick Brown |
