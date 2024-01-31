@@ -21,7 +21,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 09:10 - 09:50 | **Keynote:**  Rev: Scalable HPC Workload Simulation using RISC-V in SST ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/HPCAsiaRVWorkshop_Leidel.pdf)) | John Leidel |
 | 09:50 - 10:00 | SG2042 Empowering RISC-V in High-Performance Computing ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/hpc_asia_wang.pdf)) | Wang Zihan |
 | 10:00 - 10:30 | Break |  |
-| 10:30 - 11:00 | E4 Experience with RISC-V in HPC | Daniele Gregori |
+| 10:30 - 11:00 | E4 Experience with RISC-V in HPC ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/E4_HPCASIA_2024-V.0.2.pdf)) | Daniele Gregori |
 | 11:00 - 11:20 | The phenomenal pace of change making RISC-V more attractive for HPC ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/risc-v-hpc-asia_Brown.pdf)) | Nick Brown |
 | 11:20 - 11:50 | Lessons learned on Cell/B.E. for Hetero Programming Model, and alignments tweaks on RISC-V for Network speeds ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/RISC-V_Workshop-HPC-AkiraTsukamoto-2024-01-25-1.pdf)) | Akira Tsukamoto  |
 | 11:50 - 12:25 | **Panel:** Will 2024 be the year for RISC-V in HPC? | |
