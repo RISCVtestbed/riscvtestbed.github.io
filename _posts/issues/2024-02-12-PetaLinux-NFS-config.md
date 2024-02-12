@@ -1,4 +1,11 @@
-# RISC-V Testbed RISC-V soft-core support
+---
+title: "RISC-V Testbed RISC-V soft-core support"
+layout: post
+categories:
+  - Issues
+tags:
+last_modified_at: 2024-02-12
+---
 As well as supporting physical hardware (e.g. Allwinner D1, SiFive U74, and 64-core SOPHGO SG2042 CPUs), the testbed also supports RISC-V soft-cores running on an ADM-PA101, which is an AMD/Xilinx Versal FPGA equipped with 16GB DDR. 
 ## Background
 In order to simplify developent, the ADM-PA101 has been set up to run PetaLinux, to allow the soft-cores to be added to the Slurm cluster as the card has Ethernet access. To enable this, we need to configure PetaLinux to boot via 'tftp' and mount its root filesystem over NFS. 
