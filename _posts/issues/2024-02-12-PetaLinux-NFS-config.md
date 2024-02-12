@@ -1,5 +1,5 @@
 ---
-title: "RISC-V Testbed RISC-V soft-core support"
+title: "RISC-V soft-core support"
 layout: post
 categories:
   - Issues
