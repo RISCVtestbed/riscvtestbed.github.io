@@ -8,7 +8,7 @@ last_modified_at: 2024-02-12
 ---
 As well as supporting physical hardware (e.g. Allwinner D1, SiFive U74, and 64-core SOPHGO SG2042 CPUs), the testbed also supports RISC-V soft-cores running on an ADM-PA101, which is an AMD/Xilinx Versal FPGA equipped with 16GB DDR. 
 ## Background
-In order to simplify developent, the ADM-PA101 has been set up to run PetaLinux, to allow the soft-cores to be added to the Slurm cluster as the card has Ethernet access. To enable this, we need to configure PetaLinux to boot via 'tftp' and mount its root filesystem over NFS. 
+In order to simplify development, the ADM-PA101 has been set up to run PetaLinux, to allow the soft-cores to be added to the Slurm cluster as the card has Ethernet access. To enable this, we need to configure PetaLinux to boot via 'tftp' and mount its root filesystem over NFS. 
 
 ### Networking / MAC address configuration
 By default, PetaLinux configures the Ethernet port with a random MAC address. To allow a DHCP assigned IP address based on the MAC address, the following variables need to be set:
@@ -71,13 +71,15 @@ sh`
 5. `cd simple`
 6.  `petalinux-build`
 7. Make a cup of tea / coffee, drink slowly and wait...
-8. Now either create a patch to the config file to add DHCP and NFS support using `diff`:
+8. Either:
+  - Create a patch to the config file to add DHCP and NFS support using `diff`
   - Copy the patch (here `config.patch`) to `ps_base_sw-admpa101-v1_2_0/sw/petalinux/simple`
   - `patch -b project-spec/configs/config config.patch`
-  - *OR* edit the `project-spec/configs/config` directly to make the requred changes above
-9. `petalinux-build`
-10. `petalinux-package --boot --u-boot` (builds `BOOT.BIN`)
-11. Copy `image.ub`, `boot.scr` and `BOOT.BIN` from `/tftpboot` to the uSD card (`petalinux-build` will place the files in `/tftpboot` by default).
+9. Or:
+  - Edit the `project-spec/configs/config` directly to make the required changes above
+10. `petalinux-build`
+11. `petalinux-package --boot --u-boot` (builds `BOOT.BIN`)
+12. Copy `image.ub`, `boot.scr` and `BOOT.BIN` from `/tftpboot` to the uSD card (`petalinux-build` will place the files in `/tftpboot` by default).
  
 >**Note:**
 Ignore the following warning as once NFS is enabled, the user accounts will be configured from the NFS root file system:
