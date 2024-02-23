@@ -23,6 +23,6 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 10:00 - 10:30 | Break |  |
 | 10:30 - 11:00 | E4 Experience with RISC-V in HPC ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/E4_HPCASIA_2024-V.0.2.pdf)) | Daniele Gregori |
 | 11:00 - 11:20 | The phenomenal pace of change making RISC-V more attractive for HPC ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/risc-v-hpc-asia_Brown.pdf)) | Nick Brown |
-| 11:20 - 11:50 | Lessons learned on Cell/B.E. for Hetero Programming Model, and alignments tweaks on RISC-V for Network speeds ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/RISC-V_Workshop-HPC-AkiraTsukamoto-2024-01-25-2.pdf)) | Akira Tsukamoto  |
+| 11:20 - 11:50 | Lessons learned on Cell/B.E. for Hetero Programming Model, and alignments tweaks on RISC-V for Network speeds ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/hpcasia24/RISC-V_Workshop-HPC-AkiraTsukamoto-2024-01-25-3.pdf)) | Akira Tsukamoto  |
 | 11:50 - 12:25 | **Panel:** Will 2024 be the year for RISC-V in HPC? | |
 | 12:25 - 12:30 | Conclusions and next steps | Nick Brown |
