@@ -57,7 +57,7 @@ Next we create our C program that will perform a vector addition of vectors a an
 vim rvv-test.c
 ```
 
-```C
+```C++
 #include <stdio.h>
 #include <riscv_vector.h>
 
