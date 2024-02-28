@@ -22,20 +22,20 @@ module load riscv64-linux/gnu-10.2-rvv
 
 We need to create an area to write our code in and provide a Makefile to enable us to easily build our program:
 
-```
+```bash
 mkdir rvv-test
 cd rvv-test
 ```
 
 The `Makefile` needs to give the correct GCC command to crosscompile our code so that it can be run on the RISC-V Testbed:
 
-```
+```bash
 vim Makefile
 ```
 
 The Makefile:
 
-```
+```make
 CC=riscv64-unknown-linux-gnu-gcc
 CFLAGS=-O2 -march=rv64gcv -mabi=lp64d
 TARGET=rvv-test
@@ -53,11 +53,11 @@ The `-march=rv6gcv` flag tells the compiler that the target executable is for a 
 
 Next we create our C program that will perform a vector addition of vectors a and b, then put the result in vector c.
 
-```
+```bash
 vim rvv-test.c
 ```
 
-```
+```C
 #include <stdio.h>
 #include <riscv_vector.h>
 
@@ -95,11 +95,11 @@ We compile the code by typing `make`
 
 Once we have our executable we can create a Slurm batch file to run the program on one of the EPCC Testbed Milk-V Pioneer computers:
 
-```
+```bash
 vim rvv-test.srun
 ```
 
-```
+```bash
 #!/bin/bash
 #SBATCH -A <Your Username>
 #SBATCH -n 1
@@ -114,7 +114,7 @@ We set the nodelist to `rvc25` so that we target a Milk-V Pioneer computer which
 
 Finally we can run our program:
 
-```
+```bash
 sbatch rvv-test.srun
 ```
 
@@ -122,7 +122,7 @@ After entering the command above you will get a message like `Submitted batch jo
 
 An output file will be created called `slurm-9984.out` (change the number to the one given by the submission output above).  This file will hopefully contain the output from your program.  If the run failed, this file will contain the error messages related to the failed run:
 
-```
+```bash
 <My Username>@riscv-login:~/rvv-test$ more slurm-9984.out
 6 8 10 12
 ```
