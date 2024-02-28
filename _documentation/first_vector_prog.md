@@ -1,12 +1,10 @@
 ---
 title: "My First Vector Program"
-author: Richard Neale
 icon: /images/computer.png
 icon_alt: Icon of computer
+author: 
+  name: Richard Neale
 ---
-
-# My First Vector Program
-
 Below is a step by step guide to writing your first RISC-V RVV 0.7.1 C program and running it on the EPCC RISC-V testbed.  It is assumed that you are familiar with the `vim` editor and the C programming language.
 
 Once you have gained [access](https://riscv.epcc.ed.ac.uk/documentation/access/) to the EPCC RISC-V testbed you will be able to compile and run programs on several available systems.  You will need to be logged in to the EPCC RISC-V testbed login node before proceeding with this guide.
