@@ -7,7 +7,7 @@ icon_alt: Award icon
 ## Important dates
 <img align="right" src="https://www.hdfgroup.org/wp-content/uploads/2019/02/ISC_hp_logo_small_72dpi_rgb.png">
 
-* **Paper Deadline:** 11th March 2024 (AoE)
+* **Paper Deadline Extended:** <strike>11th March 2024 (AoE)</strike> 17th March 2024 (AoE)
 * **Author Notification:** 28th March 2024
 * **Workshop:** 16th May 2024
 * **Camera ready papers:** 17th June 2024 (post workshop proceedings)
