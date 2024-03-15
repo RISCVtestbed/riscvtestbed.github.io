@@ -7,8 +7,9 @@ icon_alt: Award icon
 ## Important dates
 <img align="right" src="https://2024.euro-par.org/fileadmin/2024/logos/Euro-Par-2024-logo_sp.svg">
 
-* **Paper Deadline:** 1st June 2024 (AoE)
+* **Paper Deadline:** 6th May 2024 (AoE)
 * **Author Notification:** 20th June 2024
+* **Camera Ready:** 1st July 2024
 * **Workshop:** 26th or 27th August 2024
 
 ## Workshop details
