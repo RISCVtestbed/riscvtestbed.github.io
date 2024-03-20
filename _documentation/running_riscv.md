@@ -10,8 +10,6 @@ We have a variety of RISC-V compute nodes within a Slurm cluster that you can ex
 
 You must first `ssh` to the `riscv-login` server where you will compile your code. The compiled code is then run on the RISC-V nodes using Slurm.
 
-> NOTE: `riscv-login` will be 'at risk' Friday 23rd February AM during essential system maintenance.
-
 ### List of available nodes
 
 | Description  | Hostname | # of cores | DRAM | Status |
