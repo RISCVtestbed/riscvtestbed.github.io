@@ -113,6 +113,7 @@ defaults:
       layout: post
       comments: false
       share: false
+  # Status defaults
   - scope:
       path: "_status"
       type: status
@@ -129,7 +130,9 @@ collections:
   community:
     output: true
     permalink: /:collection/:path/    
-
+  status:
+    output: true
+    permalink: /:collection/:path/  
 
 # Site Author
 author: 
