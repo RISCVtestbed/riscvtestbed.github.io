@@ -115,9 +115,10 @@ defaults:
       share: false
   - scope:
       path: "_status"
-      type: posts
+      type: status
     values:
       layout: post
+      comments: false
       share: true
       
 # Collections
@@ -128,7 +129,9 @@ collections:
   community:
     output: true
     permalink: /:collection/:path/    
-
+  status:
+    output: true
+    permalink: /:status/:path/
 
 # Site Author
 author: 
