@@ -118,7 +118,7 @@ defaults:
       path: "_status"
       type: status
     values:
-      layout: post
+      layout: page
       comments: false
       share: true
       
@@ -130,9 +130,9 @@ collections:
   community:
     output: true
     permalink: /:collection/:path/    
-  status:
-    output: true
-    permalink: /:collection/:path/  
+#  status:
+#    output: true
+#    permalink: /:collection/:path/  
 
 # Site Author
 author: 
