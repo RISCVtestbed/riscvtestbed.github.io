@@ -1,6 +1,6 @@
 ---
 title: "RISC-V testbed cluster status"
-layout: page
+layout: post
 permalink: /status/
 ---
 
