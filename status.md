@@ -1,12 +1,10 @@
 ---
-title: "RISC-V testbed cluster status"
+#title: "RISC-V testbed cluster status"
 layout: post
 permalink: /status/
 ---
 
-We have a variety of RISC-V compute nodes within a Slurm cluster that you can execute your code upon, with more added as time progresses. This page details how to gain access to run your codes on the nodes and which are currently available.
-
-## Cluster status
+# Cluster status
 
 > __NOTE: Remote access to the testbed will be unavailable from Monday 22nd April until Friday 26th April due to work being undertaken at our compute facility which necessitates the removal of power to the gateway.__
 
