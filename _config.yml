@@ -113,7 +113,13 @@ defaults:
       layout: post
       comments: false
       share: false
-
+  - scope:
+      path: "_status"
+      type: posts
+    values:
+      layout: post
+      share: true
+      
 # Collections
 collections:
   documentation:
