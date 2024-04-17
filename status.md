@@ -1,10 +1,10 @@
 ---
-title: "RISC-V testbed cluster status"
+title: "Cluster RISC-V  node status"
 layout: post
 permalink: /status/
 ---
 
-> __NOTE: Remote access to the testbed will be unavailable from Monday 22nd April until Friday 26th April due to work being undertaken at our compute facility which necessitates the removal of power to the gateway.__
+{% include_relative motd.md %}
 
 <img src="/images/cluster_status.png"/>
 
@@ -38,5 +38,3 @@ permalink: /status/
 | Milk-V Pioneer #1 | rvc24 | 64 | 128GB | up |
 | Milk-V Pioneer #2 | rvc25 | 64 | 128GB | up |
 
-
-<!-- Text here will appear on the category page -->
