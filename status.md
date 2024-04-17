@@ -1,6 +1,6 @@
 ---
 title: "Cluster RISC-V node status"
-layout: post
+layout: page
 permalink: /status/
 ---
 
