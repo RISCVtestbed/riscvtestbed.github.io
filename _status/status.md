@@ -1,6 +1,7 @@
 ---
-layout: page
 title: "RISC-V testbed cluster status"
+layout: page
+permalink: /status/
 icon: /images/cpu.png
 icon_alt: Sign post
 ---

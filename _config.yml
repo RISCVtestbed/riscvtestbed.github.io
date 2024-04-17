@@ -114,13 +114,13 @@ defaults:
       comments: false
       share: false
   # Status defaults
-  - scope:
-      path: "_status"
-      type: page
-    values:
-      layout: page
-      comments: false
-      share: true
+#  - scope:
+#      path: "_status"
+#      type: page
+#    values:
+#      layout: page
+#      comments: false
+#      share: true
       
 # Collections
 collections:
