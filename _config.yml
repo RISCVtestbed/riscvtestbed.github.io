@@ -116,7 +116,7 @@ defaults:
   # Status defaults
   - scope:
       path: "_status"
-      type: status
+      type: page
     values:
       layout: page
       comments: false
