@@ -1,5 +1,6 @@
 ---
-title: "Cluster RISC-V node status"
+#title: "Cluster RISC-V node status"
+title:
 layout: page
 permalink: /status/
 ---
