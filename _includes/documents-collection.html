@@ -12,6 +12,12 @@
   {% else %}
     {% assign entries = entries | sort: 'date' %}
   {% endif %}
+{% elsif include.sort_by == 'order' %}
+  {% if include.sort_order == 'reverse' %}
+    {% assign entries = entries | sort: 'order' | reverse %}
+  {% else %}
+    {% assign entries = entries | sort: 'order' %}
+  {% endif %}
 {% endif %}
 
 {%- for entry in entries -%}
