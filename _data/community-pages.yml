@@ -1,10 +1,8 @@
-EuroPar24:
-  - title: EuroPar 2024 workshop
-    url: /community/europar24-workshop/
+- title: EuroPar 2024 workshop
+  url: /community/europar24-workshop/
 
-ISC24:
-  - title: ISC 2024 RISC-V workshop
-    url: /community/isc24-workshop/
+- title: ISC 2024 RISC-V workshop
+  url: /community/isc24-workshop/
   
 #Maurice Jamieson:
 #  name: Maurice Jamieson
