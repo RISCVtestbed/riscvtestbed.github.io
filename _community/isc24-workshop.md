@@ -80,7 +80,7 @@ The RISC-V Software Ecosystem (RISE) project is a collaborative effort led by in
 
 **_Presenter: Volker Politz_**
 
-Founded in Barcelona on 2016, Semidynamics is a European supplier of RISC-V IP cores, specialising in high-bandwidth high-performance cores with vector units targeted at machine learning and artificial intelligence applications. As a proud participant in the European Processor Initiative (EPI), our two flagship cores are the Atrevido and Avispado, with the former ideal for data-centre, HPC and AI, and the later for embedded computing and AI on the edge. The customisable and flexible nature of RISC-V enables us to developed a variety of specialised hardware solutions that will be interesting to the HPC community, including Gazzillion Misses which reduced memory latency and can be beneficial for a wide range of HPC codes.
+Founded in Barcelona on 2016, Semidynamics is a European supplier of RISC-V IP cores, specialising in high-bandwidth high-performance cores with vector units and tensor unit extensions targeted at machine learning and artificial intelligence applications. As a proud participant in the European Processor Initiative (EPI), our two flagship cores are the Atrevido and Avispado, with the former ideal for data-centre, HPC and AI, and the later for embedded computing and AI on the edge. The customisable and flexible nature of RISC-V enables us to develop a variety of specialised hardware solutions that will be interesting to the HPC community, including the Gazzillion Misses feature which hides memory latency and can be beneficial for a wide range of HPC applications.
 
 ### Vendor talk: Codasip
 
