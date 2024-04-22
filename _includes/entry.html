@@ -28,7 +28,11 @@
   {% unless page.show_excerpts == false %}
     <div class="entry-excerpt p-summary">
       {% if entry.excerpt %}
-        {{ entry.excerpt | strip_html  | markdownify }}
+        {% if page.entries_layout == 'list' %}
+          {{ entry.excerpt | strip_html  | markdownify }}
+        {% else %}
+          {{ entry.excerpt | markdownify }}
+        {% endif %}
       {% endif %}
       <u>More...</u>
     </div>
