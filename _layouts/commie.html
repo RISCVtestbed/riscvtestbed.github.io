@@ -20,6 +20,7 @@ layout: default
           <div class="author-info">
               <ul class="author-links">
                 {%- for link in site.data.community-pages -%}
+                {{ link.title }}
                   {%- if link.url contains "://" -%}
                     {%- assign url = link.url -%}
                   {%- else -%}
