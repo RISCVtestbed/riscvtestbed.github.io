@@ -5,6 +5,8 @@ layout: collection
 permalink: /community/
 collection: community
 entries_layout: grid
+sort_by: order
+sort_order: reverse
 ---
 
 <!-- Text here will appear on the category page -->

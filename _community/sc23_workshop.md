@@ -2,6 +2,7 @@
 title: "Second International workshop on RISC-V for HPC"
 icon: /images/podium.png
 icon_alt: Award icon
+order: 4
 ---
 
 ## Workshop details

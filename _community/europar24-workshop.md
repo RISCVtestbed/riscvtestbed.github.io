@@ -2,6 +2,7 @@
 title: "International workshop on RISC-V for HPC co-hosted at EuroPar 2024"
 icon: /images/podium.png
 icon_alt: Award icon
+order: 8
 ---
 
 ## Important dates

@@ -5,6 +5,7 @@ icon_alt: Award icon
 layout: category
 permalink: /community/success/
 taxonomy: Success
+order: 2
 ---
 
 This page will contain reports and use-cases from testbed users who have leveraged RISC-V resources.
