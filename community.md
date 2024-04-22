@@ -4,8 +4,7 @@
 layout: collection
 permalink: /community/
 collection: community
-entries_layout: list
-show_excerpts: false
+entries_layout: grid
 sort_by: order
 sort_order: reverse
 ---

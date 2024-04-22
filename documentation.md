@@ -5,6 +5,8 @@ layout: collection
 permalink: /documentation/
 collection: documentation
 entries_layout: grid
+sort_by: order
+sort_order: reverse
 ---
 
 <!-- Text here will appear on the category page -->
