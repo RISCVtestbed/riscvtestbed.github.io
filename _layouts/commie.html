@@ -20,14 +20,13 @@ layout: default
           <div class="author-info">
               <ul class="author-links">
                 {%- for link in site.data.community-pages -%}
-                {{ link.title }}
                   {%- if link.url contains "://" -%}
                     {%- assign url = link.url -%}
                   {%- else -%}
                     {%- assign url = link.url | relative_url -%}
                   {%- endif -%}
                   <li class="author-link">
-                    <a class="u-url" rel="me" href="{{ url }}"><i class="{{ link.icon | default : 'fas fa-link' }} fa-lg" title="{{ link.title }}"></i>{{ link.title }}</a>
+                    <a class="u-url" rel="me" href="{{ link.url }}"><i class="{{ link.icon | default : 'fas fa-link' }} fa-lg" title="{{ link.title }}"></i>{{ link.title }}</a>
                   </li>
                 {%- endfor -%}
               </ul>
