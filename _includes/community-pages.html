@@ -1,0 +1,17 @@
+
+<div class="page-author h-card p-author">
+  <div class="author-info">
+      <ul class="author-links">
+        {%- for link in site.data.community-pages -%}
+          {%- if link.url contains "://" -%}
+            {%- assign url = link.url -%}
+          {%- else -%}
+            {%- assign url = link.url | relative_url -%}
+          {%- endif -%}
+          <li class="author-link">
+            <a class="u-url" rel="me" href="{{ url }}"><i class="{{ link.icon | default : 'fas fa-link' }} fa-lg" title="{{ link.title }}"></i></a>
+          </li>
+        {%- endfor -%}
+      </ul>
+  </div>
+</div>
