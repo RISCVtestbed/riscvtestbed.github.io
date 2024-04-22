@@ -2,6 +2,7 @@
 title: "Applying for access"
 icon: /images/key.png
 icon_alt: Key icon
+order: 5
 ---
 
 Access to the RISC-V testbed is free for scientific and engieering workloads. There are two steps required for 

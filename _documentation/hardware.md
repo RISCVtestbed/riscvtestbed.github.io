@@ -2,6 +2,7 @@
 title: "Testbed hardware"
 icon: /images/processor.png
 icon_alt: Processor icon
+order: 3
 ---
 
 The testbed contains both physical and soft-core RISC-V CPUs, and this page provides a brief overview of the different technolgies hosted within the testbed.

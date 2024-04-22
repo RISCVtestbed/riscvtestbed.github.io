@@ -2,6 +2,7 @@
 title: "Running on RISC-V"
 icon: /images/cpu.png
 icon_alt: Sign post
+order: 2
 ---
 
 We have a variety of RISC-V compute nodes within a Slurm cluster that you can execute your code upon, with more added as time progresses. This page details how to gain access to run your codes on the nodes and which are currently available.
