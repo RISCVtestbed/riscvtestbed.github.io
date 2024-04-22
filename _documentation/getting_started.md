@@ -2,6 +2,7 @@
 title: "Getting started"
 icon: /images/sign-post.png
 icon_alt: Sign post
+order: 4
 ---
 
 This section describes how to access both the command line and GUI of the testbed system front-end. 
