@@ -7,11 +7,31 @@ layout: default
     {% include page-image.html %}
     <div class="page-wrapper">
       <header class="page-header">
-
+        {% assign title = page.title | markdownify | strip_html %}
+        {% if page.link %}
+          <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+          <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+        {% endif %}
       </header>
 
       <div class="page-sidebar">
-        {% include community-pages.html %}
+        <div class="page-author h-card p-author">
+          <div class="author-info">
+              <ul class="author-links">
+                {%- for link in site.data.community-pages -%}
+                  {%- if link.url contains "://" -%}
+                    {%- assign url = link.url -%}
+                  {%- else -%}
+                    {%- assign url = link.url | relative_url -%}
+                  {%- endif -%}
+                  <li class="author-link">
+                    <a class="u-url" rel="me" href="{{ url }}"><i class="{{ link.icon | default : 'fas fa-link' }} fa-lg" title="{{ link.title }}"></i></a>
+                  </li>
+                {%- endfor -%}
+              </ul>
+          </div>
+        </div>
       </div>
 
       <div class="page-content">
