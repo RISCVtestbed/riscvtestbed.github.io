@@ -1,7 +1,8 @@
 ---
 #title: "Workshops"
 layout: collection
-permalink: /workshops/
+permalink: /community/workshops/
+icon_alt: Workshops icon
 collection: workshops
 entries_layout: grid
 sort_by: order
