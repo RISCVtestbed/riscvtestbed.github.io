@@ -3,7 +3,7 @@ title: "Workshops"
 icon: /images/computer.png
 icon_alt: Training icon
 layout: category
-permalink: /community/
+permalink: /community/workshops
 taxonomy: Workshops
 order: 3
 ---
