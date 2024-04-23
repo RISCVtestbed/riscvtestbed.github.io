@@ -5,7 +5,7 @@ icon_alt: Training icon
 layout: category
 permalink: /community/issues/
 taxonomy: Issues
-order: 1
+order: 2
 ---
 
 

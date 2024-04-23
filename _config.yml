@@ -122,6 +122,9 @@ collections:
   community:
     output: true
     permalink: /:collection/:path/    
+  workshops:
+    output: true
+    permalink: /community/:collection/:path/  
 
 # Site Author
 author: 

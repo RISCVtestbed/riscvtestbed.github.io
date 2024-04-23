@@ -6,6 +6,7 @@ collection: workshops
 entries_layout: grid
 sort_by: order
 sort_order: reverse
+order: 3
 ---
 
 
