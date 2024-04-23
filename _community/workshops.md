@@ -3,7 +3,7 @@ title: "Workshops"
 layout: category
 icon: /images/elearning.png
 icon_alt: Workshops icon
-permalink: /workshops/
+permalink: /community/workshops/
 taxonomy: Workshops
 order: 3
 ---
