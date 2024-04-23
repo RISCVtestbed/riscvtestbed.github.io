@@ -5,7 +5,6 @@ icon_alt: Training icon
 layout: category
 permalink: /community/workshops
 taxonomy: Workshops
-order: 3
 ---
 
 
