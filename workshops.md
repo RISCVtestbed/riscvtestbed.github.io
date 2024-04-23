@@ -8,3 +8,4 @@ sort_by: order
 sort_order: reverse
 ---
 
+Here we will share some of the upcoming and previous RISC-V workshops.
