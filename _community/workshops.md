@@ -1,10 +1,11 @@
 ---
 title: "Workshops"
-icon: /images/computer.png
-icon_alt: Training icon
-entries_layout: grid
+layout: collection
 permalink: /community/workshops
-taxonomy: Workshops
+collection: workshops
+entries_layout: grid
+sort_by: order
+sort_order: reverse
 ---
 
 
