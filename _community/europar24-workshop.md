@@ -4,7 +4,6 @@ icon: /images/podium.png
 icon_alt: Award icon
 categories:
   - Workshops
-order: 8
 ---
 
 ## Important dates
