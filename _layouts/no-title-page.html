@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<main id="main" class="main-content" aria-label="Content">
+  <article>
+    {% include page-image.html %}
+    <div class="page-wrapper">
+      <header class="page-header">
+      </header>
+      <div class="page-content">
+        {{ content }}
+
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
+      </div>
+    </div>
+  </article>
+</main>

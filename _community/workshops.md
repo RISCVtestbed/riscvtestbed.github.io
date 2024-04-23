@@ -1,6 +1,5 @@
 ---
-# We use an empty title to suppress it when showing the collection
-title: ""
+title: "Workshops"
 icon: /images/podium.png
 icon_alt: Award icon
 layout: workshops-collection
