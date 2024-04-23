@@ -1,0 +1,25 @@
+{% assign entries = site[include.collection] %}
+
+{% if include.sort_by == 'title' %}
+  {% if include.sort_order == 'reverse' %}
+    {% assign entries = entries | where: "group", "community" | sort: 'title' | reverse %}
+  {% else %}
+    {% assign entries = entries | where: "group", "community" | sort: 'title' %}
+  {% endif %}
+{% elsif include.sort_by == 'date' %}
+  {% if include.sort_order == 'reverse' %}
+    {% assign entries = entries | where: "group", "community" | sort: 'date' | reverse %}
+  {% else %}
+    {% assign entries = entries | where: "group", "community" | sort: 'date' %}
+  {% endif %}
+{% elsif include.sort_by == 'order' %}
+  {% if include.sort_order == 'reverse' %}
+    {% assign entries = entries | where: "group", "community" | sort: 'order' | reverse %}
+  {% else %}
+    {% assign entries = entries | where: "group", "community" | sort: 'order' %}
+  {% endif %}
+{% endif %}
+
+{%- for entry in entries -%}
+  {% include entry.html %}
+{%- endfor -%}

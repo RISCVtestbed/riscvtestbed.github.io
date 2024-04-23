@@ -3,6 +3,7 @@ title: "Fourth International workshop on RISC-V for HPC"
 icon: /images/podium.png
 icon_alt: Award icon
 layout: post
+group: workshops
 order: 4 
 ---
 

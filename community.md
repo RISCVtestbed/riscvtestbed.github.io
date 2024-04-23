@@ -1,7 +1,7 @@
 ---
 # Uncomment title if you require a title on the category page
 #title: "Community pages"
-layout: collection
+layout: community-collection
 permalink: /community/
 collection: community
 entries_layout: grid

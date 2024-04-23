@@ -5,6 +5,7 @@ icon_alt: Award icon
 layout: category
 permalink: /community/success/
 taxonomy: Success
+group: community
 order: 1
 ---
 
