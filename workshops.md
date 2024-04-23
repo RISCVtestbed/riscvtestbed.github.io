@@ -1,12 +1,11 @@
 ---
 title: "Workshops"
 layout: collection
-permalink: /community/workshops
+permalink: /workshops
 collection: workshops
 entries_layout: grid
 sort_by: order
 sort_order: reverse
-order: 3
 ---
 
 
