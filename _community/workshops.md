@@ -2,7 +2,7 @@
 title: "Workshops"
 icon: /images/computer.png
 icon_alt: Training icon
-layout: category
+layout: grid
 permalink: /community/workshops
 taxonomy: Workshops
 ---
