@@ -4,7 +4,8 @@ icon: /images/podium.png
 icon_alt: Award icon
 categories:
   - Workshops
-order: 5
+layout: post
+order: 1
 ---
 
 ## Workshop details
