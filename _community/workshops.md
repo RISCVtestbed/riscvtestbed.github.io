@@ -8,7 +8,6 @@ taxonomy: Workshops
 order: 3
 ---
 
-
-Here we will share some of our experience and issues encountered when running and building software for the RISC-V testbed.
+Here we will share some of the upcoming and previous international RISC-V workshops.
 
 [More...](/workshops/)
