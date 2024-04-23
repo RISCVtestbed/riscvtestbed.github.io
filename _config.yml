@@ -113,6 +113,7 @@ defaults:
       layout: post
       comments: false
       share: false
+  # Workshops defaults
   - scope:
       path: "_workshops"
       type: workshops

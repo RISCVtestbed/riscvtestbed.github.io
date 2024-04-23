@@ -1,7 +1,7 @@
 ---
-title: "Workshops"
+#title: "Workshops"
 layout: collection
-permalink: /workshops
+permalink: /workshops/
 collection: workshops
 entries_layout: grid
 sort_by: order
