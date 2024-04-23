@@ -124,7 +124,7 @@ collections:
     permalink: /:collection/:path/    
   workshops:
     output: true
-    permalink: /community/:collection/:path/  
+    permalink: /:collection/:path/  
 
 # Site Author
 author: 
