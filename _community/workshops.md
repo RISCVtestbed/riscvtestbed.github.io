@@ -1,13 +1,10 @@
 ---
-title: "Workshops"
-layout: category
-icon: /images/elearning.png
-icon_alt: Workshops icon
-permalink: /community/workshops/
-taxonomy: Workshops
-order: 3
+#title: "Workshops"
+layout: collection
+permalink: /workshops/
+collection: workshops
+entries_layout: grid
+sort_by: order
+sort_order: reverse
 ---
 
-Here we will share some of the upcoming and previous international RISC-V workshops.
-
-[More...](/workshops/)
