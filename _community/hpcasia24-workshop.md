@@ -6,7 +6,6 @@ categories:
   - Workshops
 tags:
 layout: post
-order: 7
 ---
 
 ## Logistics
