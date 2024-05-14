@@ -37,7 +37,11 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 
 **_Presenter: Carlos Puchol_**
 
-TBC
+The EUPILOT project will design, build, and validate the first EU-based accelerator platform for HPC (including compute-intensive AI), covering the whole spectrum of required technologies with European assets. This includes RISC-V based highly efficient and high-performance accelerators, and this project will provide a full accelerator technology as a foundation for European Exascale systems. Moreover, the capabilities of the RISC-V ecosystem will be further extended into the HPC and HPDA domains, and Europe will have the opportunity to drive the adoption of RISC-V’s rapidly growing ecosystem.  
+
+On the hardware side, EUPILOT aims to build an end-to-end demonstrator of accelerators that could be used in a pre-exascale system. The project will produce three chip tapeouts. Increasing complexity and capability with each generation, these will contain a vector accelerator with up to 16 cores and a machine learning and stencil accelerator with up to eight cores, respectively. The accelerator chips will be mounted along low-power double data rate (LPDDR) memory, forming the chip modules that will be installed into standard accelerator boards. 
+
+The hardware will only deliver benefits to users with a strong software ecosystem. Our stack will support traditional HPC applications, AI workloads as well as novel HPC/AI applications. Standards (e.g. OpenMP and MPI targeting HPC), open-software frameworks (e.g. Arax and oneDNN targeting AI) and European developments (e.g. DaCe, TAMPI or DLB) will be supported and provide programming productivity and usability. 
 
 ### Preparing to Hit the Ground Running: Adding RISC-V support to EESSI
 
