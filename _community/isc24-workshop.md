@@ -27,7 +27,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 11:50 - 12:10 | RISE: RISC-V Software Ecosystem ([abstract](https://riscv.epcc.ed.ac.uk/community/isc24-workshop/#rise-risc-v-software-ecosystem)) | Oliver Perks |
 | 12:10 - 12:25 | Vendor talk: Semidynamics ([abstract](https://riscv.epcc.ed.ac.uk/community/isc24-workshop/#vendor-talk-semidynamics)) ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/isc24/SemiDynamics.pdf))| Volker Politz |
 | 12:25 - 12:40 | Vendor talk: Codasip ([abstract](https://riscv.epcc.ed.ac.uk/community/isc24-workshop/#vendor-talk-codasip)) ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/isc24/Codasip.pdf))| Karel Masařík |
-| 12:40 - 12:55 | Vendor talk: E4 Computer Engineering ([abstract](https://riscv.epcc.ed.ac.uk/community/isc24-workshop/#vendor-talk-e4-computer-engineering)) | Daniele Gregori |
+| 12:40 - 12:55 | Vendor talk: E4 Computer Engineering ([abstract](https://riscv.epcc.ed.ac.uk/community/isc24-workshop/#vendor-talk-e4-computer-engineering)) ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/isc24/E4.pdf))| Daniele Gregori |
 | 12:55 - 13:00 | Summary and workshop close | Nick Brown |
 
 
