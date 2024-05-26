@@ -17,7 +17,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | Time        | Session           | Speaker  |
 | ------------- |:-------------:| -----:|
 | 9:00 - 9:05 | Welcome and aims | Nick Brown |
-| 9:05 - 9:40 | Keynote: The European PILOT: RISC-V accelerators for HPC and AI ([abstract](https://riscv.epcc.ed.ac.uk/community/isc24-workshop/#keynote-the-european-pilot-risc-v-accelerators-for-hpc-and-ai)) | Carlos Puchol |
+| 9:05 - 9:40 | Keynote: The European PILOT: RISC-V accelerators for HPC and AI ([abstract](https://riscv.epcc.ed.ac.uk/community/isc24-workshop/#keynote-the-european-pilot-risc-v-accelerators-for-hpc-and-ai)) ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/isc24/Puchol.pdf)) | Carlos Puchol |
 | 9:40 - 10:00 | Preparing to Hit the Ground Running: Adding RISC-V support to EESSI ([abstract](https://riscv.epcc.ed.ac.uk/community/isc24-workshop/#preparing-to-hit-the-ground-running-adding-risc-v-support-to-eessi)) ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/isc24/Morillo.pdf))| Julián Morillo |
 | 10:00 - 10:20 | Scaling an Augmented RISC-V Processor Design with High-Level Synthesis ([abstract](https://riscv.epcc.ed.ac.uk/community/isc24-workshop/#scaling-an-augmented-risc-v-processor-design-with-high-level-synthesis)) ([slides](https://github.com/RISCVtestbed/riscvtestbed.github.io/blob/main/assets/files/isc24/Schoder.pdf))| Johannes Schoder |
 | 10:20 - 10:40 | Integrating RISC-V SIMT and Scalar Cores: Loosely to Tightly Coupled ([abstract](https://riscv.epcc.ed.ac.uk/community/isc24-workshop/#integrating-risc-v-simt-and-scalar-cores-loosely-to-tightly-coupled))| Sooraj Chetput Venkataraghavan | 
