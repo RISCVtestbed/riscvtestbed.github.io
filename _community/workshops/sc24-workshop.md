@@ -6,11 +6,11 @@ categories:
   - Workshops
 layout: post
 group: workshops
-order: 2
+order: 6
 ---
 
 ## Important dates
-<img align="right" src="https://sc24.supercomputing.org/wp-content/uploads/2023/07/sc24_logo_head_rec3.svg" width=350>
+<img align="right" src="images/sc24_H_black_solid.png" width=350>
 
 * **Paper Deadline:** 29th July 2024 (AoE)
 * **Author Notification:** 25th August 2024
