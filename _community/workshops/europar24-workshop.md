@@ -6,7 +6,7 @@ categories:
   - Workshops
 layout: post
 group: workshops
-order: 5
+order: 1
 ---
 
 ## Important dates
