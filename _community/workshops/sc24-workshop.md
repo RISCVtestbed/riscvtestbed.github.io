@@ -50,7 +50,7 @@ We invite submissions of high-quality, original research results and works-in-pr
 
 Authors are invited to submit unpublished, original work. Accepted papers will appear in the IEEE SC workshop proceedings published by the ACM. Papers should be submitted in two categories, full papers which are between 6 and 10 pages and short papers which are up to 5 pages. Page counts include references and figures. All papers should be submitted via Linklings [here](https://submissions.supercomputing.org/?args=Aprcnt3DxGzb0zU3TJUHtGyfHfbQIf0zU30Jprcnt3DbATzU30IXrfGzIXrfh_NTz0Cx0zfsGc__RDTHQP0Aprcnt3DxfGzU3ACIIfb0HQP0Aprcnt3DxfTtUbprcnt3DsfGQUIYprcnt3DbTtUbb0XfQbGzt9_TzYprcnt3D40bprcnt3DQxGdbUfTzYprcnt3D40QHHGdbUfTzYprcnt3D40Iprcnt3Dxprcnt3DGdbUfTrAprcnt3DxGzU3ACI0IQ3TrJUHtGzU3ACI0IQ3TEGRRRch)
 
-All papers should be formatted using the IEEE conference proceedings template, two-column, US letter size.
+All papers should be formatted using the IEEE conference proceedings template, two-column, US letter size templates are agailable [here](https://www.ieee.org/conferences/publishing/templates.html)
 
 ## Organisation 
 
