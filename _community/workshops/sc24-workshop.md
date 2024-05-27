@@ -10,7 +10,7 @@ order: 6
 ---
 
 ## Important dates
-<img align="right" src="images/sc24_H_black_solid.png" width=350>
+<img align="right" src="https://riscv.epcc.ed.ac.uk/images/sc24_H_black_solid.png" width=350>
 
 * **Paper Deadline:** 29th July 2024 (AoE)
 * **Author Notification:** 25th August 2024
