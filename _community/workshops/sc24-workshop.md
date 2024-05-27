@@ -1,5 +1,5 @@
 ---
-title: "International workshop on RISC-V for HPC (RISCV-HPC)"
+title: "International workshop on RISC-V for HPC (RISCV-HPC) at SC24"
 icon: /images/podium.png
 icon_alt: Award icon
 categories:
