@@ -12,18 +12,22 @@ order: 6
 ## Important dates
 <img align="right" src="https://riscv.epcc.ed.ac.uk/images/sc24_H_black_solid.png" width=350>
 
-* **Paper Deadline:** 29th July 2024 (AoE)
-* **Author Notification:** 25th August 2024
-* **Camera ready papers:** 15th September 2024
-* **Workshop:** 17th, 18th or 22nd of November 2024 (exact slot TBC)
+* **Early Paper Deadline:** 1st July 2024 (AoE)
+* **Early Paper Notification:** 21st July 2024
+* **Main Paper Deadline:** 9th August 2024 (AoE)
+* **Main Author Notification:** 6th September 2024
+* **Camera ready papers:** 27th September 2024
+* **Workshop:** Monday 18th 2pm to 5:30pm
+
+To help with visa issues for some, we are triailing two paper submission phases, an early and main phase. Authors are welcome to submit to either of these, with the expectation being that most papers will be submitted to the main deadline but the early deadline will provide authors with some more time to arrange visas for the USA if required.
 
 ## Workshop details
-Co-located with SC24, this is half day workshop is running in Atlanta, USA and will be on the 17th, 18th or 22nd of November (exact slot TBC).
+Co-located with SC24, this is half day workshop is running in Atlanta, USA and will be on the afternoon of Monday the 18th of November, 2pm to 5:30pm.
 
 ## Workshop scope
-The goal of this workshop is to continue building the community of RISC-V in HPC, sharing the benefits of this technology with domain scientists, tool developers, and supercomputer operators. RISC-V is an open standard Instruction Set Architecture (ISA) which enables the royalty free development of CPUs and a common software ecosystem to be shared across them. Following this community driven ISA standard, a very diverse set of CPUs have been, and continue to be, developed which are suited to a range of workloads. Whilst RISC-V has become very popular already in some fields, and in 2022 the ten billionth RISC-V core was shipped, to date it has yet to gain traction in HPC.
+The goal of this workshop is to continue building the community of RISC-V in HPC, sharing the benefits of this technology with domain scientists, tool developers, and supercomputer operators. RISC-V is an open standard Instruction Set Architecture (ISA) which enables the royalty free development of CPUs and a common software ecosystem to be shared across them. Following this community driven ISA standard, a very diverse set of CPUs have been, and continue to be, developed which are suited to a range of workloads. Whilst RISC-V has become very popular already in some fields, and over thirteen billion RISC-V core have been shipped, to date it has yet to gain traction in HPC.
 
-However, there are numerous potential advantages that RISC-V can provide to HPC and, assuming the significant rate of growth of this technology to date continues, as we progress further into the decade it is highly likely that RISC-V will become more relevant and widespread for HPC workloads. Furthermore, recent advances in RISC-V make it a more realistic proposition for HPC workloads than ever before. An example of this is vectorisation extension which provides important performance advantages for HPC workloads but was only standardised in early 2022, and-so we are only now seeing mature CPUs that fully implement this.
+However, there are numerous potential advantages that RISC-V can provide to HPC and, assuming the significant rate of growth of this technology to date continues, as we progress further into the decade it is highly likely that RISC-V will become more relevant and widespread for HPC workloads. Furthermore, recent advances in RISC-V make it a more realistic proposition for HPC workloads than ever before, and an example of this is the new commodity available hardware that we are seeing be released and made generally available.
 
 The open and standardised nature of RISC-V means that the large, and growing community, can be involved in shaping the standard and tooling. This is important from two perspectives, firstly it is our opportunity in the HPC community to help shape the future of RISC-V to ensure that it is suitable for the next generation of supercomputers. Secondly, whilst there are a wide variety of RISC-V CPUs currently available, the standard nature of the tooling means that very often the same software ecosystem comprising the compiler, operating system, and libraries will run across these whilst requiring few changes.
 
