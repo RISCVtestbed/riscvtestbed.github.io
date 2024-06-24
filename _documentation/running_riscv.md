@@ -2,6 +2,7 @@
 title: "Running on RISC-V"
 icon: /images/cpu.png
 icon_alt: Sign post
+group: documentation
 order: 2
 ---
 
