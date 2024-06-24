@@ -121,6 +121,15 @@ defaults:
       layout: post
       comments: false
       share: false
+
+  # Policies defaults
+  - scope:
+      path: "_policies"
+      type: policies
+    values:
+      layout: post
+      comments: false
+      share: false
       
 # Collections
 collections:
@@ -133,6 +142,9 @@ collections:
   workshops:
     output: true
     permalink: /:collection/:path/  
+  policies:
+    output: true
+    permalink: /:collection/:path/
 
 # Site Author
 author: 
