@@ -1,6 +1,6 @@
 ---
 title: "Policies"
-icon: /images/podium.png
+icon: /images/document.png
 icon_alt: Award icon
 layout: workshops-collection
 permalink: /policies/
