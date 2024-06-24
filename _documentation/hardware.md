@@ -2,6 +2,7 @@
 title: "Testbed hardware"
 icon: /images/processor.png
 icon_alt: Processor icon
+group: documentation
 order: 3
 ---
 
