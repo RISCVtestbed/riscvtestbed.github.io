@@ -8,7 +8,7 @@ collection: policies
 entries_layout: grid
 sort_by: order
 sort_order: reverse
-group: policies
+group: documentation
 order: 0
 ---
 
