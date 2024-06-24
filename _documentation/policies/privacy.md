@@ -6,7 +6,7 @@ categories:
   - Policies
 layout: post
 group: policies
-order: 2
+order: 1
 ---
 
 This policy applies to personal data about users of the testbed. It relates to data gathered on the testbed itself. The details that you provide on registration are stored in the SAFE and will be processed according to the SAFE data privacy policy.
