@@ -9,7 +9,7 @@ entries_layout: grid
 sort_by: order
 sort_order: reverse
 group: policy
-order: 3
+order: 0
 ---
 
 Details policies and terms of service
