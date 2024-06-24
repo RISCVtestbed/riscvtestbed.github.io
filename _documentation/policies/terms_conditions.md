@@ -32,9 +32,11 @@ In addition to these policies, access to the RISC-V testbed is also subject to a
 - to protect the security and privacy of the data we hold about you in SAFE, as described in our Personal Data and Privacy Policy
 - that we will acquire no intellectual property rights over your software and data
 - to, the best of our efforts, to respond within 24 hours to any requests for access, questions, complaints or suggestions you make about the service
+- to advise on the availability of software, although we do not guarantee that we will install software for users
 
 ## You accept
 - that the service is provided “as is” and we can’t guarantee 100% perfection. In legal terms, this means that we are excluding all warranties and conditions applying to the service, including those implied by law. We are not liable if things go wrong and you suffer damage as a result, although if our negligence results in anyone’s death or personal injury we do not limit or exclude our liability for that.
+- that the RISC-V testbed is run on a best efforts basis and there will be times when response from us will be delayed, and the level of support that we can provide is finite.
 - that you are responsible for your use of any advice or information we may give you. We will take reasonable steps to ensure that it’s true and useful, but we can’t guarantee this. In legal terms, this means that we expressly disclaim any and all liability for all representations, statements, conditions or warranties to that or any other effect except to the extent that such liability may not be lawfully excluded.
 - that we may make changes in the service
 - that we will use the personal details which you supply to us, together with records of your use of the service, as described in our Personal Data and Privacy Policy
@@ -42,6 +44,7 @@ In addition to these policies, access to the RISC-V testbed is also subject to a
 - that you alone are responsible for what you do when using the service. If you break the law you alone must answer for it, and if you cause damage to anyone else, you alone are liable, not us
 - that you will acquire no intellectual property rights over the software or any information we provide
 - that we may make reasonable changes to these Terms and Conditions at any time, and, once we have posted those changes on our website, the new version will then apply to you
+  
 These Terms and Conditions are governed by the laws of England and the English courts.
 
 If you have any questions about these Terms and Conditions, please mail [riscv-testbed@mlist.is.ed.ac.uk](riscv-testbed@mlist.is.ed.ac.uk)
