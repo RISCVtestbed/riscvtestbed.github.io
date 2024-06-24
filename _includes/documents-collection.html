@@ -2,21 +2,21 @@
 
 {% if include.sort_by == 'title' %}
   {% if include.sort_order == 'reverse' %}
-    {% assign entries = entries | sort: 'title' | reverse %}
+    {% assign entries = entries | where: "group", "documentation" | sort: 'title' | reverse %}
   {% else %}
-    {% assign entries = entries | sort: 'title' %}
+    {% assign entries = entries | where: "group", "documentation" | sort: 'title' %}
   {% endif %}
 {% elsif include.sort_by == 'date' %}
   {% if include.sort_order == 'reverse' %}
-    {% assign entries = entries | sort: 'date' | reverse %}
+    {% assign entries = entries | where: "group", "documentation" | sort: 'date' | reverse %}
   {% else %}
-    {% assign entries = entries | sort: 'date' %}
+    {% assign entries = entries | where: "group", "documentation" | sort: 'date' %}
   {% endif %}
 {% elsif include.sort_by == 'order' %}
   {% if include.sort_order == 'reverse' %}
-    {% assign entries = entries | sort: 'order' | reverse %}
+    {% assign entries = entries | where: "group", "documentation" | sort: 'order' | reverse %}
   {% else %}
-    {% assign entries = entries | sort: 'order' %}
+    {% assign entries = entries | where: "group", "documentation" | sort: 'order' %}
   {% endif %}
 {% endif %}
 
