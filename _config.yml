@@ -112,7 +112,7 @@ defaults:
     values:
       layout: post
       comments: false
-      share: false
+      share: true
   # Workshops defaults
   - scope:
       path: "_workshops"
@@ -121,7 +121,6 @@ defaults:
       layout: post
       comments: false
       share: false
-
   # Policies defaults
   - scope:
       path: "_policies"
