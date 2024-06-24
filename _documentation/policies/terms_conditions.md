@@ -27,7 +27,7 @@ In addition to these policies, access to the RISC-V testbed is also subject to a
 - to comply with any special conditions that may apply to particular software packages
 - you will not use the testbed for any form of blockchain mining activities
 
-## We agree
+## We agree (Service Level Agreements)
 - as far as we reasonably can, to provide a 24 hour service, it being understood that there will be times when the service is unavailable, for example as a result of unexpected failures, maintenance work or upgrades
 - to protect the security and privacy of the data we hold about you in SAFE, as described in our Personal Data and Privacy Policy
 - that we will acquire no intellectual property rights over your software and data
