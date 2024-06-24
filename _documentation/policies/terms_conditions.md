@@ -1,6 +1,6 @@
 ---
 title: "Terms and conditions of access"
-icon: /images/podium.png
+icon: /images/document.png
 icon_alt: Award icon
 categories:
   - Policies
@@ -8,8 +8,6 @@ layout: post
 group: policies
 order: 1
 ---
-
-# Terms and conditions of access
 
 In addition to these policies, access to the RISC-V testbed is also subject to abiding by the University of Edinburgh Computing Regulations and Security Policy:
 - [University of Edinburgh Computing Regulations](http://www.ed.ac.uk/information-services/about/policies-and-regulations/computing-regulations)
