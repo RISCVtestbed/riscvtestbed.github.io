@@ -2,6 +2,7 @@
 title: "Getting started"
 icon: /images/sign-post.png
 icon_alt: Sign post
+group: documentation
 order: 4
 ---
 
