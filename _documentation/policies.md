@@ -2,13 +2,13 @@
 title: "Policies"
 icon: /images/document.png
 icon_alt: Award icon
-layout: workshops-collection
+layout: policies-collection
 permalink: /policies/
 collection: policies
 entries_layout: grid
 sort_by: order
 sort_order: reverse
-group: policy
+group: policies
 order: 0
 ---
 
