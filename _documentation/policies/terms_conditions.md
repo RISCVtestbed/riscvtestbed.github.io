@@ -6,7 +6,7 @@ categories:
   - Policies
 layout: post
 group: policies
-order: 1
+order: 2
 ---
 
 In addition to these policies, access to the RISC-V testbed is also subject to abiding by the University of Edinburgh Computing Regulations and Security Policy:
