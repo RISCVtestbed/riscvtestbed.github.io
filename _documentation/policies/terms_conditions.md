@@ -29,7 +29,7 @@ In addition to these policies, access to the RISC-V testbed is also subject to a
 
 ## We agree (Service Level Agreements)
 - as far as we reasonably can, to provide a 24 hour service, it being understood that there will be times when the service is unavailable, for example as a result of unexpected failures, maintenance work or upgrades
-- to protect the security and privacy of the data we hold about you in SAFE, as described in our Personal Data and Privacy Policy
+- to protect the security and privacy of the data we hold about you in SAFE, as described in our [Personal Data and Privacy Policy](https://riscv.epcc.ed.ac.uk/documentation/policies/privacy/)
 - that we will acquire no intellectual property rights over your software and data
 - to, the best of our efforts, to respond within 24 hours to any requests for access, questions, complaints or suggestions you make about the service
 - to advise on the availability of software, although we do not guarantee that we will install software for users
