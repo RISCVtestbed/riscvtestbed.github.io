@@ -2,6 +2,7 @@
 title: "Applying for access"
 icon: /images/key.png
 icon_alt: Key icon
+group: documentation
 order: 5
 ---
 
