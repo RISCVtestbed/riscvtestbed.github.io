@@ -12,4 +12,4 @@ group: documentation
 order: 0
 ---
 
-Details policies and terms of service
+Details policies and terms of service about the testbed service, what we expect from you and what we will provide including our Service Level Agreements (SLAs)
