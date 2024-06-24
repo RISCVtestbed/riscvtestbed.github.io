@@ -1,0 +1,7 @@
+---
+layout: no-title-page
+---
+
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% include policies-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order %}
+</div>
