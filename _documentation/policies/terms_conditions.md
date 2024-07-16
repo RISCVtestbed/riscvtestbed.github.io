@@ -1,5 +1,5 @@
 ---
-title: "Terms and conditions of access"
+title: "Terms, conditions of access and SLAs"
 icon: /images/document.png
 icon_alt: Award icon
 categories:
@@ -33,6 +33,12 @@ In addition to these policies, access to the RISC-V testbed is also subject to a
 - that we will acquire no intellectual property rights over your software and data
 - to, the best of our efforts, to respond within 24 hours to any requests for access, questions, complaints or suggestions you make about the service
 - to advise on the availability of software, although we do not guarantee that we will install software for users
+
+### We will periodically report
+- The number of registered testbed users
+- The number of jobs that have been run through the queue
+- Total disk space usage
+- Total uptime across compute nodes and login node
 
 ## You accept
 - that the service is provided “as is” and we can’t guarantee 100% perfection. In legal terms, this means that we are excluding all warranties and conditions applying to the service, including those implied by law. We are not liable if things go wrong and you suffer damage as a result, although if our negligence results in anyone’s death or personal injury we do not limit or exclude our liability for that.
