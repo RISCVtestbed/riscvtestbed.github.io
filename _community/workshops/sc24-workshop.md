@@ -12,9 +12,7 @@ order: 6
 ## Important dates
 <img align="right" src="https://riscv.epcc.ed.ac.uk/images/sc24_H_black_solid.png" width=350>
 
-* **Early Paper Deadline:** 1st July 2024 (AoE)
-* **Early Paper Notification:** 21st July 2024
-* **Main Paper Deadline:** 9th August 2024 (AoE)
+* **Main Paper Deadline extended to:** <strike>9th August 2024</strike> 16th August 2024 (AoE)
 * **Main Author Notification:** 6th September 2024
 * **Camera ready papers:** 27th September 2024
 * **Workshop:** Monday 18th 2pm to 5:30pm
