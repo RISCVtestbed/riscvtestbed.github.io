@@ -1,5 +1,5 @@
 ---
-title: "Setting up Spike on Ubuntu"
+title: "Setting up SPIKE - the RISC-V ISA Simulator"
 icon: /images/computer.png
 icon_alt: Icon of computer
 layout: post
@@ -12,7 +12,6 @@ group: how-to
 order: 0
 ---
 
-# Setting up SPIKE - the RISC-V ISA Simulator
 SPIKE is the RISC-V ISA Simulator. It can be used to run simple test programs with out the need to boot in to a QEMU RISC-V instance or have access to RISC-V hardware.  Please note that runtimes will be slower than running on real RISC-V hardware especially for features such as RVV Vector extensions, so, any benchmarking must be done on real RISC-V hardware.
 
 If you have not already set up the [RISC-V GCC Toolchain](install-toolchain.md) on your computer, please complete that step first.
