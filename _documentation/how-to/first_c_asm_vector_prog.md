@@ -12,7 +12,7 @@ group: how-to
 order: 99
 ---
 
-Following on from [part 1](https://riscv.epcc.ed.ac.uk/documentation/first_vector_prog/), next up we look at combining C and RISC-V assembly in your second RISC-V RVV 0.7.1 program and running it on the EPCC RISC-V testbed.  It is assumed that you are familiar with the `vim` editor, the C programming language and some RISC-V assembly language.
+Following on from [part 1](https://riscv.epcc.ed.ac.uk/documentation/how-to/first_vector_prog/), next up we look at combining C and RISC-V assembly in your second RISC-V RVV 0.7.1 program and running it on the EPCC RISC-V testbed.  It is assumed that you are familiar with the `vim` editor, the C programming language and some RISC-V assembly language.
 
 As with part one, you will need [access](https://riscv.epcc.ed.ac.uk/documentation/access/) to the EPCC RISC-V testbed to be able to compile and run programs on several available systems.  You will need to be logged in to the EPCC RISC-V testbed login node before proceeding with this guide.  I have included code for RISC-V RVV version 1.0 and the SPIKE command line to run it, but no support will be given in this document in setting up SPIKE.
 
