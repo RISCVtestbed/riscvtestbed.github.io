@@ -9,7 +9,7 @@ author:
 categories:
   - How To  
 group: how-to
-order: 0
+order: 99
 ---
 
 Following on from [part 1](https://riscv.epcc.ed.ac.uk/documentation/first_vector_prog/), next up we look at combining C and RISC-V assembly in your second RISC-V RVV 0.7.1 program and running it on the EPCC RISC-V testbed.  It is assumed that you are familiar with the `vim` editor, the C programming language and some RISC-V assembly language.
