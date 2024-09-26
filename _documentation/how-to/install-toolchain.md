@@ -1,5 +1,5 @@
 ---
-title: "Installing the RISC-V GCC toolchain on Ubuntu"
+title: "Setting up the RISC-V gcc toolchain"
 icon: /images/computer.png
 icon_alt: Icon of computer
 layout: post
@@ -12,7 +12,6 @@ group: how-to
 order: 0
 ---
 
-# Setting up the RISC-V gcc toolchain
 You may find that your work flow is aided by setting up the RISC-V gcc Toolchain on your local non-RISC-V computer to enable you to build (and catch compile time errors) locally. This is based on an AMD x64 system running Ubuntu 24.04.  
 
 # Update System and install pre-requisites 
