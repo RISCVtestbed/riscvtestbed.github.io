@@ -13,18 +13,17 @@ The testbed contains a front-end node _riscv-login_ containing a 26-core Skylake
 
 ### Command line access
 
-The testbed system is only accessible via the _hydra-vpn_ proxy host, and in the previous _applying for access_ step you will have signed up for accounts on both _hydra-vpn_ and _riscv-login_. To access the testbed you need to therefore first ssh to _hydra-vpn_ via `ssh username@hydra-vpn.epcc.ed.ac.uk` , the first time that you access this you will need to use the password automatically allocated via the SAFE system (it can be retrieved via SAFE) and will be prompted to change this.
+The testbed system is only accessible via the _gateway_ SSH gateway, this cannot be 'landed' on a user can only pass through it. In the previous _applying for access_ step you will have signed up for accounts on both _gateway_ and _riscv-login_. To access the testbed you need to go via this via `ssh -J username@gateway.epcc.ed.ac.uk riscv-login` . This will request your SSH key passphrase and the current 6-digit authentication code (TOTP) from your MFA token, which gets you access to _gateway_, and in addition to this you will then be asked your password for the _riscv-login_ machine
 
-Once you have logged into hydra-vpn then you can access the testbed login node via `ssh username@riscv-login` . The workflow is illustrated below.
+The workflow is illustrated below.
 
 ```console
-username@localhost:~$ ssh username@hydra-vpn.epcc.ed.ac.uk
-[username@hydra-vpn ~]$ ssh username@riscv-login
+username@localhost:~$ ssh -J username@gateway.epcc.ed.ac.uk risc-login
 [username@riscv-login ~]$
 ```
 
 >**ADVICE:**  
-> It is possible to automate the proxy step by setting this up in your ssh .config file as a proxyjump
+> It is possible to automate this by adding this ssh configuration into your .config file
 
 ### Desktop access
 
@@ -32,7 +31,14 @@ username@localhost:~$ ssh username@hydra-vpn.epcc.ed.ac.uk
 
 The lightweight XFCE desktop is installed on the front-end of the testbed system, which is especially useful for programming FPGAs as much of the tooling has a graphical component to it. The front-end is also running X2GO which tends to provide much better performance than vanilla X forwarding. Therefore we strongly suggest accessing the desktop via X2GO, with users just needing to install the client program which is available [here](https://wiki.x2go.org/doku.php/download:start).
 
-Once the client is installed, create a new profile with settings matching those as illustrated below (assuming that you use the same username and password for both _hydra-vpn_ and the _riscv-login_ node.
+This is slightly complicated by going via the gateway jump host as the MFA TOTP code can not be provided via X2GO. Instead, we suggest creating an SSH tunnel and then connecting to that, the following will forward the local port 2201 to port 22 of the `riscv-login` front-end via the gateway.
+
+```console
+username@localhost:~$ ssh -L 2201:riscv-login:22 -J username@gateway.epcc.ed.ac.uk risc-login
+[username@riscv-login ~]$
+```
+
+Then create a new profile in X2GO connecting to localhost port 2201 with your `riscv-login` password. 
 
 >**NOTE:**  
 > Whilst it is possible to run the individual graphical tools directly via X2GO, we suggest doing this via the XFCE desktop environment as find that this provides a much better user experience.
