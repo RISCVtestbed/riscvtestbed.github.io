@@ -12,4 +12,4 @@ group: documentation
 order: 1
 ---
 
-How to guides covering a range of topics for compiling and running different RISC-V codes
+How to guides covering a range of topics for compiling and running different codes on RISC-V
