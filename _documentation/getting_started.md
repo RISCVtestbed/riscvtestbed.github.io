@@ -38,7 +38,7 @@ username@localhost:~$ ssh -L 2201:riscv-login:22 -J username@gateway.epcc.ed.ac.
 [username@riscv-login ~]$
 ```
 
-Then create a new profile in X2GO connecting to localhost port 2201 with your `riscv-login` password. 
+Then create a new profile in X2GO connecting to localhost port 2201 with your `riscv-login` username and password. 
 
 >**NOTE:**  
 > Whilst it is possible to run the individual graphical tools directly via X2GO, we suggest doing this via the XFCE desktop environment as find that this provides a much better user experience.
