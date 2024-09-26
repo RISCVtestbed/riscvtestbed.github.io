@@ -9,7 +9,7 @@ author:
 categories:
   - How To  
 group: how-to
-order: 0
+order: 97
 ---
 
 SPIKE is the RISC-V ISA Simulator. It can be used to run simple test programs with out the need to boot in to a QEMU RISC-V instance or have access to RISC-V hardware.  Please note that runtimes will be slower than running on real RISC-V hardware especially for features such as RVV Vector extensions, so, any benchmarking must be done on real RISC-V hardware.
