@@ -9,7 +9,7 @@ author:
 categories:
   - How To  
 group: how-to
-order: 0
+order: 98
 ---
 
 You may find that your work flow is aided by setting up the RISC-V gcc Toolchain on your local non-RISC-V computer to enable you to build (and catch compile time errors) locally. This is based on an AMD x64 system running Ubuntu 24.04.  
