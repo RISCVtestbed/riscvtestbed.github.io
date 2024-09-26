@@ -9,7 +9,7 @@ entries_layout: grid
 sort_by: order
 sort_order: reverse
 group: documentation
-order: 0
+order: 1
 ---
 
 How to guides covering a range of topics for compiling and running different RISC-V codes
