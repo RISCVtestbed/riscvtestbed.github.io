@@ -9,7 +9,7 @@ author:
 categories:
   - How To  
 group: how-to
-order: 1
+order: 100
 ---
 Below is a step by step guide to writing your first RISC-V RVV 0.7.1 C program and running it on the EPCC RISC-V testbed.  It is assumed that you are familiar with the `vim` editor and the C programming language.
 
