@@ -18,7 +18,7 @@ The testbed system is only accessible via the _gateway_ SSH gateway, this cannot
 The workflow is illustrated below.
 
 ```console
-username@localhost:~$ ssh -J username@gateway.epcc.ed.ac.uk risc-login
+username@localhost:~$ ssh -J username@gateway.epcc.ed.ac.uk riscv-login
 [username@riscv-login ~]$
 ```
 
@@ -34,7 +34,7 @@ The lightweight XFCE desktop is installed on the front-end of the testbed system
 This is slightly complicated by going via the gateway jump host as the MFA TOTP code can not be provided via X2GO. Instead, we suggest creating an SSH tunnel and then connecting to that, the following will forward the local port 2201 to port 22 of the `riscv-login` front-end via the gateway.
 
 ```console
-username@localhost:~$ ssh -L 2201:riscv-login:22 -J username@gateway.epcc.ed.ac.uk risc-login
+username@localhost:~$ ssh -L 2201:riscv-login:22 -J username@gateway.epcc.ed.ac.uk riscv-login
 [username@riscv-login ~]$
 ```
 
