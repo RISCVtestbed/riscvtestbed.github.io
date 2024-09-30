@@ -13,12 +13,12 @@ The testbed contains a front-end node _riscv-login_ containing a 26-core Skylake
 
 ### Command line access
 
-The testbed system is only accessible via the _gateway_ SSH gateway, this cannot be 'landed' on a user can only pass through it. In the previous _applying for access_ step you will have signed up for accounts on both _gateway_ and _riscv-login_. To access the testbed you need to go via this via `ssh -J username@gateway.epcc.ed.ac.uk riscv-login` . This will request your SSH key passphrase and the current 6-digit authentication code (TOTP) from your MFA token, which gets you access to _gateway_, and in addition to this you will then be asked your password for the _riscv-login_ machine
+The testbed system is only accessible via the _gateway_ SSH gateway, this cannot be 'landed' on a user can only pass through it. In the previous _applying for access_ step you will have signed up for accounts on both _gateway_ and _riscv-login_. To access the testbed you need to go via this via `ssh -J username@gateway.epcc.ed.ac.uk riscv-login.epcc.ed.ac.uk` . This will request your SSH key passphrase and the current 6-digit authentication code (TOTP) from your MFA token, which gets you access to _gateway_, and in addition to this you will then be asked your password for the _riscv-login_ machine
 
 The workflow is illustrated below.
 
 ```console
-username@localhost:~$ ssh -J username@gateway.epcc.ed.ac.uk riscv-login
+username@localhost:~$ ssh -J username@gateway.epcc.ed.ac.uk riscv-login.epcc.ed.ac.uk
 [username@riscv-login ~]$
 ```
 
@@ -34,7 +34,7 @@ The lightweight XFCE desktop is installed on the front-end of the testbed system
 This is slightly complicated by going via the gateway jump host as the MFA TOTP code can not be provided via X2GO. Instead, we suggest creating an SSH tunnel and then connecting to that, the following will forward the local port 2201 to port 22 of the `riscv-login` front-end via the gateway.
 
 ```console
-username@localhost:~$ ssh -L 2201:riscv-login:22 -J username@gateway.epcc.ed.ac.uk riscv-login
+username@localhost:~$ ssh -L 2201:riscv-login:22 -J username@gateway.epcc.ed.ac.uk riscv-login.epcc.ed.ac.uk
 [username@riscv-login ~]$
 ```
 
