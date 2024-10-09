@@ -39,3 +39,4 @@ permalink: /status/
 | Milk-V Pioneer #1 | rvc24 | 64 | 128GB | <img src="/images/on.png" alt="green light" width="10"/> up |
 | Milk-V Pioneer #2 | rvc25 | 64 | 128GB | <img src="/images/on.png" alt="green light" width="10"/> up |
 | Milk-V Pioneer #3 | rvc26 | 64 | 128GB | <img src="/images/on.png" alt="green light" width="10"/> up |
+
