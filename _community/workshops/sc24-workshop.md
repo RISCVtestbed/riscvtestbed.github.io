@@ -21,7 +21,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | Time        | Session           | Speaker  |
 | ------------- |:-------------| :-----|
 | 14:00 - 14:05 | Welcome and aims | Nick Brown |
-| 14:05 - 14:40 | **Keynote:** Esperanto ET-SoC for AI and ML Workloads | Dave Ditzel |
+| 14:05 - 14:40 | **Keynote:** Why I chose to built Esperanto's AI and HPC accelerator around RISC-V | Dave Ditzel |
 | 14:40 - 14:50 | **Vendor Lightning Talk:** The InspireSemi next gen Thunderbird compute accelerator for HPC, AI, and graph analyticsr | Doug Norton |
 | 14:50 - 15:00 | **Vendor Lightning Talk:** The Tenstorrent Tensix architecture | Felix Leclair | 
 | 15:00 - 15:30 | Coffee Break | |
