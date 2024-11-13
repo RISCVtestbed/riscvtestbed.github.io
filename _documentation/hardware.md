@@ -17,7 +17,7 @@ The Milk-V Pioneer is a microATX board powered by the SOPHGO SG2042, 64-core C92
 The testbed contains three of these boards. 
 
 ## Banana Pi BPI-F3 
-<img src="/images/BananaPi_BPI-F3.jpg" width="150" height="150" align="left"/>
+<img src="/images/BananaPi_BPI-F3.jpg" width="150" height="150" align="right"/>
 The BananaPi BPI-F3 is a single-board computer (SBC) powered by the SpacemiT K1 Octa-core X60 64-bit RISC-V processor, with an eight-stage, dual-issue, in-order pipeline, 1MB L2 cache, 16 AI extended instructions and RVV 1.0 support. The board includes 16GB of LPDDR4 RAM and 2x 1 Gigabit ethernet, running Ambian 24.5 (Jammy) Linux. 
 
 The testbed contains one of these boards. 
@@ -51,7 +51,7 @@ This board contains StarFive’s JH7100 SoC which is equipped with a U74 64-bit 
 The testbed contains two of these boards.
 
 ## StarFive VisionFive V2
-<img src="/images/visionfive2.jpg" width="150" height="150" align="left"/>
+<img src="/images/visionfive2.jpg" width="150" height="150" align="right"/>
 This board contains StarFive’s JH7110 SoC which is equipped with a U74 64-bit high-performance RISC-V quad-core processor with 2MB L2 cache, running at 1.5GHz. The JH7110 SoC also contains an integrated GPU available for use by codes. The board contains 8GB of DDR4 RAM, and gigabit ethernet.
 
 The testbed contains thirteen of these boards.
