@@ -14,7 +14,7 @@ The testbed contains both physical and soft-core RISC-V CPUs, and this page prov
 <img src="/images/milk-v-box-angle.png" width="150" height="150" align="left"/>
 The Milk-V Pioneer is a microATX board powered by the SOPHGO SG2042, 64-core C920 64-bit RISC-V processor, with 64MB L3 cache and RVV 0.71 support. The board includes 128GB of DDR4 RAM, 1TB of PCIe 3.0 SSD module storage and 2x 10 Gigabit ethernet, running Fedora Linux 38. 
 
-The testbed contains two of these boards. 
+The testbed contains three of these boards. 
 
 ## HiFive Unmatched
 <img src="/images/HiFive_unmatched.jpg" width="150" height="150" align="left"/>
@@ -43,6 +43,12 @@ The testbed contains two of these boards.
 This board contains StarFive’s JH7100 SoC which is equipped with a U74 64-bit high-performance RISC-V dual-core processor with 2MB L2 cache, running at 1.5GHz. The JH7100 SoC also contains a deep learning processing engine and image/video processing sub-system which are available for use by codes. The board contains 8GB of DDR4 RAM, and gigabit ethernet.
 
 The testbed contains two of these boards.
+
+## StarFive VisionFive V2
+<img src="/images/visionfive2.jpg" width="150" height="150" align="left"/>
+This board contains StarFive’s JH7110 SoC which is equipped with a U74 64-bit high-performance RISC-V quad-core processor with 2MB L2 cache, running at 1.5GHz. The JH7110 SoC also contains an integrated GPU available for use by codes. The board contains 8GB of DDR4 RAM, and gigabit ethernet.
+
+The testbed contains thirteen of these boards.
 
 # FPGA hosted soft-cores
 
