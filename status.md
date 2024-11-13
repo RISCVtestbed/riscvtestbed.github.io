@@ -13,7 +13,7 @@ permalink: /status/
 
 | Description  | Hostname | # of cores | DRAM | Status |
 | ------------- | ------------- |  ------------- | ------------- | ------------- | 
-| DongshanNezhaSTU #1 | rvc01 | 1 | 512MB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
+| Banana Pi BPI-F3 #1 | rvc01 | 8 | 16GB | <img src="/images/on.png" alt="green light" width="10"/> up |
 | DongshanNezhaSTU #2 | rvc02 | 1 | 512MB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
 | DongshanNezhaSTU #3 | rvc03 | 1 | 512MB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
 | DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
