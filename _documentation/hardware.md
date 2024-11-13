@@ -16,6 +16,12 @@ The Milk-V Pioneer is a microATX board powered by the SOPHGO SG2042, 64-core C92
 
 The testbed contains three of these boards. 
 
+## Banana Pi BPI-F3 
+<img src="/images/BananaPi_BPI-F3.jpg" width="150" height="150" align="left"/>
+The BananaPi BPI-F3 is a single-board computer (SBC) powered by the SpacemiT K1 Octa-core X60 64-bit RISC-V processor, with an eight-stage, dual-issue, in-order pipeline, 1MB L2 cache, 16 AI extended instructions and RVV 1.0 support. The board includes 16GB of LPDDR4 RAM and 2x 1 Gigabit ethernet, running Ambian 24.5 (Jammy) Linux. 
+
+The testbed contains one of these boards. 
+
 ## HiFive Unmatched
 <img src="/images/HiFive_unmatched.jpg" width="150" height="150" align="left"/>
 The HiFive Unmatched is a Mini-ITX board powered by the SiFive Freedom U740 four-core, 64-bit dual-issue, superscalar RISC-V processor. The board includes 16GB of DDR4 RAM, 128GB of M.2 PCIe Gen 3 x4 SSD module storage and Gigabit ethernet, running Ubuntu 21.04 (hirsute) Linux. 
