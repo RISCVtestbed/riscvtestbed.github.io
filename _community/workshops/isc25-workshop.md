@@ -48,7 +48,7 @@ We invite submissions of high-quality, original research results and works-in-pr
 
 ### Paper submission
 
-Authors are invited to submit unpublished, original work. Accepted papers will appear in the ISC workshop proceedings in the Springer Lecture Notes in Computer Science (LNCS) series and submitted versions available online for the workshop. Submissions of original work between 6 and 12 pages (the page count does not include references, an additional two pages to address reviewer comments) are welcomed on work-in-progress, position papers, or mature work. All papers should be submitted via EasyChair [here](https://easychair.org/conferences/?conf=riscvhpc24)
+Authors are invited to submit unpublished, original work. Accepted papers will appear in the ISC workshop proceedings in the Springer Lecture Notes in Computer Science (LNCS) series and submitted versions available online for the workshop. Submissions of original work between 6 and 12 pages (the page count does not include references, an additional two pages to address reviewer comments) are welcomed on work-in-progress, position papers, or mature work. All papers should be submitted via EasyChair [here](https://easychair.org/conferences/?conf=riscvhpc25)
 
 All papers should be formatted Springer single column LNCS style, with formatting information and templates [here](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines)
 
@@ -59,7 +59,8 @@ All papers should be formatted Springer single column LNCS style, with formattin
 * Nick Brown (EPCC at the University of Edinburgh)
 * Daniele Gregori (E4 Computer Engineering)
 * David Donofrio (Tactical Computing Laboratories)
-* Michael Wong (Codeplay)
+* Teresa Cervero (BSC)
+* Matt Turner (Samsung)
 
 ### Program committee
 
@@ -70,6 +71,4 @@ All papers should be formatted Springer single column LNCS style, with formattin
 * Luis Plana (BSC)
 * Joseph Lee (EPCC)
 * Luc Berger-Vergait (Sandia National Laboratories)
-* Teresa Cervero (BSC)
 * Chris Taylor (Tactical Computing Labs)
-* John Davis
