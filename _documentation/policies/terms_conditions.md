@@ -13,7 +13,7 @@ In addition to these policies, access to the RISC-V testbed is also subject to a
 - [University of Edinburgh Computing Regulations](http://www.ed.ac.uk/information-services/about/policies-and-regulations/computing-regulations)
 - [University of Edinburgh Security Policy](http://www.ed.ac.uk/information-services/about/policies-and-regulations/security-policies/security-policy)
 
-For auditing purposes we are only able to grant access to users who use their institution based email address rather than a personal one 
+For auditing purposes we are only able to grant access to users who use their institution based email address rather than a personal one.
 
 ## You agree
 - only to use the service for the purposes for which you were given access when you contacted us. If this has changed and you wish to use for a different purpose, then you must let us know via emailing [riscv-testbed@mlist.is.ed.ac.uk](riscv-testbed@mlist.is.ed.ac.uk)
