@@ -16,6 +16,13 @@ The Milk-V Pioneer is a microATX board powered by the SOPHGO SG2042, 64-core C92
 
 The testbed contains three of these boards. 
 
+## Milk-V Jupiter 
+<img src="/images/BananaPi_BPI-F3.jpg" width="150" height="150" align="right"/>
+The Milk-V Jupiter is a Mini-ITX board powered by the SpacemiT K1/M1 Octa-core X60 64-bit RISC-V processor, with an eight-stage, dual-issue, in-order pipeline, 1MB L2 cache, 16 AI extended instructions and RVV 1.0 support. The board includes 16GB of
+LPDDR4X RAM and 2x 1 Gigabit ethernet, running Ubuntu 24.04 Linux. 
+
+The testbed contains two of these boards. 
+
 ## Banana Pi BPI-F3 
 <img src="/images/BananaPi_BPI-F3.jpg" width="150" height="150" align="right"/>
 The BananaPi BPI-F3 is a single-board computer (SBC) powered by the SpacemiT K1 Octa-core X60 64-bit RISC-V processor, with an eight-stage, dual-issue, in-order pipeline, 1MB L2 cache, 16 AI extended instructions and RVV 1.0 support. The board includes 16GB of LPDDR4 RAM and 2x 1 Gigabit ethernet, running Ambian 24.5 (Jammy) Linux. 
