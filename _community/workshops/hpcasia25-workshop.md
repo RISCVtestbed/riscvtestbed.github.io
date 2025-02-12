@@ -26,7 +26,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 09:10 - 09:50 | **Keynote:**  The Open Hardware Group, an open approach to RISC-V | Flo Wohlrab |
 | 09:50 - 10:10 | RISC-V accelerator chips for HPC, AI/ML/DL | Akira Tsukamoto |
 | 10:10 - 10:30 | Break |  |
-| 10:30 - 11:00 | Scaling HPC with Andes Technology: Optimizing Performance at Every Level ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#keynote-the-european-pilot-risc-v-accelerators-for-hpc-and-ai)) | Jason Yung-Cheng Lin |
+| 10:30 - 11:00 | Scaling HPC with Andes Technology: Optimizing Performance at Every Level ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#scaling-hpc-with-andes-technology-optimizing-performance-at-every-level)) | Jason Yung-Cheng Lin |
 | 11:00 - 11:30 | Providing Full Stack Edge AI solutions with RISC-V | Albert Liu |
 | 11:30 - 12:00 | Accelerating inference at the edge for new data insights | A-Tang |
 | 12:00 - 12:15 | Tensix for accelerating AI and HPC | Tapankumar Joshi |
