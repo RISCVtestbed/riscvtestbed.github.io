@@ -40,3 +40,9 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 **_Presenter: Jason Yung-Cheng Lin_**
 
 As a founding and premier member of RISC-V International, Andes Technology contributes to high-performance computing (HPC) with superior out-of-order execution CPU cores and vector processors optimized for HPC workloads. Additionally, Andes offers an instruction customization environment that enables developers to accelerate performance-critical functions. AndesAIRE, the AI software stack, further enhances AI workload optimization, supporting large-scale AI/ML applications from edge devices to the cloud. This session will showcase how Andes Technology’s innovations are driving performance improvements across HPC environments.
+
+### RISC-V and HPC: Where we are and where we need to go
+
+**_Presenter: Nick Brown_**
+
+Whilst RISC-V has become popular in fields such as embedded computing, it is yet to find mainstream success in High Performance Computing (HPC). However with the recent availability of more powerful RISC-V hardware, the proposition has begun to look more attractive. In this talk I will highlight some of the recent successess around leveraging RISC-V in HPC, along with highlighting key areas that still need further development and improvement.
