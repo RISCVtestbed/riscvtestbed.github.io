@@ -30,7 +30,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 11:00 - 11:30 | Providing Full Stack Edge AI solutions with RISC-V | Albert Liu (Founder & CEO of [Kneron](https://www.kneron.com/)) |
 | 11:30 - 12:00 | Revolutionizing AI Workloads with ​Digital In-Memory Computing and RISC-V technology ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#revolutionizing-ai-workloads-with-digital-in-memory-computing-and-risc-v-technology)) | A-Tang (Software Engineering Manager of [Axelera.AI](https://www.axelera.ai/)) |
 | 12:00 - 12:15 | Tensix for accelerating AI and HPC | Tapankumar Joshi (Senior Director of [Tenstorrent](https://tenstorrent.com/)) |
-| 12:15 - 12:30 | Investigating a multi-socket high core-count RISC-V system for HPC workloads ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#investigating-a-multi-socket-high-core-count-risc-v-system-for-hpc-workload)) | Nick Brown (Senior Fellow at [EPCC, University of Edinburgh](https://www.epcc.ed.ac.uk)) |
+| 12:15 - 12:30 | Investigating a multi-socket high core-count RISC-V system for HPC workloads ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#investigating-a-multi-socket-high-core-count-risc-v-system-for-hpc-workload)) | Nick Brown (Senior Research Fellow at [EPCC, University of Edinburgh](https://www.epcc.ed.ac.uk)) |
 | 12:30 | Workshop concludes | |
 
 ## Abstracts
