@@ -28,9 +28,9 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 10:10 - 10:30 | Break |  |
 | 10:30 - 11:00 | Scaling HPC with Andes Technology: Optimizing Performance at Every Level ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#scaling-hpc-with-andes-technology-optimizing-performance-at-every-level)) | Jason Yung-Cheng Lin |
 | 11:00 - 11:30 | Providing Full Stack Edge AI solutions with RISC-V | Albert Liu |
-| 11:30 - 12:00 | Revolutionizing AI Workloads with ​Digital In-Memory Computing and RISC-V technology  | A-Tang |
+| 11:30 - 12:00 | Revolutionizing AI Workloads with ​Digital In-Memory Computing and RISC-V technology ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#revolutionizing-ai-workloads-with-digital-in-memory-computing-and-risc-v-technologyd)) | A-Tang |
 | 12:00 - 12:15 | Tensix for accelerating AI and HPC | Tapankumar Joshi |
-| 12:15 - 12:30 | Investigating a multi-socket high core-count RISC-V system for HPC workloads ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#user-content-investigating-a-multi-socket-high-core-count-risc-v-system-for-hpc-workload)) | Nick Brown |
+| 12:15 - 12:30 | Investigating a multi-socket high core-count RISC-V system for HPC workloads ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#investigating-a-multi-socket-high-core-count-risc-v-system-for-hpc-workload)) | Nick Brown |
 | 12:30 | Workshop concludes | |
 
 ## Abstracts
