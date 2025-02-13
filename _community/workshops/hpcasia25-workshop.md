@@ -28,7 +28,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 10:10 - 10:30 | Break |  |
 | 10:30 - 11:00 | Scaling HPC with Andes Technology: Optimizing Performance at Every Level ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#scaling-hpc-with-andes-technology-optimizing-performance-at-every-level)) | Jason Yung-Cheng Lin |
 | 11:00 - 11:30 | Providing Full Stack Edge AI solutions with RISC-V | Albert Liu |
-| 11:30 - 12:00 | Accelerating inference at the edge for new data insights | A-Tang |
+| 11:30 - 12:00 | Revolutionizing AI Workloads with ​Digital In-Memory Computing and RISC-V technology  | A-Tang |
 | 12:00 - 12:15 | Tensix for accelerating AI and HPC | Tapankumar Joshi |
 | 12:15 - 12:30 | Investigating a multi-socket high core-count RISC-V system for HPC workloads ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#user-content-investigating-a-multi-socket-high-core-count-risc-v-system-for-hpc-workload)) | Nick Brown |
 | 12:30 | Workshop concludes | |
@@ -40,6 +40,12 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 **_Presenter: Jason Yung-Cheng Lin_**
 
 As a founding and premier member of RISC-V International, Andes Technology contributes to high-performance computing (HPC) with superior out-of-order execution CPU cores and vector processors optimized for HPC workloads. Additionally, Andes offers an instruction customization environment that enables developers to accelerate performance-critical functions. AndesAIRE, the AI software stack, further enhances AI workload optimization, supporting large-scale AI/ML applications from edge devices to the cloud. This session will showcase how Andes Technology’s innovations are driving performance improvements across HPC environments.
+
+### Revolutionizing AI Workloads with ​Digital In-Memory Computing and RISC-V technology 
+
+**_Presenter: Jason Yung-Cheng Lin_**
+
+In this presentation, we will explore the advanced integration of Digital In-Memory Computing (D-IMC) and RISC-V technology by Axelera AI to accelerate AI inference workloads. Our approach uniquely combines the high energy efficiency and throughput of D-IMC with the versatility of RISC-V technology, creating a powerful and scalable platform. This platform is designed to handle a wide range of AI tasks, from advanced computer vision at the edge to emerging AI challenges. We will demonstrate how our scalable architecture not only meets but exceeds the demands of modern AI applications. Our platform enhances performance while significantly reducing energy use and operational costs. By pushing the boundaries of Edge AI and venturing into new AI domains, Axelera AI is setting new benchmarks in AI processing efficiency and deployment capabilities.
 
 ### Investigating a multi-socket high core-count RISC-V system for HPC workload
 
