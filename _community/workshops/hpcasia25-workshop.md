@@ -30,7 +30,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 11:00 - 11:30 | Providing Full Stack Edge AI solutions with RISC-V | Albert Liu |
 | 11:30 - 12:00 | Accelerating inference at the edge for new data insights | A-Tang |
 | 12:00 - 12:15 | Tensix for accelerating AI and HPC | Tapankumar Joshi |
-| 12:15 - 12:30 | RISC-V and HPC: Where we are and where we need to go ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#risc-v-and-hpc-where-we-are-and-where-we-need-to-go)) | Nick Brown |
+| 12:15 - 12:30 | Investigating a multi-socket high core-count RISC-V system for HPC workloads ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#risc-v-and-hpc-where-we-are-and-where-we-need-to-go)) | Nick Brown |
 | 12:30 | Workshop concludes | |
 
 ## Abstracts
@@ -41,8 +41,8 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 
 As a founding and premier member of RISC-V International, Andes Technology contributes to high-performance computing (HPC) with superior out-of-order execution CPU cores and vector processors optimized for HPC workloads. Additionally, Andes offers an instruction customization environment that enables developers to accelerate performance-critical functions. AndesAIRE, the AI software stack, further enhances AI workload optimization, supporting large-scale AI/ML applications from edge devices to the cloud. This session will showcase how Andes Technology’s innovations are driving performance improvements across HPC environments.
 
-### RISC-V and HPC: Where we are and where we need to go
+### Investigating a multi-socket high core-count RISC-V system for HPC workload
 
 **_Presenter: Nick Brown_**
 
-Whilst RISC-V has become popular in fields such as embedded computing, it is yet to find mainstream success in High Performance Computing (HPC). However with the recent availability of more powerful RISC-V hardware, the proposition has begun to look more attractive. In this talk I will highlight some of the recent successess around leveraging RISC-V in HPC, along with highlighting key areas that still need further development and improvement.
+Whilst RISC-V has become popular in fields such as embedded computing, it is yet to find mainstream success in High Performance Computing (HPC). However, the 64-core RISC-V SG2042 is a potential game changer as it provides a commodity available CPU with much higher core-count than existing technologies. In this work we benchmark the SG2042 CPU hosted in an experimental, dual-socket, system to explore the performance properties of the CPU when running a common HPC benchmark suite especially across socket. Earlier benchmarks found that, on the Milk-V Pioneer that CPU is memory bound and this work confirms, even on a different system we still see those limitations. However, such a multi-socket configuration does provide an improvement in performance which helps close the gap between common HPC deployments.
