@@ -30,7 +30,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 11:00 - 11:30 | Providing Full Stack Edge AI solutions with RISC-V | Albert Liu |
 | 11:30 - 12:00 | Accelerating inference at the edge for new data insights | A-Tang |
 | 12:00 - 12:15 | Tensix for accelerating AI and HPC | Tapankumar Joshi |
-| 12:15 - 12:30 | Investigating a multi-socket high core-count RISC-V system for HPC workloads ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#risc-v-and-hpc-where-we-are-and-where-we-need-to-go)) | Nick Brown |
+| 12:15 - 12:30 | Investigating a multi-socket high core-count RISC-V system for HPC workloads ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#user-content-investigating-a-multi-socket-high-core-count-risc-v-system-for-hpc-workload)) | Nick Brown |
 | 12:30 | Workshop concludes | |
 
 ## Abstracts
