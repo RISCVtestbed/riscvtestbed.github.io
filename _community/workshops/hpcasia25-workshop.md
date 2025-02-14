@@ -23,7 +23,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | Time        | Session           | Speaker  |
 | ------------- |:-------------:| -----:|
 | 09:00 - 09:10 | Welcome and aims | Nick Brown |
-| 09:10 - 09:50 | **Keynote:**  The Open Hardware Group, an open approach to RISC-V | Flo Wohlrab (CEO of [Open HW group](https://openhwfoundation.org/)) |
+| 09:10 - 09:50 | **Keynote:**  OpenHW Foundation RISC-V Cores: Empowering the Hardware Revolution | Flo Wohlrab (CEO of [Open HW group](https://openhwfoundation.org/)) |
 | 09:50 - 10:10 | RISC-V accelerator chips for HPC, AI/ML/DL | Akira Tsukamoto (Security and Ecosystem Architect Fellow of [Openchip](https://openchip.com/)) |
 | 10:10 - 10:30 | Break |  |
 | 10:30 - 11:00 | Scaling HPC with Andes Technology: Optimizing Performance at Every Level ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#scaling-hpc-with-andes-technology-optimizing-performance-at-every-level)) | Jason Yung-Cheng Lin (Senior Technical Marketing Manager of [Andes](https://www.andestech.com/en/)) |
@@ -34,6 +34,18 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 12:30 | Workshop concludes | |
 
 ## Abstracts
+
+### Keynote: OpenHW Foundation RISC-V Cores: Empowering the Hardware Revolution
+
+**_Presenter: Flo Wohlrab_**
+
+This presentation explores the significance of industrial-grade, open-source RISC-V cores in the AI landscape, focusing on the OpenHW Foundation's RISC-V solutions.
+
+RISC-V's ubiquity is undeniable, especially with the rise of AI and increased industrial use cases. Many of these applications utilize open-source RISC-V IP cores from the OpenHW Foundation. We delve into the details of these cores, their applications, and the collaborative efforts that drive their development.
+
+From deeply embedded cores like the CVE2 (ideal for replacing FSMs or handling small control tasks) to the MCU-level CVE4 (shipping in millions of devices) and the Linux-capable CVA6 (utilized by AI companies and industrial conglomerates), we examine the diverse range of OpenHW RISC-V cores. We also discuss the ecosystem surrounding these cores, including upstream compilers and the collaborative OpenHW framework.
+
+Additionally, we explore the motivations of major players like Thales and Silicon Labs to adopt open-source RISC-V cores and how this strategy supports their business goals. Understanding the dynamics of this collaborative approach provides valuable insights into the future of RISC-V and its role in shaping the AI landscape.
 
 ### Scaling HPC with Andes Technology: Optimizing Performance at Every Level
 
