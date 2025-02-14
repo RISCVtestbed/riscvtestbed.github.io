@@ -24,7 +24,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | ------------- |:-------------:| -----:|
 | 09:00 - 09:10 | Welcome and aims | Nick Brown |
 | 09:10 - 09:50 | **Keynote:**  OpenHW Foundation RISC-V Cores: Empowering the Hardware Revolution ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#keynote-openhw-foundation-risc-v-cores-empowering-the-hardware-revolution)) | Flo Wohlrab (CEO of [Open HW group](https://openhwfoundation.org/)) |
-| 09:50 - 10:10 | Challenges in HPC, AI/ML/DL for RISC-V accelerator chips | Akira Tsukamoto (Security and Ecosystem Architect Fellow of [Openchip](https://openchip.com/)) |
+| 09:50 - 10:10 | Challenges in HPC, AI/ML/DL for RISC-V accelerator chips ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#challenges-in-hpc-aimldl-for-risc-v-accelerator-chip)) | Akira Tsukamoto (Security and Ecosystem Architect Fellow of [Openchip](https://openchip.com/)) |
 | 10:10 - 10:30 | Break |  |
 | 10:30 - 11:00 | Scaling HPC with Andes Technology: Optimizing Performance at Every Level ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/hpcasia25-workshop#scaling-hpc-with-andes-technology-optimizing-performance-at-every-level)) | Jason Yung-Cheng Lin (Senior Technical Marketing Manager of [Andes](https://www.andestech.com/en/)) |
 | 11:00 - 11:30 | Providing Full Stack Edge AI solutions with RISC-V | Albert Liu (Founder & CEO of [Kneron](https://www.kneron.com/)) |
