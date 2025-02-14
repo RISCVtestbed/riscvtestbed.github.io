@@ -51,7 +51,7 @@ Additionally, we explore the motivations of major players like Thales and Silico
 
 **_Presenter: Akira Tsukamoto_**
 
-HPC started with vector computers like the CDC STAR-100 and CRAY-1, dominating from the 1970s to early 2000s. Computing evolved from SIMD instructions to GPGPUs, driven by Generative AI for better AI and machine learning performance. The talk will delve into the engineering challenges and innovations on what the Future accelerators need to balance performance and efficiency, with RISC-V vectors offering a flexible, power-efficient alternative to GPUs.
+HPC began with applications like computational fluid dynamics, processed on vector computers such as the CDC STAR-100 and CRAY-1. These systems were dominant from the 1970s to early 2000s, before general-purpose microprocessors took over due to Dennard scaling and Moore's law. The shift in computing started with SIMD instructions for parallel processing. Generative AI further advanced this trend, moving from vector and SIMD systems to GPGPUs, which excel in AI and machine learning tasks. The talk will delve into the engineering challenges and innovations on what the future accelerators must address the growing demands for computational power and efficiency. Innovations in RISC-V vector implementations offer a flexible and power-efficient alternative to GPUs, focusing on long vector systems, balancing vector performance with memory bandwidth, and enhancing usability.
 
 ### Scaling HPC with Andes Technology: Optimizing Performance at Every Level
 
