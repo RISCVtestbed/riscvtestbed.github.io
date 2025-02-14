@@ -12,7 +12,7 @@ order: 8
 ## Important dates
 <img align="right" src="https://www.hdfgroup.org/wp-content/uploads/2019/02/ISC_hp_logo_small_72dpi_rgb.png">
 
-* **Paper Deadline:** 13th March 2025 (AoE)
+* **Paper Deadline:** 16th March 2025 (AoE)
 * **Author Notification:** 3rd April 2025
 * **Camera ready papers:** 16th May 2025
 * **Workshop:** 13th June 2025
