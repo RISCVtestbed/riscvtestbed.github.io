@@ -55,7 +55,7 @@ As a founding and premier member of RISC-V International, Andes Technology contr
 
 ### Revolutionizing AI Workloads with ​Digital In-Memory Computing and RISC-V technology 
 
-**_Presenter: Jason Yung-Cheng Lin_**
+**_Presenter: A-Tang_**
 
 In this presentation, we will explore the advanced integration of Digital In-Memory Computing (D-IMC) and RISC-V technology by Axelera AI to accelerate AI inference workloads. Our approach uniquely combines the high energy efficiency and throughput of D-IMC with the versatility of RISC-V technology, creating a powerful and scalable platform. This platform is designed to handle a wide range of AI tasks, from advanced computer vision at the edge to emerging AI challenges. We will demonstrate how our scalable architecture not only meets but exceeds the demands of modern AI applications. Our platform enhances performance while significantly reducing energy use and operational costs. By pushing the boundaries of Edge AI and venturing into new AI domains, Axelera AI is setting new benchmarks in AI processing efficiency and deployment capabilities.
 
