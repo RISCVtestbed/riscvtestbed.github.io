@@ -12,7 +12,9 @@ order: 7
 ## Logistics
 <img align="right" src="/images/hpc_asia25_logo-small.png" width=150>
 
-Co-located with <a href="https://event1.nchc.org.tw/hpcasia2025/index.html">HPC Asia 2025</a>, this workshop will run between 8:30 a.m. and noon on February 19th in Hsinchu, Taiwan
+Co-located with <a href="https://event1.nchc.org.tw/hpcasia2025/index.html">HPC Asia 2025</a>, this workshop will run between 8:30 a.m. and noon on February 19th in Hsinchu, Taiwan.
+
+*Location:* Plum Blossom Room at the Sheraton Hsinchu Hotel
 
 ## Workshop details
 
