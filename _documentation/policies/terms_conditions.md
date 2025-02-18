@@ -10,8 +10,8 @@ order: 2
 ---
 
 In addition to these policies, access to the RISC-V testbed is also subject to abiding by the University of Edinburgh Computing Regulations and Security Policy:
-- [University of Edinburgh Computing Regulations](http://www.ed.ac.uk/information-services/about/policies-and-regulations/computing-regulations)
-- [University of Edinburgh Security Policy](http://www.ed.ac.uk/information-services/about/policies-and-regulations/security-policies/security-policy)
+- [University of Edinburgh Computing Acceptable Use Policy](https://information-services.ed.ac.uk/about/policies-and-regulations/university-computing-acceptable-use-policy)
+- [University of Edinburgh Security Policy](https://infosec.ed.ac.uk/information-protection-policies/information-security-recommended-reading)
 
 For auditing purposes we are only able to grant access to users who use their institution based email address rather than a personal one.
 
