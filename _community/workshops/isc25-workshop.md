@@ -60,7 +60,7 @@ All papers should be formatted Springer single column LNCS style, with formattin
 * Daniele Gregori (E4 Computer Engineering)
 * David Donofrio (Tactical Computing Laboratories)
 * Teresa Cervero (BSC)
-* Matt Turner (Samsung)
+* Matt Turner (HPE)
 
 ### Program committee
 
