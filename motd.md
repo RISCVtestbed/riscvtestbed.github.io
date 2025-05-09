@@ -1,1 +1,1 @@
-> The testbed is currently offline due to a power outage.
+> NOTE: The testbed is currently offline due to a power outage.
