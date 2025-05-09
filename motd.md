@@ -1,1 +1,1 @@
-> NOTE: The testbed is currently offline due to a power outage.
+> NOTE: The testbed is currently offline due to a power outage. The service will be down until Monday 12th May 1:00pm BST.
