@@ -20,7 +20,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | Time        | Session           | Speaker  |
 | ------------- |:-------------:| -----:|
 | 14:00 - 14:05 | Welcome and aims | Nick Brown |
-| 14:05 - 14:40 | Keynote: RISC-V in HPC, the RVI perspective | Andrea Gallo |
+| 14:05 - 14:40 | Keynote: RISC-V in HPC, the RVI perspective ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#parallel-fftw-on-risc-v-a-comparative-study-including-openmp-mpi-and-hpx)) | Andrea Gallo |
 | 14:40 - 15:00 | Parallel FFTW on RISC-V: A Comparative Study including OpenMP, MPI, and HPX ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#parallel-fftw-on-risc-v-a-comparative-study-including-openmp-mpi-and-hpx)) | Alexander Strack |
 | 15:00 - 15:20 | Monte Cimone v2: HPC RISC-V Cluster Evaluation and Optimization ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#monte-cimone-v2-hpc-risc-v-cluster-evaluation-and-optimization)) | Emanuele Venieri |
 | 15:20 - 15:40 | Evaluating RISC-V processor as an alternative for High Performance Computing ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#evaluating-risc-v-processor-as-an-alternative-for-high-performance-computing)) | Aniket Garade |
@@ -35,6 +35,12 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 
 
 ## Abstracts
+
+### Keynote: RISC-V in HPC, the RVI perspective
+
+**_Presenter: Andrea Gallo_**
+
+Andrea is the CEO of RISC-V International (RVI) and will explore the role of RISC-V in HPC from RVI's perspective. RISC-V has become extremely successful since it was first developed 15 years ago, however is still yet to gain wide-spread acceptance in HPC. However, there are numerous benefits that RISC-V can bring to the community and a wide range of efforts going on across the standard to support HPC workloads. In this talk I will highlight some of the activities going on across the community and using thes demonstrate the benefits and efforts that the HPC community should be aware of and get involved with.   
 
 ### Parallel FFTW on RISC-V: A Comparative Study including OpenMP, MPI, and HPX
 
@@ -77,6 +83,13 @@ This paper explores the current state of performance monitoring on RISC-V-based 
 **_Presenter: Luís Crespo_**
 
 As processor speeds continue to outpace memory access times, memory latency remains a critical bottleneck in modern computing systems. Addressing this challenge requires effective memory access optimizations, such as data prefetching, which can anticipate memory requests and reduce stalls. Meanwhile, RISC-V has emerged as a compelling open-source alternative to proprietary ISAs with increasing adoption in domains ranging from embedded systems to high-performance computing. However, as RISC-V systems scale in complexity, there is a growing need for accurate and efficient performance modeling to guide architectural optimizations. Accordingly, this paper enhances the RISC-V Olympia trace-based performance simulator by extending it to support prefetching mechanisms. Additional contributions include modifications to the Spike simulator and the development of a complementary parser for generating an open-source simulation trace format. The effectiveness of these prefetching strategies is evaluated, demonstrating their potential to reduce memory access latency and enhance RISC-V system performance.
+
+### Exploring Fast Fourier Transforms on the Tenstorrent Wormhole
+
+**_Presenter: Jake Davies_**
+
+Whilst numerous areas of computing have adopted the RISC-V Instruction Set Architecture (ISA) wholesale in recent years, it is yet to become widespread in HPC. RISC-V accelerators offer a compelling option where the HPC community can benefit from the specialisation offered by the open nature of the standard but without the extensive ecosystem changes required when adopting RISC-V CPUs.
+In this paper and talk we explore porting the Cooley–Tukey Fast Fourier Transform (FFT) algorithm to the Tenstorrent Wormhole PCIe RISC-V based accelerator. Built upon Tenstorrent's Tensix architecture, this technology decouples the movement of data from compute, potentially offering increased control to the programmer. Exploring different optimisation techniques to address the bottlenecks inherent in data movement, we demonstrate that for a 2D FFT whilst the Wormhole n300 is slower than a server-grade 24-core Xeon Platinum CPU, the Wormhole draws around 8 times less power and consumes around 2.8 times less energy than the CPU when computing the Fourier transform.
 
 ### Streamlining Fedora Linux Distributions for RISC-V: A Scalable and Automated Approach
 
