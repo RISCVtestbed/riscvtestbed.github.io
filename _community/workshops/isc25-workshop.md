@@ -20,17 +20,17 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | Time        | Session           | Speaker  |
 | ------------- |:-------------:| -----:|
 | 14:00 - 14:05 | Welcome and aims | Nick Brown |
-| 14:05 - 14:40 | Keynote: RISC-V in HPC, the RVI perspective ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#parallel-fftw-on-risc-v-a-comparative-study-including-openmp-mpi-and-hpx)) | Andrea Gallo |
+| 14:05 - 14:40 | Keynote: RISC-V in HPC, the RVI perspective ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#keynote-risc-v-in-hpc-the-rvi-perspective)) | Andrea Gallo |
 | 14:40 - 15:00 | Parallel FFTW on RISC-V: A Comparative Study including OpenMP, MPI, and HPX ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#parallel-fftw-on-risc-v-a-comparative-study-including-openmp-mpi-and-hpx)) | Alexander Strack |
 | 15:00 - 15:20 | Monte Cimone v2: HPC RISC-V Cluster Evaluation and Optimization ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#monte-cimone-v2-hpc-risc-v-cluster-evaluation-and-optimization)) | Emanuele Venieri |
 | 15:20 - 15:40 | Evaluating RISC-V processor as an alternative for High Performance Computing ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#evaluating-risc-v-processor-as-an-alternative-for-high-performance-computing)) | Aniket Garade |
-| 15:40 - 15:50 | Vendor talk: Calligo  | Anantha P Kinnal |
-| 15:50 - 16:00 | Vendor talk: InspireSemi | Alex Gray |
+| 15:40 - 15:50 | Vendor talk: Calligo ([website](https://calligotech.com/)) | Anantha P Kinnal |
+| 15:50 - 16:00 | Vendor talk: InspireSemi ([website](https://inspiresemi.com/)) | Alex Gray |
 | 16:00 - 16:30 | Coffee Break | |
 | 16:30 - 16:50 | Evaluation of RVV-enabled COTS Platforms with Matrix Multiplication and EXO ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#evaluation-of-rvv-enabled-cots-platforms-with-matrix-multiplication-and-exo)) | Francisco Igual |
 | 16:50 - 17:10 | RISC-V in HPC: a look into tools for performance monitoring ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#risc-v-in-hpc-a-look-into-tools-for-performance-monitoring)) | Fabio Banchelli |
 | 17:10 - 17:30 | Advancing the RISC-V Performance Simulation Ecosystem with Data Prefetching ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#advancing-the-risc-v-performance-simulation-ecosystem-with-data-prefetching)) | Luís Crespo |
-| 17:30 - 17:50 | Exploring Fast Fourier Transforms on the Tenstorrent Wormhole | Jake Davies |
+| 17:30 - 17:50 | Exploring Fast Fourier Transforms on the Tenstorrent Wormhole ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#exploring-fast-fourier-transforms-on-the-tenstorrent-wormhole)) | Jake Davies |
 | 17:50 - 18:00 | Streamlining Fedora Linux Distributions for RISC-V: A Scalable and Automated Approach ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#streamlining-fedora-linux-distributions-for-risc-v-a-scalable-and-automated-approach)) | Yogeshwar Sonawane |
 
 
