@@ -23,7 +23,7 @@ permalink: /status/
 | StarFive VisionFive V1 #2 | rvc08 | 2 | 8GB | <img src="/images/on.png" alt="green light" width="10"/> up |
 | StarFive VisionFive V1 #3 | rvc09 | 2 | 8GB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
 | HiFive Unmatched  | rvc10 | 4 | 16GB | <img src="/images/on.png" alt="green light" width="10"/> up |
-| StarFive VisionFive V2 #1 | rvc11 | 4 | 8GB | <img src="/images/off.png" alt="red light" width="10"/> down |
+| StarFive VisionFive V2 #1 | rvc11 | 4 | 8GB | <img src="/images/on.png" alt="green light" width="10"/> up |
 | StarFive VisionFive V2 #2 | rvc12 | 4 | 8GB | <img src="/images/on.png" alt="green light" width="10"/> up |
 | StarFive VisionFive V2 #3 | rvc13 | 4 | 8GB | <img src="/images/on.png" alt="green light" width="10"/> up |
 | StarFive VisionFive V2 #4 | rvc14| 4 | 8GB | <img src="/images/on.png" alt="green light" width="10"/> up |
