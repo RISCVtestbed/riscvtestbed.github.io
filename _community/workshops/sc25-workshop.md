@@ -12,9 +12,9 @@ order: 6
 ## Important dates
 <img align="right" src="https://riscv.epcc.ed.ac.uk/images/sc25_black_hor_flat.png" width=350>
 
-* **Paper Deadline:** 1st August 2025 (AoE)
-* **Author Notification:** 25th August 2025
-* **Camera ready papers:** 15th September 2025
+* **Paper Deadline (extended):** <strike>1st August 2025</strike> 15th August 2025 (AoE)
+* **Author Notification:** 10th September 2025
+* **Camera ready papers:** 25th September 2025
 * **Workshop:** Morning of Monday 17th November 2025
 
 ## Workshop details
