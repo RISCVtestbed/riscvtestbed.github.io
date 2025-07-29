@@ -60,7 +60,7 @@ All papers should be formatted using the IEEE conference proceedings template, t
 * David Donofrio (Tactical Computing Labs)
 * Teresa Cervero (BSC)
 * Daniele Gregori (E4 Computer Engineering)
-* Matthew Turner (Samsung)
+* Matthew Turner (HPE)
 
 ### Program committee
 
