@@ -48,9 +48,9 @@ We invite submissions of high-quality, original research results and works-in-pr
 
 ### Paper submission
 
-Authors are invited to submit unpublished, original work. Accepted papers will appear in the IEEE SC workshop proceedings published by the ACM. Papers should be submitted in two categories, full papers which are between 6 and 10 pages and short papers which are 5 pages. Page counts include references and figures. All papers should be submitted via Linklings [here](https://submissions.supercomputing.org/?args=tUbprcnt3DsfGQUIYprcnt3DbTtUbb0XfQbGzt9pTJUHtGyfHfbQIf0zU30Jprcnt3DbATAprcnt3DxGzb0zU3THQP0Aprcnt3DxfGzU3ACIIfb0HQP0Aprcnt3DxfTrJUHtGzU3ACI0IQ3TrAprcnt3DxGzU3ACI0IQ3TEGcaaM_Tz0Cx0zfsGphpMpTzYprcnt3D40QHHGdbUfTzYprcnt3D40bprcnt3DQxGdbUfTzYprcnt3D40Iprcnt3Dxprcnt3DGdbUfTzU30IXrfGzIXrf9ca)
+Authors are invited to submit unpublished, original work. Accepted papers will appear in the ACM SC workshop proceedings published by the ACM. Papers should be submitted in two categories, full papers which are between 6 and 10 pages and short papers which are 5 pages. Page counts include references and figures. All papers should be submitted via Linklings [here](https://submissions.supercomputing.org/?args=tUbprcnt3DsfGQUIYprcnt3DbTtUbb0XfQbGzt9pTJUHtGyfHfbQIf0zU30Jprcnt3DbATAprcnt3DxGzb0zU3THQP0Aprcnt3DxfGzU3ACIIfb0HQP0Aprcnt3DxfTrJUHtGzU3ACI0IQ3TrAprcnt3DxGzU3ACI0IQ3TEGcaaM_Tz0Cx0zfsGphpMpTzYprcnt3D40QHHGdbUfTzYprcnt3D40bprcnt3DQxGdbUfTzYprcnt3D40Iprcnt3Dxprcnt3DGdbUfTzU30IXrfGzIXrf9ca)
 
-All papers should be formatted using the IEEE conference proceedings template, two-column, US letter size templates are agailable [here](https://www.ieee.org/conferences/publishing/templates.html)
+All papers should be formatted using the ACM conference proceedings template, two-column, US letter size templates. Latex users, please use the _sigconf_ option. Word authors can use the _Interim Layout_. Templates are available [here](https://www.acm.org/publications/proceedings-template)
 
 ## Organisation 
 
