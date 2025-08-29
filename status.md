@@ -17,10 +17,10 @@ permalink: /status/
 | Milk-V Jupiter #1 | rvc02 | 8 | 16GB | <img src="/images/on.png" alt="green light" width="10"/> up |
 | Milk-V Jupiter #2 | rvc03 | 8 | 16GB | <img src="/images/on.png" alt="green light" width="10"/> up |
 | DongshanNezhaSTU #4 | rvc04 | 1 | 512MB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
-| MangoPi MQ-Pro #1 | rvc05 | 1 | 1GB | <img src="/images/on.png" alt="green light" width="10"/> up |
-| MangoPi MQ-Pro #2 | rvc06 | 1 | 1GB | <img src="/images/on.png" alt="green light" width="10"/> up |
-| StarFive VisionFive V1 #1 | rvc07 | 2 | 8GB | <img src="/images/on.png" alt="green light" width="10"/> up |
-| StarFive VisionFive V1 #2 | rvc08 | 2 | 8GB | <img src="/images/on.png" alt="green light" width="10"/> up |
+| MangoPi MQ-Pro #1 | rvc05 | 1 | 1GB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
+| MangoPi MQ-Pro #2 | rvc06 | 1 | 1GB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
+| StarFive VisionFive V1 #1 | rvc07 | 2 | 8GB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
+| StarFive VisionFive V1 #2 | rvc08 | 2 | 8GB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
 | StarFive VisionFive V1 #3 | rvc09 | 2 | 8GB | <img src="/images/amber.png" alt="amber light" width="10"/> offline |
 | HiFive Unmatched  | rvc10 | 4 | 16GB | <img src="/images/on.png" alt="green light" width="10"/> up |
 | StarFive VisionFive V2 #1 | rvc11 | 4 | 8GB | <img src="/images/on.png" alt="green light" width="10"/> up |
