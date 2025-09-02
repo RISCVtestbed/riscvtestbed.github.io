@@ -10,7 +10,7 @@ order: 7
 ---
 
 ## Logistics
-<img align="right" src="/images/hpc_asia26_logo-small.png" width=150>
+<img align="right" src="/images/hpc_asia26-logo-small.png" width=150>
 
 Co-located with <a href="https://www.sca-hpcasia2026.jp/index.html">HPC Asia 2026</a>, this workshop will run in Osaka, Japan.
 
