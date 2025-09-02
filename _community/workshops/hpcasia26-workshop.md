@@ -12,8 +12,7 @@ order: 7
 ## Logistics
 <img align="right" src="/images/hpc_asia26_logo-small.png" width=150>
 
-Co-located with <a href="https://www.sca-hpcasia2026.jp/index.html">HPC Asia 2026</a>, this workshop will run 
-<!-- between 8:30 a.m. and noon on February 19th --> in Osaka, Japan.
+Co-located with <a href="https://www.sca-hpcasia2026.jp/index.html">HPC Asia 2026</a>, this workshop will run in Osaka, Japan.
 
 *Location:* Osaka International Convention Center
 
