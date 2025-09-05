@@ -14,7 +14,7 @@ order: 7
 * **Paper Deadline (extended):** 22nd October 2025 (AoE)
 * **Author Notification:** 26th November 2025
 * **Camera ready papers:** TBD
-* **Workshop:** Half day event one day between 26 and 29 of January 2026
+* **Workshop:** TBD (26-29 of January 2026)
   
 ## Logistics
 <!--<img align="right" src="/images/hpc_asia26-logo-small.png" width=150>-->
