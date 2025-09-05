@@ -1,5 +1,5 @@
 ---
-title: "International workshop on RISC-V for HPC at HPC Asia 2026"
+title: "International workshop on RISC-V for HPC at SCA/HPC Asia 2026"
 icon: /images/podium.png
 icon_alt: Award icon
 categories:
