@@ -47,7 +47,7 @@ We invite submissions of high-quality, original research results and works-in-pr
 ### Paper submission
 We invite authors to submit original, unpublished work for consideration. Accepted papers will be included in the SCA/HPCAsia proceedings. Submissions must be in PDF format and should not exceed 12 pages, including figures and references. Manuscripts must adhere to the ACM Proceedings Style and be submitted via the <a href="https://easychair.org/conferences/?conf=riscvhpc26">EasyChair Online Submission System</a>.
 
-All papers should be prepared in a single-column layout and follow the official ACM formatting guidelines. Templates and detailed instructions for submission can be found at <a href="https://www.acm.org/publications/authors/submissions">href="https://www.acm.org/publications/authors/submissions</a>.  
+All papers should be prepared in a single-column layout and follow the official ACM formatting guidelines. Templates and detailed instructions for submission can be found at <a href="https://www.acm.org/publications/authors/submissions">https://www.acm.org/publications/authors/submissions</a>.  
 
 ## Organisation 
 
