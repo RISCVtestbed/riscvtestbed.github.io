@@ -13,8 +13,8 @@ order: 7
 
 * **Paper Deadline (extended):** 8th November 2025 (AoE)
 * **Author Notification:** 26th November 2025
-* **Camera ready papers:** TBD
-* **Workshop:** TBD (26-29 of January 2026)
+* **Camera ready papers:** 15th December 2025
+* **Workshop:** 26 January 2026
   
 ## Logistics
 <!--<img align="right" src="/images/hpc_asia26-logo-small.png" width=150>-->
@@ -45,7 +45,9 @@ We invite submissions of high-quality, original research results and works-in-pr
 * And anything else related to RISC-V and HPC!
 
 ### Paper submission
-*TBD*
+We invite authors to submit original, unpublished work for consideration. Accepted papers will be included in the SCA/HPCAsia proceedings. Submissions must be in PDF format and should not exceed 12 pages, including figures and references. Manuscripts must adhere to the ACM Proceedings Style and be submitted via the <a href="https://easychair.org/conferences/?conf=riscvhpc26">EasyChair Online Submission System</a>.
+
+All papers should be prepared in a single-column layout and follow the official ACM formatting guidelines. Templates and detailed instructions for submission can be found at <a href="https://www.acm.org/publications/authors/submissions">https://www.acm.org/publications/authors/submissions</a>.  
 
 ## Organisation 
 
@@ -56,7 +58,12 @@ We invite submissions of high-quality, original research results and works-in-pr
 * Sandra Catalán (Universitat Jaume I)
 
 ### Program committee
-*TBD*
+* Yogeshwar Sonawane (Center for Development of Advanced Computing (C-DAC))
+* Ruymán Reyes (Codeplay Software / Intel)
+* Akira Tsukamoto (OpenChip)
+* Surendra Billa (Centre for Development of Advanced Computing (C-DAC))
+* Chris Taylor (Tactical Computing Labs, LLC)
+* Luc Berger-Vergiat (Sandia National Laboratories)
   
 ## Workshop Schedule
 
