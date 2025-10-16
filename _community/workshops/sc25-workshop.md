@@ -22,7 +22,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | ------------- |:-------------| :-----|
 | 9:00 - 9:00 | Welcome | Nick Brown |
 | 9:00 - 9:30 | **Invited talk:** Invited talk: Cuzco from Open-source to a High Performance Computing CPU Design ([abstract](https://sc25.conference-program.com/presentation/?id=misc193&sess=sess236)) | Shashank Nemawarkarl |
-| 9:30 - 9:40 | **Short paper:** Bridging Simulation and Silicon: A Study of RISC-V Hardware and FireSim Simulation ([abstract](https://sc25.conference-program.com/?post_type=page&p=14&id=ws_risc110&sess=sess236)) | Atanu Barai |
+| 9:30 - 9:40 | **Short paper:** Bridging Simulation and Silicon: A Study of RISC-V Hardware and FireSim Simulation ([abstract](https://sc25.conference-program.com/?post_type=page&p=14&id=ws_risc110&sess=sess236)) | Patrick Diehl |
 | 9:40 - 9:50 | **Short paper:** Simulating Hybrid Analog + RISC-V Systems for HPC Applications ([abstract](https://sc25.conference-program.com/?post_type=page&p=14&id=ws_risc108&sess=sess236)) | Cameron Durbin |
 | 9:50 - 10:00 | **Short paper:** Accelerating Gravitational N-Body Simulations Using the RISC-V-Based Tenstorrent Wormhole ([abstract](https://sc25.conference-program.com/?post_type=page&p=14&id=ws_risc103&sess=sess236)) | Jenny Lynn Almerol |
 | 10:00 - 10:30 | Morning break || 
@@ -33,3 +33,4 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 11:50 - 12:10 | **Research paper:** Is RISC-V ready for High Performance Computing? An evaluation of the Sophon SG2044 ([abstract](https://sc25.conference-program.com/?post_type=page&p=14&id=ws_risc107&sess=sess236)) | Nick Brown |
 | 12:10 - 12:20 | **Short paper:** Assessing a RISC-V Accelerator for Cross-Section Lookup in Chipyard ([abstract](https://sc25.conference-program.com/?post_type=page&p=14&id=ws_risc101&sess=sess236)) | Andrew Ledbetter |
 | 12:20 - 12:30 | **Short paper:** Dyninst on the RISC-V: Binary Instrumentation in Support of Performance, Debugging, and Other Tools ([abstract](https://sc25.conference-program.com/?post_type=page&p=14&id=ws_risc102&sess=sess236)) | Cheng-Hsun Angus He |
+| 12:30 | Workshop close | |
