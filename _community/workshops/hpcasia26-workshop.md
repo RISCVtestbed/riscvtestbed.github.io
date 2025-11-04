@@ -11,7 +11,7 @@ order: 7
 ## Important dates
 <img align="right" src="https://riscv.epcc.ed.ac.uk/images/hpc_asia26_logo-large.png" width=350>
 
-* **Paper Deadline (extended):** 8th November 2025 (AoE)
+* **Paper Deadline (extended):** ~~8th November 2025 (AoE)~~ 16th November 2025 (AoE)
 * **Author Notification:** 26th November 2025
 * **Camera ready papers:** 15th December 2025
 * **Workshop:** 26 January 2026
