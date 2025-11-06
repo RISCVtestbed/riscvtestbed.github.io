@@ -1,5 +1,0 @@
-> Friday 29th August 2025 09:00 - Monday 15th September 18:00
->
-> Due to a significant Health and Safety risk, associated with our power supply to the site, action is required at the Advanced Computing Facility (ACF). There will be a full power outage to the site during this period. Specialised external contractors will be working on a 24/7 basis for the outage period replacing switchgear.
->
-> Users will not be able to connect to the RISC-V testbed via gateway.epcc.ed.ac.uk. SAFE and the RISC-V testbed website will be available.
