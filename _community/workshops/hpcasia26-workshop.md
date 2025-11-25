@@ -49,6 +49,8 @@ We invite authors to submit original, unpublished work for consideration. Accept
 
 All papers should be prepared in a single-column layout and follow the official ACM formatting guidelines. Templates and detailed instructions for submission can be found at <a href="https://www.acm.org/publications/authors/submissions">https://www.acm.org/publications/authors/submissions</a>.  
 
+**Accepted papers will be published in the ACM Digital Library.** 
+
 ## Organisation 
 
 ### Organising committee
