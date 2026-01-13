@@ -69,9 +69,12 @@ All papers should be prepared in a single-column layout and follow the official 
   
 ## Workshop Schedule
 
-*TBD*
-
-
-## Abstracts
-
-*TBD*
+| Time           | Program                                                                 | Presenter(s)                     | Affiliation                                                                 |
+|----------------|-------------------------------------------------------------------------|----------------------------------|------------------------------------------------------------------------------|
+| 09:30 – 09:35  | Introduction                                                            | Sandra Catalán                   | Universitat Jaume I                                                         |
+| 09:35 – 10:25  | Invited talk                                                            | Erich Focht                      | OpenChip                                                                    |
+| 10:25 – 10:45  | Porting and Evaluation of Lustre on a RISC-V Cluster for HPC Storage Infrastructure | Surendra Billa                  | Centre for Development of Advanced Computing (C-DAC)                        |
+| 10:45 – 11:15  | Break                                                                   | —                                | —                                                                            |
+| 11:15 – 11:40  | Migration of Ginkgo's Jacobi-Preconditioned CG Solver to Vector RISC-V   | Enrique S. Quintana-Ortí         | Universitat Politècnica de València                                         |
+| 11:40 – 12:05  | NIMA-STEP: A Hardware-Software Co-Design Approach for Accelerating Cellular Automata Computation | Nima Sahraneshinsamani | Universitat Jaume I                                                         |
+| 12:05 – 12:30  | An analysis of memory access patterns in RISC-V vector workloads on heterogeneous memory architectures | Ryo Yokoyama | Graduate School of Information Sciences, Tohoku University                  |
