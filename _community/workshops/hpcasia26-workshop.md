@@ -62,10 +62,7 @@ All papers should be prepared in a single-column layout and follow the official 
 ### Program committee
 * Yogeshwar Sonawane (Center for Development of Advanced Computing (C-DAC))
 * Ruymán Reyes (Codeplay Software / Intel)
-* Akira Tsukamoto (OpenChip)
 * Surendra Billa (Centre for Development of Advanced Computing (C-DAC))
-* Chris Taylor (Tactical Computing Labs, LLC)
-* Luc Berger-Vergiat (Sandia National Laboratories)
   
 ## Workshop Schedule
 
