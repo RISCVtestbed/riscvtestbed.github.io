@@ -12,8 +12,8 @@ order: 10
 ## Important dates
 <img align="right" src="https://www.hdfgroup.org/wp-content/uploads/2019/02/ISC_hp_logo_small_72dpi_rgb.png">
 
-* **Paper Deadline:** 23rd March 2026 (AoE)
-* **Author Notification:** 8th April 2026
+* **Paper Deadline:** <strike>23rd March 2026</strike> 1st April 2026 (AoE)
+* **Author Notification:** 15th April 2026
 * **Camera ready papers:** 26th May 2026
 * **Workshop:** 26th June 2026
 
