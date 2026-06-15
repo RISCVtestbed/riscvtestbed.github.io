@@ -21,7 +21,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 14:00 - 14:05 | Welcome and aims | Nick Brown |
 | 14:05 - 14:40 | Keynote: Disruptive Next Generation HPC-AI Accelerated Computing Platform | Doug Norton |
 | 14:40 - 15:00 | Is RISC-V Ready for Machine Learning? Portable Gaussian Processes Using Asynchronous Tasks ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-machine-learning-portable-gaussian-processes-using-asynchronous-tasks)) | Alexander Strack |
-| 15:00 - 15:20 | Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#great-expectations-benchmarking-the-real-world-performance-of-rvv-10-in-hpc))  | Stepan Nassyr |
+| 15:00 - 15:20 | Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#great-expectations-benchmarking-the-real-world-performance-of-rvv-10-in-hpc))  | Prateek Chawla |
 | 15:20 - 15:40 | Vector-length agnostic varint decoding on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Marco Vogel |
 | 15:40 - 16:00 | Performance Evaluation of a Vectorized memcpy Implementation on a multi-core RV64 Platform ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Manolis Ploumidis |
 | 16:00 - 16:30 | Coffee Break | |
@@ -43,7 +43,7 @@ Our results show that while the x86-64 Zen2 chip achieves a 58% single-core perf
 
 ### Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC
 
-**_Presenter: Stepan Nassyr_**
+**_Presenter: Prateek Chawla_**
 
 Following the ratification of the RVV 1.0, new commercially available silicon has been adopting the extension. This paper revisits the question of RISC-V viability for High-Performance-Computing (HPC) by benchmarking the latest RVV-1.0-capable hardware (SiFive x280, SpacemiT x60/x100/A100 and T-Head C920v2). We assess these platforms using standard HPC benchmarks (BLAS, FFTW, HPL, HPCG) and synthetic workloads (STREAM, FMA throughput). Our findings show that while RVV 1.0 delivers significant performance improvements over scalar execution, hardware-specific implementation challenges remain. We detail these performance characteristics and discuss the remaining hurdles for RISC-V to become a mainstay in the HPC landscape.
 
