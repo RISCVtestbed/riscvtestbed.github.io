@@ -18,39 +18,80 @@ order: 10
 * **Workshop:** 26th June 2026
 
 ## Workshop details
-Co-located with ISC 2026, this is a half day workshop (morning or afternoon TBC) on Friday 26th June 2026 in Hamburg, Germany
+Co-located with ISC 2026, this is a half day afternoon workshop on Friday 26th June 2026 in Hamburg, Germany in Hall X10 - 1st Floor of the Congress Center Hamburg.
 
-## Workshop scope
-The goal of this workshop is to continue building the community of RISC-V in HPC, sharing the benefits of this technology with domain scientists, tool developers, and supercomputer operators. RISC-V is an open standard Instruction Set Architecture (ISA) which enables the royalty free development of CPUs and a common software ecosystem to be shared across them. Following this community driven ISA standard, a very diverse set of CPUs have been, and continue to be, developed which are suited to a range of workloads. Whilst RISC-V has become very popular already in some fields, and in 2022 the ten billionth RISC-V core was shipped, to date it has yet to gain traction in HPC.
+The goal of this workshop is to continue building the community of RISC-V in HPC, sharing the benefits of this technology with domain scientists, tool developers, and supercomputer operators. There are numerous potential advantages that RISC-V can provide to HPC and, assuming the significant rate of growth of this technology to date continues, as we progress further into the decade it is highly likely that RISC-V will become more relevant and widespread for HPC workloads. This workshop aims to bring together those already looking to popularise RISC-V in the field of HPC with the supercomputing community at-large. Sharing benefits of the architecture, success stories, and techniques we hope to further popularise the technology and increase involvement by the community in this exciting technology. 
 
-However, there are numerous potential advantages that RISC-V can provide to HPC and, assuming the significant rate of growth of this technology to date continues, as we progress further into the decade it is highly likely that RISC-V will become more relevant and widespread for HPC workloads. Furthermore, recent advances in RISC-V make it a more realistic proposition for HPC workloads than ever before. An example of this is vectorisation extension which provides important performance advantages for HPC workloads but was only standardised in early 2022, and-so we are only now seeing mature CPUs that fully implement this.
+## Workshop schedule
 
-The open and standardised nature of RISC-V means that the large, and growing community, can be involved in shaping the standard and tooling. This is important from two perspectives, firstly it is our opportunity in the HPC community to help shape the future of RISC-V to ensure that it is suitable for the next generation of supercomputers. Secondly, whilst there are a wide variety of RISC-V CPUs currently available, the standard nature of the tooling means that very often the same software ecosystem comprising the compiler, operating system, and libraries will run across these whilst requiring few changes.
+| Time        | Session           | Speaker  |
+| ------------- |:-------------:| -----:|
+| 14:00 - 14:05 | Welcome and aims | Nick Brown |
+| 14:05 - 14:40 | Keynote: Disruptive Next Generation HPC-AI Accelerated Computing Platform | Doug Norton |
+| 14:40 - 15:00 | Is RISC-V Ready for Machine Learning? Portable Gaussian Processes Using Asynchronous Tasks ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#parallel-fftw-on-risc-v-a-comparative-study-including-openmp-mpi-and-hpx)) | Alexander Strack |
+| 15:00 - 15:20 | Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#monte-cimone-v2-hpc-risc-v-cluster-evaluation-and-optimization))  | Stepan Nassyr |
+| 15:20 - 15:40 | Vector-length agnostic varint decoding on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#evaluating-risc-v-processor-as-an-alternative-for-high-performance-computing))  | Marco Vogel |
+| 15:40 - 16:00 | Performance Evaluation of a Vectorized memcpy Implementation on a multi-core RV64 Platform ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#evaluating-risc-v-processor-as-an-alternative-for-high-performance-computing))  | Manolis Ploumidis |
+| 16:00 - 16:30 | Coffee Break | |
+| 16:30 - 16:45 | Vendor Talk: NextSilicon  |  |
+| 16:45 - 17:00 | Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructure ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#evaluation-of-rvv-enabled-cots-platforms-with-matrix-multiplication-and-exo)) | Yogeshwar Sonawane |
+| 17:00 - 17:20 | Exploring spectral element methods on the Tenstorrent RISC-V accelerator ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#advancing-the-risc-v-performance-simulation-ecosystem-with-data-prefetching)) | Daniyal Arshad |
+| 17:20 - 17:40 | Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#exploring-fast-fourier-transforms-on-the-tenstorrent-wormhole)) | Daniel Seibel |
+| 17:40 - 18:00 | Is RISC-V Ready for Massively Parallel Astrophysical Codes? ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#streamlining-fedora-linux-distributions-for-risc-v-a-scalable-and-automated-approach)) | Jenny Almerol |
 
-This workshop aims to bring together those already looking to popularise RISC-V in the field of HPC with the supercomputing community at-large. By sharing benefits of the architecture, success stories, and techniques we hope to further popularise the technology and increase involvement by the community. 
+## Abstracts
 
-## Call for papers - workshop topics
+### Is RISC-V Ready for Machine Learning? Portable Gaussian Processes Using Asynchronous Tasks
 
-We invite submissions of high-quality, original research results and works-in-progress on RISC-V with a general connection to HPC. Topics of interest for this workshop include (but are not limited to):
+**_Presenter: Alexander Strack_**
 
-* Example use-cases and case-studies that use RISC-V
-* Lessons learnt from leveraging RISC-V in HPC
-* Industry papers exploring the use of RISC-V
-* The porting of codes to RISC-V
-* Novel hardware and accelerators built upon RISC-V
-* Tools and techniques to aid in the use of RISC-V for HPC
-* Developments in HPC libraries to port them to RISC-V
-* Enhancements to RISC-V to make the architecture more suited for HPC
-* Compiler and runtime support for RISC-V
-* The RISC-V ecosystem
-* Future gazing how RISC-V might evolve the HPC community
-* And anything else related to RISC-V and HPC!
+Gaussian processes are widely used in machine learning domains but remain computationally demanding, limiting their efficient scalability across diverse hardware platforms. The GPRat library targets these challenges with the help of the asynchronous many-task runtime HPX. In this work, we extend GPRat to enable portability across multiple hardware architectures and evaluate its performance on representative x86-64, ARM, and RISC-V chips. We conduct node-level strong-scaling and problem-size-scaling benchmarks for Gaussian Process prediction and hyperparameter optimization to assess single-core performance, parallel scalability, and architectural efficiency.
 
-### Paper submission
+Our results show that while the x86-64 Zen2 chip achieves a 58% single-core performance advantage over the ARM-based Fujitsu A64FX, superior parallel scaling allows the 48-core ARM chip to outperform the 64-core Zen2 by 9% at full node utilization. The evaluated SOPHON SG2042 RISC-V chip exhibits substantially lower performance and weaker scalability, with single-core performance lagging by up to a factor of 14 and large-scale parallel workloads showing slowdowns of up to a factor of 25. For problem-size scaling, ARM and x86-64 systems demonstrate comparable performance within 25%. These findings highlight the growing competitiveness of ARM-based processors and emphasize the importance of wide-register vectorization support and memory subsystem improvements for upcoming RISC-V platforms.
 
-Authors are invited to submit unpublished, original work. Accepted papers will appear in the ISC workshop proceedings in the Springer Lecture Notes in Computer Science (LNCS) series and submitted versions available online for the workshop. Submissions of original work between 6 and 12 pages (the page count does not include references, an additional two pages to address reviewer comments) are welcomed on work-in-progress, position papers, or mature work. All papers should be submitted via Linkings [here](https://ssl.linklings.net/conferences/isc_hpc/?args=tUbprcnt3DsfGbprcnt3DsfNM_TtUbb0XfQbGCztYrt9M9DTJUHtGyfHfbQIf0zU30Jprcnt3DbATAprcnt3DxGzb0zU3THQP0Aprcnt3DxfGzU3ACIIfb0HQP0Aprcnt3DxfTrJUHtGzU3ACI0IQ3TrAprcnt3DxGzU3ACI0IQ3TEGcpD_DTz0Cx0zfsG_hNMaTzYprcnt3D40QHHGdbUfTzYprcnt3D40bprcnt3DQxGdbUfTzYprcnt3D40Iprcnt3Dxprcnt3DGdbUfTzU30IXrfGzIXrfNaR)
+### Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC
 
-All papers should be formatted Springer single column LNCS style, with formatting information and templates [here](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines)
+**_Presenter: Stepan Nassyr_**
+
+Following the ratification of the RVV 1.0, new commercially available silicon has been adopting the extension. This paper revisits the question of RISC-V viability for High-Performance-Computing (HPC) by benchmarking the latest RVV-1.0-capable hardware (SiFive x280, SpacemiT x60/x100/A100 and T-Head C920v2). We assess these platforms using standard HPC benchmarks (BLAS, FFTW, HPL, HPCG) and synthetic workloads (STREAM, FMA throughput). Our findings show that while RVV 1.0 delivers significant performance improvements over scalar execution, hardware-specific implementation challenges remain. We detail these performance characteristics and discuss the remaining hurdles for RISC-V to become a mainstay in the HPC landscape.
+
+### Vector-length agnostic varint decoding on RISC-V
+
+**_Presenter: Marco Vogel_**
+
+Variable-length integers (varints) are widely used in data serialization, compression, and database systems for their space efficiency, but their irregular structure makes decoding computationally expensive. While \mbox{vectorized} varint decoders exist for x86, and ARM NEON support exists for alternative formats such as Stream VByte, no \mbox{vectorized} decoder for the standard LEB128 format has been developed beyond x86. We present the first vectorized varint decoding algorithm for the RISC-V Vector Extension (RVV). Our approach leverages RVV's vector-length-agnostic design to create a decoder that adapts to different vector lengths without modification. Evaluation on two RISC-V platforms with distinct microarchitectures demonstrates up to 2.5x speedup over optimized scalar implementations, with performance varying across different varint distributions. Our results establish vectorized varint decoding as a viable optimization for RISC-V systems and provide insights into the practical considerations of designing vector-length-agnostic algorithms.
+
+### Performance Evaluation of a Vectorized memcpy Implementation on a multi-core RV64 Platform
+
+**_Presenter: Marco Vogel_**
+
+In this paper we explore the performance potential of vectorized memcpy for the Milk-V Pioneer system, a 64-core RISC-V development platform which offers support for the RISC-V Vector Extension (RVV). We explore three different memcpy implementation approaches: a scalar (non-vectorized) libc implementation, a compiler-autovectorized version, and a manually vectorized version using inline assembly with configurable element width (SEW) and vector register grouping (LMUL) parameters. Our results reveal that all vectorized memcpy implementations exhibit significant performance gains over the scalar one. Benefit can be as high as 88% for small buffers. We spot an interesting performance degradation phenomenon for larger buffers and larger lmul values. We also show that concurrent vectorized memcpy stream exhibit degraded performance when these streams share the path to the L2. Finally, we explore the performance potential of vectorized memcpy in the context of a custom MPI\_Bcast implementation. The benefit over a scalar implementation becomes more apparent for larger buffers and scenarios with no L2 sharing and can be as high as 26%.
+
+### Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructur
+
+**_Presenter: Yogeshwar Sonawane_**
+
+The rapid emergence of the open RISC-V instruction set architecture (ISA) has accelerated research on compilers, operating systems, and compute workloads, yet the storage layer of high-performance computing (HPC) systems remains relatively unexplored on native RISC-V platforms. In our previous work, we demonstrated the deployment of the Lustre parallel file system on a RISC-V cluster. Building on that effort, this paper investigates the integration and performance behavior of the BeeGFS parallel file system on a RISC-V cluster based on StarFive VisionFive2 nodes. Storage performance is evaluated using IOR, MDTest, IO500, and Elbencho benchmarks. A comparable ARM-based Raspberry Pi 4B cluster was configured as a baseline platform for evaluating the RISC-V system. The results demonstrate the feasibility of BeeGFS on RISC-V and provide insights into distributed storage performance on emerging open hardware platforms.
+
+### Exploring spectral element methods on the Tenstorrent RISC-V accelerator
+
+**_Presenter: Daniyal Arshad_**
+
+The growing availability of commodity RISC-V hardware has sparked interest in its use for High Performance Computing (HPC), with PCIe accelerator cards offering a practical near-term pathway to adoption. The Tenstorrent Wormhole is one example, with dedicated vector and matrix units across 128 Tensix cores, and is widely available.
+
+In this paper we explore porting the AX kernel of Nekbone, a widely used HPC mini-application derived from the Gordon Bell Prize-winning Nek5000 spectral element solver, onto the Wormhole accelerator. This kernel evaluates the Poisson operator and we describe the mapping of the algorithm onto the Tensix. Initial performance results reveal that host-side data transposition, required for the z-direction gradient computation, is a severe bottleneck. Consequently we investigated two optimisation strategies that yield dramatic improvements, achieving 242.97 GFLOPS for 100,000 elements across 128 Tensix cores, outperforming a 24-core Xeon Platinum CPU and drawing approximately eight times less power than the CPU and GPU and 3 times less than an AMD U280 FPGA.
+
+### Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support
+
+**_Presenter: Daniel Seibel_**
+
+This manuscript presents a performance evaluation of Fast Fourier Transform (FFT) implementations on emerging processors supporting the RISC-V Vector Extension (RVV 1.0). By introducing juFFTe, a light-weight high-performance library for discrete Fourier transforms, it is demonstrated how effective vectorization of performance-critical FFT kernels can be achieved on RVV-enabled hardware. Comprehensive benchmarks on three RVV 1.0-ready processors, the SiFive X280, the X100 core of the SpacemiT K3 and the C920v2 core of the Sophon SG2044, reveal substantial performance improvements of juFFTe over the widely used FFTW3 library. Although the RVV-enabled platforms show promising results at this stage of development, a comparison with AMD’s Zen 5 architecture indicates that RISC-V needs further maturing to reach the performance of established micro-architectures.
+
+### Is RISC-V Ready for Massively Parallel Astrophysical Codes?
+
+**_Presenter: Jenny Almerol_**
+
+We present a performance and portability evaluation of three well-established astrophysical production codes, namely iPIC3D, PLUTO, and OpenGadget3, on a Sophgo SG2044 RISC-V processor, with comparisons to AMD EPYC 9554 (x86) and NVIDIA GH200 Grace (ARM) systems. These applications represent memory-bound, compute-bound, and hybrid workloads, respectively. Numerical correctness is verified across all platforms, confirming portability. RISC-V shows consistently lower performance, with slowdowns of about $3-6\times$ relative to x86 and $5-9\times$ relative to ARM. The gap is mainly due to limited memory bandwidth, shared cache constraints, narrower 128-bit vector units, and lower clock frequency. Memory-bound kernels are most affected, where early bandwidth saturation and L2 cache contention reduce scalability at higher thread counts. Hybrid MPI+OpenMP configurations reveal a trade-off between memory contention and communication overhead, with intermediate configurations achieving the best performance. These results indicate that RISC-V can support scientific workloads, although further hardware and software improvements are needed for competitive performance.
 
 ## Organisation 
 
