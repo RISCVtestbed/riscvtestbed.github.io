@@ -9,14 +9,6 @@ group: workshops
 order: 10
 ---
 
-## Important dates
-<img align="right" src="https://www.hdfgroup.org/wp-content/uploads/2019/02/ISC_hp_logo_small_72dpi_rgb.png">
-
-* **Paper Deadline:** <strike>23rd March 2026</strike> 1st April 2026 (AoE)
-* **Author Notification:** 15th April 2026
-* **Camera ready papers:** 26th May 2026
-* **Workshop:** 26th June 2026
-
 ## Workshop details
 Co-located with ISC 2026, this is a half day afternoon workshop on Friday 26th June 2026 in Hamburg, Germany in Hall X10 - 1st Floor of the Congress Center Hamburg.
 
@@ -28,16 +20,16 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | ------------- |:-------------:| -----:|
 | 14:00 - 14:05 | Welcome and aims | Nick Brown |
 | 14:05 - 14:40 | Keynote: Disruptive Next Generation HPC-AI Accelerated Computing Platform | Doug Norton |
-| 14:40 - 15:00 | Is RISC-V Ready for Machine Learning? Portable Gaussian Processes Using Asynchronous Tasks ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#parallel-fftw-on-risc-v-a-comparative-study-including-openmp-mpi-and-hpx)) | Alexander Strack |
-| 15:00 - 15:20 | Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#monte-cimone-v2-hpc-risc-v-cluster-evaluation-and-optimization))  | Stepan Nassyr |
-| 15:20 - 15:40 | Vector-length agnostic varint decoding on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#evaluating-risc-v-processor-as-an-alternative-for-high-performance-computing))  | Marco Vogel |
-| 15:40 - 16:00 | Performance Evaluation of a Vectorized memcpy Implementation on a multi-core RV64 Platform ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#evaluating-risc-v-processor-as-an-alternative-for-high-performance-computing))  | Manolis Ploumidis |
+| 14:40 - 15:00 | Is RISC-V Ready for Machine Learning? Portable Gaussian Processes Using Asynchronous Tasks ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-machine-learning-portable-gaussian-processes-using-asynchronous-tasks)) | Alexander Strack |
+| 15:00 - 15:20 | Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#great-expectations-benchmarking-the-real-world-performance-of-rvv-10-in-hpc))  | Stepan Nassyr |
+| 15:20 - 15:40 | Vector-length agnostic varint decoding on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Marco Vogel |
+| 15:40 - 16:00 | Performance Evaluation of a Vectorized memcpy Implementation on a multi-core RV64 Platform ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Manolis Ploumidis |
 | 16:00 - 16:30 | Coffee Break | |
 | 16:30 - 16:45 | Vendor Talk: NextSilicon  |  |
-| 16:45 - 17:00 | Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructure ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#evaluation-of-rvv-enabled-cots-platforms-with-matrix-multiplication-and-exo)) | Yogeshwar Sonawane |
-| 17:00 - 17:20 | Exploring spectral element methods on the Tenstorrent RISC-V accelerator ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#advancing-the-risc-v-performance-simulation-ecosystem-with-data-prefetching)) | Daniyal Arshad |
-| 17:20 - 17:40 | Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#exploring-fast-fourier-transforms-on-the-tenstorrent-wormhole)) | Daniel Seibel |
-| 17:40 - 18:00 | Is RISC-V Ready for Massively Parallel Astrophysical Codes? ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc25-workshop/#streamlining-fedora-linux-distributions-for-risc-v-a-scalable-and-automated-approach)) | Jenny Almerol |
+| 16:45 - 17:00 | Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructure ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#evaluation-of-beegfs-on-a-risc-v-cluster-for-hpc-storage-infrastructure)) | Yogeshwar Sonawane |
+| 17:00 - 17:20 | Exploring spectral element methods on the Tenstorrent RISC-V accelerator ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#exploring-spectral-element-methods-on-the-tenstorrent-risc-v-accelerator)) | Daniyal Arshad |
+| 17:20 - 17:40 | Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-fast-fourier-transforms-on-emerging-risc-v-hardware-with-vector-extension-support)) | Daniel Seibel |
+| 17:40 - 18:00 | Is RISC-V Ready for Massively Parallel Astrophysical Codes? ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-massively-parallel-astrophysical-codes)) | Jenny Almerol |
 
 ## Abstracts
 
@@ -67,7 +59,7 @@ Variable-length integers (varints) are widely used in data serialization, compre
 
 In this paper we explore the performance potential of vectorized memcpy for the Milk-V Pioneer system, a 64-core RISC-V development platform which offers support for the RISC-V Vector Extension (RVV). We explore three different memcpy implementation approaches: a scalar (non-vectorized) libc implementation, a compiler-autovectorized version, and a manually vectorized version using inline assembly with configurable element width (SEW) and vector register grouping (LMUL) parameters. Our results reveal that all vectorized memcpy implementations exhibit significant performance gains over the scalar one. Benefit can be as high as 88% for small buffers. We spot an interesting performance degradation phenomenon for larger buffers and larger lmul values. We also show that concurrent vectorized memcpy stream exhibit degraded performance when these streams share the path to the L2. Finally, we explore the performance potential of vectorized memcpy in the context of a custom MPI\_Bcast implementation. The benefit over a scalar implementation becomes more apparent for larger buffers and scenarios with no L2 sharing and can be as high as 26%.
 
-### Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructur
+### Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructure
 
 **_Presenter: Yogeshwar Sonawane_**
 
