@@ -55,7 +55,7 @@ Variable-length integers (varints) are widely used in data serialization, compre
 
 ### Performance Evaluation of a Vectorized memcpy Implementation on a multi-core RV64 Platform
 
-**_Presenter: Marco Vogel_**
+**_Presenter: Manolis Ploumidis_**
 
 In this paper we explore the performance potential of vectorized memcpy for the Milk-V Pioneer system, a 64-core RISC-V development platform which offers support for the RISC-V Vector Extension (RVV). We explore three different memcpy implementation approaches: a scalar (non-vectorized) libc implementation, a compiler-autovectorized version, and a manually vectorized version using inline assembly with configurable element width (SEW) and vector register grouping (LMUL) parameters. Our results reveal that all vectorized memcpy implementations exhibit significant performance gains over the scalar one. Benefit can be as high as 88% for small buffers. We spot an interesting performance degradation phenomenon for larger buffers and larger lmul values. We also show that concurrent vectorized memcpy stream exhibit degraded performance when these streams share the path to the L2. Finally, we explore the performance potential of vectorized memcpy in the context of a custom MPI\_Bcast implementation. The benefit over a scalar implementation becomes more apparent for larger buffers and scenarios with no L2 sharing and can be as high as 26%.
 
