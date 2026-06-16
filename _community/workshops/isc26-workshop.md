@@ -29,7 +29,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 16:45 - 17:00 | Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructure ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#evaluation-of-beegfs-on-a-risc-v-cluster-for-hpc-storage-infrastructure)) | Yogeshwar Sonawane |
 | 17:00 - 17:20 | Exploring spectral element methods on the Tenstorrent RISC-V accelerator ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#exploring-spectral-element-methods-on-the-tenstorrent-risc-v-accelerator)) | Daniyal Arshad |
 | 17:20 - 17:40 | Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-fast-fourier-transforms-on-emerging-risc-v-hardware-with-vector-extension-support)) | Daniel Seibel |
-| 17:40 - 18:00 | Is RISC-V Ready for Massively Parallel Astrophysical Codes? ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-massively-parallel-astrophysical-codes)) | Jenny Almerol |
+| 17:40 - 18:00 | Is RISC-V Ready for Massively Parallel Astrophysical Codes? ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-massively-parallel-astrophysical-codes)) | Nitin Shukla |
 
 ## Abstracts
 
@@ -81,7 +81,7 @@ This manuscript presents a performance evaluation of Fast Fourier Transform (FFT
 
 ### Is RISC-V Ready for Massively Parallel Astrophysical Codes?
 
-**_Presenter: Jenny Almerol_**
+**_Presenter: Nitin Shukla_**
 
 We present a performance and portability evaluation of three well-established astrophysical production codes, namely iPIC3D, PLUTO, and OpenGadget3, on a Sophgo SG2044 RISC-V processor, with comparisons to AMD EPYC 9554 (x86) and NVIDIA GH200 Grace (ARM) systems. These applications represent memory-bound, compute-bound, and hybrid workloads, respectively. Numerical correctness is verified across all platforms, confirming portability. RISC-V shows consistently lower performance, with slowdowns of about $3-6\times$ relative to x86 and $5-9\times$ relative to ARM. The gap is mainly due to limited memory bandwidth, shared cache constraints, narrower 128-bit vector units, and lower clock frequency. Memory-bound kernels are most affected, where early bandwidth saturation and L2 cache contention reduce scalability at higher thread counts. Hybrid MPI+OpenMP configurations reveal a trade-off between memory contention and communication overhead, with intermediate configurations achieving the best performance. These results indicate that RISC-V can support scientific workloads, although further hardware and software improvements are needed for competitive performance.
 
