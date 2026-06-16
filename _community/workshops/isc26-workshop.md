@@ -25,7 +25,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 15:20 - 15:40 | Vector-length agnostic varint decoding on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Marco Vogel |
 | 15:40 - 16:00 | Performance Evaluation of a Vectorized memcpy Implementation on a multi-core RV64 Platform ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Manolis Ploumidis |
 | 16:00 - 16:30 | Coffee Break | |
-| 16:30 - 16:45 | Vendor Talk: NextSilicon  | Dan Shechter |
+| 16:30 - 16:45 | Vendor Talk: NextSilicon ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#vendor-talk-nextsilicon)) | Dan Shechter |
 | 16:45 - 17:00 | Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructure ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#evaluation-of-beegfs-on-a-risc-v-cluster-for-hpc-storage-infrastructure)) | Yogeshwar Sonawane |
 | 17:00 - 17:20 | Exploring spectral element methods on the Tenstorrent RISC-V accelerator ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#exploring-spectral-element-methods-on-the-tenstorrent-risc-v-accelerator)) | Daniyal Arshad |
 | 17:20 - 17:40 | Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-fast-fourier-transforms-on-emerging-risc-v-hardware-with-vector-extension-support)) | Daniel Seibel |
