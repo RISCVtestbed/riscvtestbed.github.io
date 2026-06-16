@@ -19,7 +19,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | Time        | Session           | Speaker  |
 | ------------- |:-------------:| -----:|
 | 14:00 - 14:05 | Welcome and aims | Nick Brown |
-| 14:05 - 14:40 | Keynote: Disruptive Next Generation HPC-AI Accelerated Computing Platform | Doug Norton |
+| 14:05 - 14:40 | Keynote: Thunderbird — A "Supercomputer Cluster-on-a-Chip" for HPC and AI | Doug Norton |
 | 14:40 - 15:00 | Is RISC-V Ready for Machine Learning? Portable Gaussian Processes Using Asynchronous Tasks ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-machine-learning-portable-gaussian-processes-using-asynchronous-tasks)) | Alexander Strack |
 | 15:00 - 15:20 | Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#great-expectations-benchmarking-the-real-world-performance-of-rvv-10-in-hpc))  | Prateek Chawla |
 | 15:20 - 15:40 | Vector-length agnostic varint decoding on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Marco Vogel |
@@ -32,6 +32,12 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 17:40 - 18:00 | Is RISC-V Ready for Massively Parallel Astrophysical Codes? ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-massively-parallel-astrophysical-codes)) | Nitin Shukla |
 
 ## Abstracts
+
+### Thunderbird — A "Supercomputer Cluster-on-a-Chip" for HPC and AI
+
+**_Presenter: Doug Norton_**
+
+The growing divergence between fast, approximate AI workloads and the high-precision numerical simulation that underpins science and engineering presents a defining challenge for the next generation of HPC-AI datacenters. In this keynote Doug Norton, CMO of Inspire Semiconductor, introduces Thunderbird which is a disruptive RISC-V-based accelerator designed as a "supercomputer cluster-on-a-chip". Packing more CPU cores onto a single board than an entire rack of conventional x86 or Arm servers, with corresponding reductions in footprint, power, cooling, networking, and overall complexity - rather than offering yet another GPU, Thunderbird is built to accelerate the full breadth of HPC and AI software. This ranges from FP64 physics-based simulation across financial services, computer-aided engineering, energy, climate modelling, and life sciences, through to graph analytics and AI workloads. Crucially, by building on the open RISC-V instruction set architecture, the platform inherits an established and thriving software ecosystem, lowering the barrier to adoption and offering a more programmable, deterministic, and energy-efficient path forward for HPC and AI. This talk will outline the architecture's motivation, its place in the evolving accelerated-computing landscape, and its implications for the future of scientific and engineering computing.
 
 ### Is RISC-V Ready for Machine Learning? Portable Gaussian Processes Using Asynchronous Tasks
 
