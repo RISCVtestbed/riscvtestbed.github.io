@@ -59,6 +59,12 @@ Variable-length integers (varints) are widely used in data serialization, compre
 
 In this paper we explore the performance potential of vectorized memcpy for the Milk-V Pioneer system, a 64-core RISC-V development platform which offers support for the RISC-V Vector Extension (RVV). We explore three different memcpy implementation approaches: a scalar (non-vectorized) libc implementation, a compiler-autovectorized version, and a manually vectorized version using inline assembly with configurable element width (SEW) and vector register grouping (LMUL) parameters. Our results reveal that all vectorized memcpy implementations exhibit significant performance gains over the scalar one. Benefit can be as high as 88% for small buffers. We spot an interesting performance degradation phenomenon for larger buffers and larger lmul values. We also show that concurrent vectorized memcpy stream exhibit degraded performance when these streams share the path to the L2. Finally, we explore the performance potential of vectorized memcpy in the context of a custom MPI\_Bcast implementation. The benefit over a scalar implementation becomes more apparent for larger buffers and scenarios with no L2 sharing and can be as high as 26%.
 
+### Vendor Talk: NextSilicon
+
+**_Presenter: Dan Shechter_**
+
+NextSilicon announced at the RISC-V Summit Europe their Arbel processor in early June 2026. This program includes a few generations of RISC-V out-of-order super scalar core systems, including a silicon chip and mini computer, and the plans for the first RISC-V server-grade high-performance RISC-V CPU.
+
 ### Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructure
 
 **_Presenter: Yogeshwar Sonawane_**
