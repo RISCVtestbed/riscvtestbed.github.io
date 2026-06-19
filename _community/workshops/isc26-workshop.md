@@ -18,18 +18,19 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 
 | Time        | Session           | Speaker  |
 | ------------- |:-------------:| -----:|
-| 14:00 - 14:05 | Welcome and aims | Nick Brown |
-| 14:05 - 14:40 | Keynote: Thunderbird — A "Supercomputer Cluster-on-a-Chip" for HPC and AI ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#thunderbird--a-supercomputer-cluster-on-a-chip-for-hpc-and-ai)) | Doug Norton |
-| 14:40 - 15:00 | Is RISC-V Ready for Machine Learning? Portable Gaussian Processes Using Asynchronous Tasks ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-machine-learning-portable-gaussian-processes-using-asynchronous-tasks)) | Alexander Strack |
-| 15:00 - 15:20 | Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#great-expectations-benchmarking-the-real-world-performance-of-rvv-10-in-hpc))  | Prateek Chawla |
-| 15:20 - 15:40 | Vector-length agnostic varint decoding on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Marco Vogel |
-| 15:40 - 16:00 | Performance Evaluation of a Vectorized memcpy Implementation on a multi-core RV64 Platform ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Manolis Ploumidis |
+| 14:00 - 14:00 | Welcome and aims | Nick Brown |
+| 14:00 - 14:35 | Keynote: Thunderbird — A "Supercomputer Cluster-on-a-Chip" for HPC and AI ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#thunderbird--a-supercomputer-cluster-on-a-chip-for-hpc-and-ai)) | Doug Norton |
+| 14:35 - 14:55 | Is RISC-V Ready for Machine Learning? Portable Gaussian Processes Using Asynchronous Tasks ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-machine-learning-portable-gaussian-processes-using-asynchronous-tasks)) | Alexander Strack |
+| 14:55 - 15:15 | Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#great-expectations-benchmarking-the-real-world-performance-of-rvv-10-in-hpc))  | Prateek Chawla |
+| 15:15 - 15:35 | Vector-length agnostic varint decoding on RISC-V ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Marco Vogel |
+| 15:35 - 15:50 | Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructure ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#evaluation-of-beegfs-on-a-risc-v-cluster-for-hpc-storage-infrastructure)) | Yogeshwar Sonawane |
+| 15:50 - 16:00 | Vendor Talk: NextSilicon ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#vendor-talk-nextsilicon)) | Dan Shechter |
 | 16:00 - 16:30 | Coffee Break | |
-| 16:30 - 16:45 | Vendor Talk: NextSilicon ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#vendor-talk-nextsilicon)) | Dan Shechter |
-| 16:45 - 17:00 | Evaluation of BeeGFS on a RISC-V Cluster for HPC Storage Infrastructure ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#evaluation-of-beegfs-on-a-risc-v-cluster-for-hpc-storage-infrastructure)) | Yogeshwar Sonawane |
-| 17:00 - 17:20 | Exploring spectral element methods on the Tenstorrent RISC-V accelerator ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#exploring-spectral-element-methods-on-the-tenstorrent-risc-v-accelerator)) | Daniyal Arshad |
-| 17:20 - 17:40 | Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-fast-fourier-transforms-on-emerging-risc-v-hardware-with-vector-extension-support)) | Daniel Seibel |
-| 17:40 - 18:00 | Is RISC-V Ready for Massively Parallel Astrophysical Codes? ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-massively-parallel-astrophysical-codes)) | Nitin Shukla |
+| 16:30 - 16:50 | Performance Evaluation of a Vectorized memcpy Implementation on a multi-core RV64 Platform ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-a-vectorized-memcpy-implementation-on-a-multi-core-rv64-platform))  | Manolis Ploumidis |
+| 16:50 - 17:10 | Exploring spectral element methods on the Tenstorrent RISC-V accelerator ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#exploring-spectral-element-methods-on-the-tenstorrent-risc-v-accelerator)) | Daniyal Arshad |
+| 17:10 - 17:30 | Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#performance-evaluation-of-fast-fourier-transforms-on-emerging-risc-v-hardware-with-vector-extension-support)) | Daniel Seibel |
+| 17:30 - 17:50 | Is RISC-V Ready for Massively Parallel Astrophysical Codes? ([abstract](https://riscv.epcc.ed.ac.uk/community/workshops/isc26-workshop/#is-risc-v-ready-for-massively-parallel-astrophysical-codes)) | Nitin Shukla |
+| 17:50 - 18:00 | Conclusions and workshop close | Nick Brown |
 
 ## Abstracts
 
