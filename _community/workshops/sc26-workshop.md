@@ -12,7 +12,7 @@ order: 6
 ## Important dates
 <img align="right" src="https://riscv.epcc.ed.ac.uk/images/sc26_hor_color_black.png" width=350>
 
-* **Paper Deadline:** 1st August 2026 (AoE)
+* **Paper Deadline:** <strike>1st August</strike> extended to 9th August 2026 (AoE)
 * **Author Notification:** 25th August 2026
 * **Camera ready papers:** 15th September 2026
 * **Workshop:** Friday 20th November, 8:30am to 12 noon
