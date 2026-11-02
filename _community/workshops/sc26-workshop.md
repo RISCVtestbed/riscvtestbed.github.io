@@ -9,64 +9,27 @@ group: workshops
 order: 6
 ---
 
-## Important dates
+## Workshop details
 <img align="right" src="https://riscv.epcc.ed.ac.uk/images/sc26_hor_color_black.png" width=350>
 
-* **Paper Deadline:** <strike>1st August</strike> extended to 9th August 2026 (AoE)
-* **Author Notification:** <strike>25th August 2026</strike> 2nd September 2026
-* **Camera ready papers:** 15th September 2026
-* **Workshop:** Friday 20th November, 8:30am to 12 noon
-
-## Workshop details
 Co-located with SC26, this is half day workshop is running in Chicago, USA and co-located with SC26.
 
-## Workshop scope
-The goal of this workshop is to continue building the community of RISC-V in HPC, sharing the benefits of this technology with domain scientists, tool developers, and supercomputer operators. RISC-V is an open standard Instruction Set Architecture (ISA) which enables the royalty free development of CPUs and a common software ecosystem to be shared across them. Following this community driven ISA standard, a very diverse set of CPUs have been, and continue to be, developed which are suited to a range of workloads. Whilst RISC-V has become very popular already in some fields, and recently the sixteen billionth RISC-V core was shipped, to date it has yet to gain traction in HPC.
+The goal of this workshop is to continue building the community of RISC-V in HPC, sharing the benefits of this technology with domain scientists, tool developers, and supercomputer operators. RISC-V is an open standard Instruction Set Architecture (ISA) which enables the royalty free development of CPUs and a common software ecosystem to be shared across them. Following this community driven ISA standard, a very diverse set of CPUs and accelerators have been, and continue to be, developed which are suited to a range of workloads. Whilst RISC-V has become very popular already in some fields, and over sixteen billion RISC-V core have been shipped, to date it has yet to gain traction in HPC. However, there are numerous potential advantages that RISC-V can provide to HPC and, assuming the significant rate of growth of this technology to date continues, as we progress further into the decade it is highly likely that RISC-V will become more relevant and widespread for HPC workloads. Furthermore, recent advances in RISC-V make it a more realistic proposition for HPC workloads than ever before, and an example of this is the new commodity available hardware that we are seeing be released and made generally available.
 
-However, there are numerous potential advantages that RISC-V can provide to HPC and, assuming the significant rate of growth of this technology to date continues, as we progress further into the decade it is highly likely that RISC-V will become more relevant and widespread for HPC workloads. Furthermore, recent advances in RISC-V make it a more realistic proposition for HPC workloads than ever before. An example of this is a range of new RISC-V CPUs and accelerators that we are starting to see which provide far greater performance than previous generations.
+## Workshop schedule
 
-The open and standardised nature of RISC-V means that the large, and growing community, can be involved in shaping the standard and tooling. This is important from two perspectives, firstly it is our opportunity in the HPC community to help shape the future of RISC-V to ensure that it is suitable for the next generation of supercomputers. Secondly, whilst there are a wide variety of RISC-V CPUs currently available, the standard nature of the tooling means that very often the same software ecosystem comprising the compiler, operating system, and libraries will run across these whilst requiring few changes.
-
-This workshop aims to bring together those already looking to popularise RISC-V in the field of HPC with the supercomputing community at-large. By sharing benefits of the architecture, success stories, and techniques we hope to further popularise the technology and increase involvement by the community. 
-
-## Call for papers - workshop topics
-
-We invite submissions of high-quality, original research results and works-in-progress on RISC-V with a general connection to HPC. Topics of interest for this workshop include (but are not limited to):
-
-* Example use-cases and case-studies that use RISC-V
-* Lessons learnt from leveraging RISC-V in HPC
-* Industry papers exploring the use of RISC-V
-* The porting of codes to RISC-V
-* Novel hardware and accelerators built upon RISC-V
-* Tools and techniques to aid in the use of RISC-V for HPC
-* Developments in HPC libraries to port them to RISC-V
-* Enhancements to RISC-V to make the architecture more suited for HPC
-* Compiler and runtime support for RISC-V
-* The RISC-V ecosystem
-* Future gazing how RISC-V might evolve the HPC community
-* And anything else related to RISC-V and HPC!
-
-### Paper submission
-
-Authors are invited to submit unpublished, original work. Accepted papers will appear in the IEEE SC workshop proceedings published by the ACM. Papers should be submitted in two categories, full papers which are between 6 and 10 pages and short papers which are 5 pages. Page counts include references and figures. All papers should be submitted via Linklings [here](https://submissions.supercomputing.org/?args=tUbprcnt3DsfGQUIYprcnt3DbTtUbb0XfQbGzt9DTJUHtGyfHfbQIf0zU30Jprcnt3DbATAprcnt3DxGzb0zU3THQP0Aprcnt3DxfGzU3ACIIfb0HQP0Aprcnt3DxfTrJUHtGzU3ACI0IQ3TrAprcnt3DxGzU3ACI0IQ3TEGRNhRaTz0Cx0zfsG9RMDRTzYprcnt3D40QHHGdbUfTzYprcnt3D40bprcnt3DQxGdbUfTzYprcnt3D40Iprcnt3Dxprcnt3DGdbUfTzU30IXrfGzIXrf9Rh)
-
-All papers should be formatted using the IEEE conference proceedings template, two-column, US letter size templates are agailable [here](https://www.ieee.org/conferences/publishing/templates.html)
-
-## Organisation 
-
-### Organising committee
-
-* Nick Brown (EPCC at the University of Edinburgh)
-* Teresa Cervero (BSC)
-* Daniele Gregori (E4 Computer Engineering)
-* Matthew Turner (HPE)
-
-### Program committee
-
-* Oliver Perks (Rivos)
-* John Leidel (Tactical Computing Labs)
-* Maurice Jamieson (EPCC)
-* Ruyman Reyes (Codeplay)
-* Luis Plana (BSC)
-* Luc Berger-Vergait (Sandia National Laboratories)
-* Chris Taylor (Tactical Computing Labs)
+| Time        | Session           | Speaker  |
+| ------------- |:-------------| :-----|
+| 8:30 - 8:30 | Welcome | Nick Brown |
+| 8:30 - 9:00 | **Invited talk:** HPC from the RISC-V International perspective ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=misc219&sess=sess154)) | Tom Gall |
+| 9:00 - 9:20 | **Research paper:** A JIT framework for Implicit GEMM and FlashAttention Micro-Kernels in RISC-V ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc112&sess=sess154)) | Yuhao Wang |
+| 9:20 - 9:40 | **Research paper:** Investigating ET-SoC-1 Vector and Parallel Performance with sGEMM ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc108&sess=sess154)) | Richard Neale |
+| 9:40 - 9:50 | **Short paper:** Machine Learning-Based Performance Prediction for RISC-V Vector (RVV) Processors ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc110&sess=sess154)) | Peijun Li |
+| 9:50 - 10:00 | **Short paper:** TSVC-RVV: A Diagnostic Extension of TSVC for Evaluating RISC-V Auto-Vectorization ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc107&sess=sess154)) | Hung-Ming Lai |
+| 10:00 - 10:30 | _Morning break_ || 
+| 10:30 - 10:40 | **Short paper:** Porting and Benchmarking Chapel on Emerging RISC-V Hardware: An HPC Viability Study ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc103&sess=sess154)) | Ian Henriksen |
+| 10:40 - 11:00 | **Research paper:** A community developed simulator for the Tenstorrent Tensix architecture([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc111&sess=sess154)) | Daniyal Arshad |
+| 11:00 - 11:20 | **Research paper:** Scale Up Platform Enabled by RISC – SUPER ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc101&sess=sess154)) | Ronald Minnich |
+| 11:20 - 11:40 | **Research paper:** Hitting the Memory Wall: Why Cache Miss Tolerance Defines CPU Performance Now ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc105&sess=sess154)) | Mia Chang |
+| 11:40 - 12:00 | **Research paper:** Accelerating Fast Fourier Transforms with the RISC-V Vector Extension ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc102&sess=sess154)) | Daniel Seibel |
+| 12:00 | _Workshop close_ | |
