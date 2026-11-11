@@ -21,7 +21,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | Time        | Session           | Speaker  |
 | ------------- |:-------------| :-----|
 | 8:30 - 8:30 | Welcome | Nick Brown |
-| 8:30 - 9:00 | **Invited talk:** HPC from the RISC-V International perspective ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=misc219&sess=sess154)) | Tom Gall |
+| 8:30 - 9:00 | **Invited talk:** High RISC, High Reward: The Journey from Ratified Specs to RVA23 Superclusters ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=misc219&sess=sess154)) | Tom Gall |
 | 9:00 - 9:20 | **Research paper:** A JIT framework for Implicit GEMM and FlashAttention Micro-Kernels in RISC-V ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc112&sess=sess154)) | Miquel Pericas |
 | 9:20 - 9:40 | **Research paper:** Investigating ET-SoC-1 Vector and Parallel Performance with sGEMM ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc108&sess=sess154)) | Richard Neale |
 | 9:40 - 9:50 | **Short paper:** Machine Learning-Based Performance Prediction for RISC-V Vector (RVV) Processors ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc110&sess=sess154)) | Peijun Li |
