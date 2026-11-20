@@ -28,7 +28,7 @@ The goal of this workshop is to continue building the community of RISC-V in HPC
 | 9:50 - 10:00 | **Short paper:** Hitting the Memory Wall: Why Cache Miss Tolerance Defines CPU Performance Now ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc105&sess=sess154)) | Mia Shu-Yu Chang |
 | 10:00 - 10:30 | _Morning break_ || 
 | 10:30 - 10:40 | **Short paper:** Porting and Benchmarking Chapel on Emerging RISC-V Hardware: An HPC Viability Study ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc103&sess=sess154)) | Patrick Diehl |
-| 10:40 - 11:00 | **Research paper:** A community developed simulator for the Tenstorrent Tensix architecture([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc111&sess=sess154)) | Daniyal Arshad |
+| 10:40 - 11:00 | **Research paper:** A community developed simulator for the Tenstorrent Tensix architecture([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc111&sess=sess154)) | Nick Brown |
 | 11:00 - 11:20 | **Research paper:** Scale Up Platform Enabled by RISC – SUPER ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc101&sess=sess154)) | Ronald Minnich |
 | 11:20 - 11:40 | **Research paper:** TSVC-RVV: A Diagnostic Extension of TSVC for Evaluating RISC-V Auto-Vectorization ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc107&sess=sess154)) | Hung-Ming Lai |
 | 11:40 - 12:00 | **Research paper:** Accelerating Fast Fourier Transforms with the RISC-V Vector Extension ([abstract](https://sc26.conference-program.com/?post_type=page&p=16&id=ws_risc102&sess=sess154)) | Daniel Seibel |
